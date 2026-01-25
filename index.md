@@ -8,7 +8,7 @@ title: Início
 <article class="post-preview">
 
   {% if post.image %}
-    <a href="{{ post.url }}">
+    <a href="{{ post.url | relative_url }}">
       <img src="{{ post.image }}" alt="{{ post.title }}" class="post-thumb">
     </a>
   {% endif %}
@@ -16,7 +16,7 @@ title: Início
   <div class="cx-txt-preview">
 
     <h2>
-      <a href="{{ post.url }}">{{ post.title }}</a>
+      <a href="{{ post.url | relative_url }}">{{ post.title }}</a>
     </h2>
 
     <p class="post-meta">
