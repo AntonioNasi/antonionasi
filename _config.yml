@@ -1,10 +1,14 @@
 title: Meu Blog
 description: Reflexões, textos e pesquisas
+baseurl: ""
+url: "https://antonionasi.github.io"
 author: Antonio Nasi
 email: contato@exemplo.com
 lang: pt-BR
 
 theme: null
 markdown: kramdown
+plugins:
+  - jekyll-feed
 
 permalink: /:title/
