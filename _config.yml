@@ -1,0 +1,10 @@
+title: Meu Blog
+description: Reflexões, textos e pesquisas
+author: Antonio Nasi
+email: contato@exemplo.com
+lang: pt-BR
+
+theme: null
+markdown: kramdown
+
+permalink: /:title/

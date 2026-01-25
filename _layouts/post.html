@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>{{ page.title }} | {{ site.title }}</title>
+
+  <link rel="stylesheet" href="/assets/css/style.css">
+</head>
+
+<body>
+
+  {% include header.html %}
+
+  <section class="container-post">
+
+    <div class="l-side">
+
+      <article class="post">
+
+        <h1>{{ page.title }}</h1>
+        
+        <p class="post-meta">
+          {{ page.date | date: "%d/%m/%Y" }}
+          {% if page.author %}
+            · {{ page.author }}
+          {% else %}
+            · {{ site.author }}
+          {% endif %}
+        </p>
+
+        {% if page.image %}
+          <img src="{{ page.image }}" alt="{{ page.title }}">
+        {% endif %}
+
+        
+
+        <div class="content">
+          {{ content }}
+        </div>
+
+      </article>
+
+    </div>
+
+    <div class="r-side">
+
+      <div class="layout">
+      
+      {% include sidebar.html %}
+      </div>
+
+    </div>
+
+  </section>
+
+  {% include footer.html %}
+  
+</body>
+</html>

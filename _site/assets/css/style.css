@@ -1,0 +1,379 @@
+
+body {
+  font-family: "Libre Baskerville", serif;
+  font-size: 16px;
+  line-height: 1.5;
+  margin: 0;
+  padding: 0;
+  background: #f2efea;
+  color: #2c3e50;
+}
+
+
+/*-------------------------------------------
+  Container - preview post & blog archive
+-------------------------------------------*/
+.container {
+  max-width: 1200px;
+  margin: 1.5rem auto;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1.5rem;
+}
+@media screen and (max-width:600px){
+  .container{
+    display: block;
+    padding: 0rem .6rem;
+  }
+}
+
+
+/*------------------------- 
+  Footer
+--------------------------*/
+.site-footer {
+  text-align: center;
+  padding: 1.5rem;
+  background: #fff;
+}
+
+
+/*------------------------- 
+  Header & Nav
+--------------------------*/
+.site-header{
+  background-color: #f2efea;
+}
+.site-header .container-nav{
+  max-width: 500px;
+  margin: 0 auto;
+}
+.site-header .container-nav nav{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  
+}
+.site-header nav a{
+  border-radius: 100%;
+  width: 2.3rem;
+  height: 2.3rem;
+  text-decoration: none;
+  color: #2c3e50;
+  margin: .7rem .7rem;
+}
+.site-header nav a img{
+  width: 100%;
+}
+.site-header nav a:hover{
+  border-radius: 100%;
+  box-shadow: 1px 1px 8px rgba(0, 0, 0, .5);
+  transition: box-shadow .3s;
+}
+
+@media screen and (max-width:600px){
+  .site-header .container-nav{
+    width: auto;
+  }
+  .site-header .container-nav nav{
+    flex-wrap: wrap;
+    padding: .5rem 0rem;
+  }
+  .site-header .container-nav nav a{
+    margin: .4rem;
+    width: 3rem;
+    height: 3rem;
+  }
+}
+
+
+/*------------------------- 
+  Post individual
+--------------------------*/
+.container-post{
+  display: flex;
+  width: 1200px;
+  margin: 0 auto;
+}
+.container-post .l-side{
+  width: 70%;
+}
+.post{
+  padding-right: 10%;
+}
+.post .post-meta{
+  font-size: 1rem;
+}
+.post p{
+  font-size: 1.2rem;
+}
+.post img {
+  width: 100%;
+  height: 340px;
+  object-fit: cover;
+  object-position: center;
+  margin: 1rem 0;
+}
+.container-post .r-side{
+  width: 30%;
+}
+
+@media screen and (max-width:600px){
+  .container-post{
+    display: block;
+    padding: 0rem .6rem;
+    width: auto;
+  }
+  .container-post .l-side{
+    width: 100%;
+  }
+  .container-post .l-side .post{
+    width: 100%;
+    padding: 0rem;
+  }
+  .container-post .l-side .post h1{
+    font-size: 1.5rem;
+  }
+  .container-post .l-side .post .post-meta{
+    display: inline-block;
+    font-size: .8rem;
+    border: solid 1px #2c3e50;
+    padding: .3rem .5rem;
+    border-radius: .5rem;
+  }
+  .container-post .l-side .post p{
+    font-size: 1rem;
+  }
+  .container-post .r-side{
+    width: 100%;
+  }
+}
+
+
+/*------------------------- 
+  Side bar
+--------------------------*/
+.sidebar {
+  padding: 0rem;
+}
+.sidebar h3{
+  font-size: 1.5rem;
+}
+.sidebar-posts {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+.sidebar-post {
+  margin-bottom: 1rem;
+}
+.sidebar-post a {
+  display: flex;
+  gap: 0.8rem;
+  text-decoration: none;
+  color: inherit;
+  align-items: center;
+}
+.sidebar-post img {
+  width: 100px;
+  height: 100px;
+  object-fit: cover;
+  border-radius: 0px;
+}
+.sidebar-post span {
+  font-size: 1rem;
+  line-height: 1.3;
+  font-weight: 600;
+}
+.sidebar-post span p{
+  font-weight: 400;
+  margin-top: .3rem;
+}
+
+
+/*------------------------- 
+  Blog archive
+--------------------------*/
+.post-preview {
+  margin-bottom: 1rem;
+  background-color: white;
+  flex-basis: 220.5px;
+  border-radius: 5px;
+  box-shadow: 1px 1px 5px rgba(0, 0, 0, .5);
+}
+@media screen and (max-width:600px){
+  .post-preview{
+    margin: 1.2rem 0rem 2rem;
+  }
+  .post-preview .cx-txt-preview{
+    padding: .5rem;
+  }
+}
+.post-preview .cx-txt-preview{
+  margin: 0rem .5rem;
+}
+.post-preview .cx-txt-preview h2{
+  font-size: 1rem;
+}
+.post-preview .cx-txt-preview h2 a{
+  text-decoration: none;
+  color: #222;
+  font-weight: 900;
+}
+.post-thumb {
+  width: 100%;
+  height: 180px;
+  object-fit: cover;
+  border-radius: 5px 5px 0px 0px;
+  margin-bottom: .5rem;
+}
+
+
+/*------------------------- 
+  Slider
+--------------------------*/
+.slider-wrapper {
+  position: relative;
+  overflow: hidden;
+}
+.slider {
+  display: flex;
+  transition: transform 0.8s ease-in-out;
+}
+.slide {
+  min-width: 100%;
+  height: 360px;
+}
+.slide img {
+  width: 100%;
+  height: 360px;
+  object-fit: cover;
+  object-position: center;
+  display: block;
+}
+.slide-content {
+  padding: 1rem;
+  background: #f9f9f9;
+}
+.slider-dots {
+  text-align: center;
+  margin-top: -2rem;
+}
+.slider-dots span {
+  display: inline-block;
+  width: 10px;
+  height: 10px;
+  background: #ccc;
+  border-radius: 50%;
+  margin: 0 4px;
+  cursor: pointer;
+}
+.slider-dots .active {
+  background: #555;
+}
+
+
+/*------------------------- 
+  Overlay do slider
+--------------------------*/
+.slide-media {
+  position: relative;
+  overflow: hidden;
+}
+.slide-media img {
+  width: 100%;
+  display: block;
+}
+.slide-overlay {
+  position: absolute;
+  inset: 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  z-index: 1;
+  padding: 1.5rem;
+  color: #fff;
+}
+.slide-overlay h3 {
+  margin: 0 auto;
+  display: block;
+  max-width: 1200px;
+  padding: .5rem;
+  font-size: 2rem;
+  line-height: 1.2;
+  text-align: center;
+  background-color: #2c3e50;
+}
+.slide-overlay p {
+  margin-top: 0.4rem;
+  font-size: 0.95rem;
+  text-align: center;
+}
+
+/*-------------------------------------------
+  Últimos livros lançados
+-------------------------------------------*/
+.new-books{
+  background-color: #2c3e50;
+  padding: 1rem 1rem 2rem;
+}
+.new-books h2{
+  color: #f2efea;
+  text-align: center;
+}
+.new-books .cx-books{
+  display: flex;
+  flex-wrap: wrap;
+  max-width: 1200px;
+  margin: 0 auto;
+  gap: 1rem;
+}
+.new-books .cx-books .book{
+  background-color: #f2efea;
+  padding: 1rem;
+  border-radius: .3rem;
+  width: 16%;
+  text-align: center;
+}
+.new-books .cx-books .book .subcx{
+  width: 100%;
+}
+.new-books .cx-books .book .subcx img{
+  width: 100%;
+}
+.new-books .cx-books .book .subcx h3{
+  font-size: 1rem;
+}
+.new-books .cx-books .book .subcx p{
+  font-size: .8rem;
+}
+.new-books .cx-books .book a{
+  display: inline-block;
+  width: 80%;
+  height: 1.5rem;
+  text-decoration: none;
+  color: #f2efea;
+  background-color: #2c3e50;
+  padding: .4rem 1rem;
+  border-radius: .3rem;
+}
+.new-books .cx-books .book a:hover{
+  background-color: #6e2c3a;
+  transition: background-color .3s;
+}
+
+@media screen and (max-width:600px){
+  .new-books .cx-books{
+    display: block;
+  }
+  .new-books .cx-books .book{
+    width: auto;
+    margin-bottom: 1.5rem;
+  }
+  .new-books .cx-books .book .subcx{
+    width: 100%;
+  }
+  .new-books .cx-books .book .subcx img{
+    width: 70%;
+  }
+}

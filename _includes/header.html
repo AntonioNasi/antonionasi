@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+</head>
+<body>
+
+  <header class="site-header">
+    <!--
+    <h1><a href="/">{{ site.title }}</a></h1>
+    -->
+
+    <div class="container-nav">
+
+      <nav>
+
+        <a href="/">
+          <img src="../assets/img/home.png">
+        </a>
+        <a href="/blog">
+          <img src="../assets/img/blog.png">
+        </a>
+        <a href="/publicados">
+          <img src="../assets/img/publicações.png">
+        </a>
+        <a href="/ondecomecar">
+          <img src="../assets/img/caminho.png">
+        </a>
+        <a href="/atividades">
+          <img src="../assets/img/atividades.png">
+        </a>
+        <a href="/pesquisa">
+          <img src="../assets/img/pesquisa.png">
+        </a>
+        <a href="/loja">
+          <img src="../assets/img/loja.png">
+        </a>
+
+      </nav>
+
+    </div>
+
+    <div class="slider-wrapper">
+  <div class="slider" id="featuredSlider">
+    {% for post in site.posts %}
+      {% if post.featured %}
+        <article class="slide">
+          <a href="{{ post.url }}" class="slide-link">
+
+            <div class="slide-media">
+              {% if post.image %}
+                <img src="{{ post.image }}" alt="{{ post.title }}" loading="lazy">
+              {% endif %}
+
+              <div class="slide-overlay">
+                <h3>{{ post.title }}</h3>
+                <p>{{ post.excerpt }}</p>
+              </div>
+            </div>
+
+          </a>
+        </article>
+      {% endif %}
+    {% endfor %}
+  </div>
+
+  <div class="slider-dots" id="sliderDots"></div>
+</div>
+    
+
+    <script src="../assets/js/slider.js"></script>
+
+  </header>
+
+  
+  
+</body>
+</html>

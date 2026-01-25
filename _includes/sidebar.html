@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>sidebar</title>
+</head>
+<body>
+
+    <aside class="sidebar">
+        <h3>Posts em destaque</h3>
+
+        <ul class="sidebar-posts">
+            {% assign sidebar_posts = site.posts | where: "sidebar", true | limit: 6 %}
+            {% for post in sidebar_posts %}
+            <li class="sidebar-post">
+                <a href="{{ post.url }}">
+
+                {% if post.image %}
+                    <img src="{{ post.image }}" alt="{{ post.title }}" loading="lazy">
+                {% endif %}
+                <span>{{ post.title }} <p>{{ post.excerpt }}</p> </span>
+                
+                </a>
+            </li>
+            {% endfor %}
+        </ul>
+    </aside>
+    
+</body>
+</html>

@@ -1,0 +1,31 @@
+---
+layout: default
+title: Início
+---
+
+{% for post in site.posts limit:5 %}
+
+<article class="post-preview">
+
+  {% if post.image %}
+    <a href="{{ post.url }}">
+      <img src="{{ post.image }}" alt="{{ post.title }}" class="post-thumb">
+    </a>
+  {% endif %}
+
+  <div class="cx-txt-preview">
+
+    <h2>
+      <a href="{{ post.url }}">{{ post.title }}</a>
+    </h2>
+
+    <p class="post-meta">
+      {{ post.date | date: "%d/%m/%Y" }}
+    </p>
+
+    <p>{{ post.excerpt }}</p>
+
+  </div>
+
+</article>
+{% endfor %}
