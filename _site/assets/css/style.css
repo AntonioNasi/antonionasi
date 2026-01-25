@@ -73,7 +73,7 @@ body {
 
 @media screen and (max-width:600px){
   .site-header .container-nav{
-    width: auto;
+    max-width: 300px;
   }
   .site-header .container-nav nav{
     flex-wrap: wrap;
@@ -308,6 +308,11 @@ body {
   margin-top: 0.4rem;
   font-size: 0.95rem;
   text-align: center;
+}
+@media screen and (max-width:600px){
+  .slide-overlay h3{
+    font-size: 1.4rem;
+  }
 }
 
 /*-------------------------------------------
