@@ -23,7 +23,13 @@ body {
 @media screen and (max-width:600px){
   .container{
     display: block;
-    padding: 0rem .6rem;
+    padding: 0rem 1.2rem;
+  }
+}
+@media screen and (min-width:600px) and (max-width:1200px){
+  .container{
+    display: flex;
+    padding: 0rem 2rem;
   }
 }
 
@@ -92,8 +98,8 @@ body {
 --------------------------*/
 .container-post{
   display: flex;
-  width: 1200px;
-  margin: 0 auto;
+  max-width: 1200px;
+  margin: 1rem auto;
 }
 .container-post .l-side{
   width: 70%;
@@ -148,6 +154,12 @@ body {
     width: 100%;
   }
 }
+@media screen and (min-width:600px) and (max-width:1200px){
+  .container-post{
+    padding: 0rem 2rem;
+    width: auto;
+  }
+}
 
 
 /*------------------------- 
@@ -158,6 +170,9 @@ body {
 }
 .sidebar h3{
   font-size: 1.5rem;
+  background-color: #8c8c8c;
+  padding: .5rem 1rem;
+  color: #f2efea;
 }
 .sidebar-posts {
   list-style: none;
@@ -380,5 +395,10 @@ body {
   }
   .new-books .cx-books .book .subcx img{
     width: 70%;
+  }
+}
+@media screen and (min-width:600px) and (max-width:1200px){
+  .new-books .cx-books .book{
+    flex-basis: 20%;
   }
 }
