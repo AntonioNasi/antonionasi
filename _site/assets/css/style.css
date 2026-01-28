@@ -22,6 +22,7 @@ body {
   max-width: 1200px;
   margin: 1.5rem auto;
   display: flex;
+  justify-content: center;
   flex-wrap: wrap;
   gap: 1.5rem;
 }
@@ -206,6 +207,7 @@ body {
 --------------------------*/
 .post-preview {
   margin-bottom: 1rem;
+  padding-bottom: .7rem;
   background-color: white;
   flex-basis: 220.5px;
   border-radius: 5px;
@@ -214,9 +216,6 @@ body {
 @media screen and (max-width:600px){
   .post-preview{
     margin: 1.2rem 0rem 2rem;
-  }
-  .post-preview .cx-txt-preview{
-    padding: .5rem;
   }
 }
 .post-preview .cx-txt-preview{
@@ -338,16 +337,17 @@ body {
 }
 .new-books .cx-books{
   display: flex;
+  justify-content: center;
   flex-wrap: wrap;
   max-width: 1200px;
   margin: 0 auto;
-  gap: 1rem;
+  gap: 1.5rem;
 }
 .new-books .cx-books .book{
   background-color: #f2efea;
   padding: 1rem;
   border-radius: .3rem;
-  width: 16%;
+  flex-basis: 220px;
   text-align: center;
 }
 .new-books .cx-books .book .subcx{
@@ -365,7 +365,7 @@ body {
 .new-books .cx-books .book a{
   display: inline-block;
   width: 80%;
-  height: 1.5rem;
+  height: 2rem;
   text-decoration: none;
   color: #f2efea;
   background-color: #2c3e50;
@@ -394,6 +394,6 @@ body {
 }
 @media screen and (min-width:600px) and (max-width:1200px){
   .new-books .cx-books .book{
-    flex-basis: 20%;
+    flex-basis: 221px;
   }
 }
