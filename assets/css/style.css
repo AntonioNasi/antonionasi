@@ -59,7 +59,7 @@ body {
 .site-header .container-nav{
   max-width: 1200px;
   margin: 0 auto;
-  padding: 1rem 0rem;
+  padding: .7rem 0rem;
 }
 .site-header .container-nav nav{
   width: auto;
@@ -68,7 +68,8 @@ body {
 }
 .site-header .container-nav nav a{
   display: flex;
-  max-width: 40px;
+  width: 1.3rem;
+  height: 1.3rem;
   align-items: center;
   column-gap: .5rem;
   text-decoration: none;
@@ -82,6 +83,14 @@ body {
   width: 100%;
 }
 
+@media screen and (max-width:600px){
+  .site-header .container-nav nav a{
+    width: 2rem;
+  }
+  .site-header .container-nav{
+    padding: 1rem 0rem;
+  }
+}
 @media screen and (max-width:1024px){
   .site-header .container-nav nav a p{
     display: none;
@@ -334,6 +343,7 @@ body {
 .new-books h2{
   color: #f2efea;
   text-align: center;
+  margin-bottom: 1rem;
 }
 .new-books .cx-books{
   display: flex;
