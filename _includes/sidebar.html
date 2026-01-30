@@ -10,21 +10,23 @@
     <aside class="sidebar">
         <h3>Posts em destaque</h3>
 
-        <ul class="sidebar-posts">
+        <div class="sidebar-posts">
+            
             {% assign sidebar_posts = site.posts | where: "sidebar", true | limit: 6 %}
             {% for post in sidebar_posts %}
-            <li class="sidebar-post">
+
+            <div class="sidebar-post">
                 <a href="{{ post.url | relative_url }}">
 
-                {% if post.image %}
-                    <img src="{{ post.image }}" alt="{{ post.title }}" loading="lazy">
-                {% endif %}
-                <span>{{ post.title }} <p>{{ post.excerpt }}</p> </span>
+                    {% if post.image %}
+                        <img src="{{ post.image }}" alt="{{ post.title }}" loading="lazy">
+                    {% endif %}
+                    <span>{{ post.title }} </span>
                 
                 </a>
-            </li>
+            </div>
             {% endfor %}
-        </ul>
+        </div>
     </aside>
     
 </body>
