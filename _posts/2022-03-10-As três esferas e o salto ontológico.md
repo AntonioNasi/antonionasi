@@ -1,0 +1,32 @@
+---
+layout: post
+title: "As três esferas do ser e o salto ontológico"
+date: 2022-03-10
+image: https://pt.quizur.com/_image?href=https%3A%2F%2Fimg.quizur.com%2Ff%2Fimg5e8b4d7d237572.03051611.jpeg%3FlastEdited%3D1586187662&w=400&h=400&f=webp
+excerpt: "Como espécie, antes de nós sermos humanizados, fomos hominizados. Enquanto éramos apenas hominizados [...]"
+featured: false
+sidebar: false
+categories: Religião
+---
+
+Tratar das esferas do ser e o processo chamado de salto ontológico é lidar com uma campo imenso, sendo praticamente impossível de resumir e fundamentar adequadamente em um post de blog. Ciente disso, já pedimos desculpas pelas lacunas.
+
+Existe dentro do marxismo uma corrente, digamos assim, denominada de marxismo ontológico. Essa corrente interna é assim nomeada basicamente por entender que a teoria marxiana constitui uma ontologia. Existe, entretanto, uma ontologia geral e uma ontologia do ser social. Ressaltamos que não há separação mecânica entre ambas, devendo estas serem entendidas como momentos de um todo.
+
+A principal referência quando se trata de assumir a teoria de Marx como uma ontologia, é o filósofo húngaro Georg Lukács. Diga-se de passagem, este é responsável por uma verdadeira recuperação filosófica da obra marxiana, com muita originalidade, rigorosidade científica e honestidade intelectual. Combinação rara hoje em dia.
+
+É a partir desse húngaro que podemos estudar um pouco sobre as três esferas do ser, claro, sob uma perspectiva marxista. Antes de avançarmos um pouco, vale constatar que ser, na perspectiva do materialismo histórico-dialético é tudo que existe materialmente, objetivamente. Como ressalta o próprio pensador em seu Prolegômenos para uma ontologia do ser social, “um ser que não existe materialmente, objetivamente, é um não-ser.
+
+Podemos subdividir - apenas para fins didáticos - esse ser em três grupos, ou, como é chamado no marxismo ontológico, em três esferas. A primeira é a esfera do ser inorgânico, a segunda, do ser orgânico e a terceira esfera a do ser social.
+Na esfera do ser inorgânico, grosso modo, constam todas as formas de ser desprovidas de vida, como os minerais, por exemplo. Por sua vez, a esfera inorgânica concentra todos os seres que possuem vida mas que não têm o social como caráter predominante. Poderíamos trazer como exemplo dessa esfera as plantas, os animais irracionais e até os hominídeos antes destes se tornarem sociais.
+
+Por último, a esfera do ser social dispõe justamente do indivíduo que vive em sociedade, que tem a sociabilidade, as relações sociais como características mais marcantes. Cada uma dessas esferas predominou em um determinado momento da história do ser, inicialmente o orgânico, depois o inorgânico e atualmente o social.
+Porém, quando o ser orgânico supera o ser inorgânico, este último não é eliminado por completo, mas sim, permanece como um momento do ser agora não mais predominante. O que representa o ser orgânico acaba sendo uma síntese inorgânico-orgânico, de tal modo que é qualitativamente superior ao inorgânico e orgânico tomados isoladamente.
+Por exemplo, uma planta é um ser orgânico, dotado de vida, faz fotossíntese, etc. Mas a planta é também inorgânica na medida em que sua constituição é repleta de minerais sem vida, a ponto desta planta não poder existir sem esses componentes. Essa superação com conservação, ou superação dialética, é muito precisamente tratada por Hegel.
+
+Como espécie, antes de nós sermos humanizados, fomos hominizados. Enquanto éramos apenas hominizados, existíamos como ser orgânico apenas, porém, paulatinamente fomos nos tornando humanizados, sociais, integrando assim a esfera do ser social. Na trajetória de complexificação do ser, mais uma vez se processa a superação dialética, o ser social passa a ser o momento dominante, superando o ser orgânico. Assim como no exemplo anterior, temos uma nova síntese qualitativamente superior, esta traz consigo como momentos já superados - porém não anulados, negados - o orgânico e o inorgânico.
+Nós, seres sociais somos orgânicos e também inorgânicos, jamais existiríamos sem os minerais presentes no nosso corpo, no nosso metabolismo. Mas o que leva o homem em sentido genérico de ser orgânico à ser social, de hominizado, ou seja, que tem já quase todos os aspectos físico-biológicos de ser humano, ainda que não o seja, ao humanizado de fato?
+Primeiro que é exatamente esse processo de tornar-se humanizado, social, que chamamos de salto ontológico. Ele se processa em uma escala de tempo longa, sendo também um processo dialético, as vezes avançando mais rapidamente, outras de forma mais lenta. Mais importante do que saber que esse processo se chama salto ontológico, é saber o que o proporciona: o trabalho.
+O trabalho, como categoria central do marxismo, é o meio pelo qual se dá o salto ontológico. É através do trabalho teleológico, pelas suas características, que o hominizado passa a humanizado, se tornado um ser social. É nesse sentido que afirmamos ser o trabalho o fundamento ontológico do ser social.
+Bem o texto está extrapolando a proposta inicial, mas esperamos ter esclarecido um pouco sobre o que são as esferas do ser e o que chamamos de salto ontológico. Então em um outro momento poderemos tratar sobre as características do trabalho que o torna fundante do ser social nesse salto ontológico.
+Para entender melhor tudo isso, leia Para uma ontologia do ser social, de Georg Lukács.
