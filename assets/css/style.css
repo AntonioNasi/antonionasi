@@ -114,6 +114,7 @@ body {
 }
 .post .post-meta{
   font-size: 1rem;
+  margin: 1rem 0rem;
 }
 .post p{
   font-size: 1.2rem;
@@ -233,6 +234,10 @@ body {
   flex-basis: 220.5px;
   border-radius: 5px;
   box-shadow: 1px 1px 5px rgba(0, 0, 0, .5);
+}
+.post-preview .cx-txt-preview .post-meta{
+  margin: .5rem 0rem;
+  color: #8c8c8c;
 }
 @media screen and (max-width:600px){
   .post-preview{

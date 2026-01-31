@@ -20,9 +20,12 @@ title: Blog
 
     <p class="post-meta">
       {{ post.date | date: "%d/%m/%Y" }}
+
+      👁️ <span class="busuanzi_value_page_pv"
+           data-url="{{ post.url | absolute_url }}">0</span>
     </p>
 
-    <p>{{ post.excerpt }}</p>
+    <p>{{ post.excerpt | strip_html | truncatewords: 15 }}</p>
 
   </div>
 
