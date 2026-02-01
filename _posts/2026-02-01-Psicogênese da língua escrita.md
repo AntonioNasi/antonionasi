@@ -13,7 +13,7 @@ No que diz respeito a aquisição da escrita, a Psicogênese da Língua Escrita,
 
 Nesse sentido, a Psicogênese entende que a criança é protagonista em seu processo de alfabetização, elaborando hipóteses próprias sobre como funciona a escrita. Com base nos estudos de Ana Teberosky e Emília Ferreiro, sabemos também que as crianças adquirem a leitura e a escrita de forma progressiva e construtiva, e não apenas pela imitação como se supunha no passado.
 
-Para a Psicogênese, os erros que as crianças cometem quanto estão aprendendo a ler e escrever constituem-se como uma verdadeira mina de ouro pedagógica. Eles são indicativos de quais hipóteses elas têm sobre o funcionamento do sistema de escrita e em que estágio de aquisição da escrita/leitura elas estão. A partir disso, o professor alfabetizador pode traçar com maior precisão suas intervenções.
+Para a Psicogênese, os erros que as crianças cometem quando estão aprendendo a ler e escrever constituem-se como uma verdadeira mina de ouro pedagógica. Eles são indicativos de quais hipóteses elas têm sobre o funcionamento do sistema de escrita e em que estágio de aquisição da escrita/leitura elas estão. A partir disso, o professor alfabetizador pode traçar com maior precisão suas intervenções.
 A teoria de Ana Teberosky e Emília Ferreiro identificam algumas fases pelas quais acontece o processo de aquisição da leitura e escrita, conforme veremos abaixo.
 
 ### Fase 1 – Pré-silábica (ou icônica)
