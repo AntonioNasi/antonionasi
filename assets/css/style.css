@@ -415,6 +415,7 @@ body {
 }
 .new-books .cx-books .book .subcx h3{
   font-size: .8rem;
+  margin-bottom: .5rem;
 }
 .new-books .cx-books .book .subcx p{
   font-size: .8rem;
@@ -507,6 +508,7 @@ body {
 }
 .all-books .cx-books .book .subcx h3{
   font-size: .8rem;
+  margin-bottom: .5rem;
 }
 .all-books .cx-books .book .subcx p{
   font-size: .8rem;
