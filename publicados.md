@@ -1,5 +1,123 @@
 ---
 layout: single-page
-title: Sobre
+title: Publicações
 ---
 
+<section class="all-books">
+
+    <h2>Principais publicações</h2>
+
+    <div class="cx-books">
+
+      <div class="book">
+        <div class="subcx">
+          <img src="{{ '/assets/img/educação-ciência-e-formação-humana.png' | relative_url }}">
+          <h3>Educação, ciência e formação humana: a produção de conhecimento a serviço da classe trabalhadora</h3>
+          <p>Dr. Antonio Nasi - Dra. Júlia Bastos - Me. Layslância Santos (Lutas Anticapital, 2025)</p>
+        </div>
+        <a href="{{ '/assets/docs/iv-eniteessc-educação-ciência-e-formação-humana.pdf' | relative_url }}" download>Baixar</a>
+      </div>
+
+      <div class="book">
+        <div class="subcx">
+          <img src="{{ '/assets/img/marcadores-sociais-da-diferença.png' | relative_url }}">
+          <h3>Arte e Religião: elementos para o processo de autonomia relativa do reflexo estético (cap)</h3>
+          <p>Antonio Nasi - Adriano Lopes - Deribaldo Santos (Mentes Abertas - 2025)</p>
+        </div>
+        <a href="{{ '/assets/docs/Marcadores-sociais-da-diferença.pdf' | relative_url }}" download>Baixar</a>
+      </div>
+
+      <div class="book">
+        <div class="subcx">
+          <img src="{{ '/assets/img/lapps-marxismo-educação-e-formação-humana.png' | relative_url }}">
+          <h3>LAPPS: Marxismo, educação e formação humana</h3>
+          <p>Dr. Antonio Nasi - Me. Layslândia Santos - Me. Lailton Santos (Lutas Anticapital - 2025)</p>
+        </div>
+        <a href="{{ '/assets/docs/lapps-marxismo-educação-e-formação-humana.pdf' }}" download >Baixar</a>
+      </div>
+
+      <div class="book">
+        <div class="subcx">
+          <img src="{{ '/assets/img/estética-educação-e-sociedade.png' | relative_url }}">
+          <h3>Princípios básicos da diferenciação entre magia e religião (cap)</h3>
+          <p>Dr. Antonio Nasi - Dra. Betânea Moraes - Dr. Deribaldo Santos (Acadêmica Editorial - 2022)</p>
+        </div>
+        <a href="{{ '/assets/docs/educação-estética-e-sociedade.pdf' }}" download >Baixar</a>
+      </div>
+
+      <div class="book">
+
+        <div class="subcx">
+          <img src="{{ '/assets/img/marx-e-a-crítica-ao-programa-de-gotha.png' | relative_url }}">
+          <h3>Marx e a crítica ao Programa de Gotha</h3>
+          <p>Dr. Antonio Nasi - Dr. Deribaldo Santos (Lutas Anticapital, 2021)</p>
+        </div>
+        
+        <a href="{{ '/assets/docs/marx-e-a-crítica-ao-programa-de-gotha.pdf' }}" download >Baixar</a>
+
+      </div>
+
+      <!--Coluna 2-->
+
+      <div class="book">
+
+        <div class="subcx">
+          <img src="{{ '/assets/img/fiped_2020.png' | relative_url }}">
+          <h3>Obstáculos para um ensino laico no Brasil: análise preliminar à luz da ontometodologia marxiana-lukacsiana (cap)</h3>
+          <p>Dr. Antonio Nasi - Dr. Deribaldo Santos (FIPED, 2020)</p>
+        </div>
+        
+        <a href="{{ '/assets/docs/FIPED 2020 - Obstáculos para um ensino laico no Brasil_ análise preliminar à luz da ontometodologia marxiana-lukacsiana.pdf' }}" download >Baixar</a>
+
+      </div>
+
+      <div class="book">
+
+        <div class="subcx">
+          <img src="{{ '/assets/img/trabalho-necessário.png' | relative_url }}">
+          <h3>Educação na Crítica ao Programa de Gotha</h3>
+          <p>Dr. Antonio Nasi - Dr. Deribaldo Santos - Dr. George Amaral (Trabalho Necessário, 2020)</p>
+        </div>
+        
+        <a href="{{ '/assets/docs/Educação na crítica ao programa de Gotha.pdf' }}" download >Baixar</a>
+
+      </div>
+
+      <div class="book">
+
+        <div class="subcx">
+          <img src="{{ '/assets/img/Trabalho-Estética-E-Formação-Humana.png' | relative_url }}">
+          <h3>Educação pública laica no Brasil: análise introdutória à luz da ontometodologia marxiana-lukacsiana (cap)</h3>
+          <p>Dr. Antonio Nasi (EdUECE, 2019)</p>
+        </div>
+        
+        <a href="{{ '/assets/docs/Educação-Pública-Laica-no-Brasil.pdf' }}" download >Baixar</a>
+
+      </div>
+
+      <div class="book">
+
+        <div class="subcx">
+          <img src="{{ '/assets/img/marxismo-ciencia-sertão.png' | relative_url }}">
+          <h3>Marxismo, ciência e Sertão: coletânea de ensaios críticos</h3>
+          <p>Dr. Antonio Nasi - Dra. Cleidiane Cavalcante - Ma. Isadora Paiva (EdUECE, 2018)</p>
+        </div>
+        
+        <a href="{{ '/assets/docs/Marxismo-Ciência-Sertão.pdf' }}" download >Baixar</a>
+
+      </div>
+
+      <div class="book">
+
+        <div class="subcx">
+          <img src="{{ '/assets/img/ontologia-estética.png' | relative_url }}">
+          <h3>Noções introdutórias a partir do prólogo da Estética de Lukács (cap)</h3>
+          <p>Dr. Antonio Nasi - Dra. Adele Araújo - Ma. Isadora Paiva (EdUECE, 2015)</p>
+        </div>
+        
+        <a href="{{ '/assets/docs/Noções introdutórias a partir do prólogo.pdf' }}" download >Baixar</a>
+
+      </div>
+
+    </div>
+  </section>
