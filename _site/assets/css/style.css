@@ -45,12 +45,13 @@ body {
 --------------------------*/
 .site-footer {
   text-align: center;
-  padding: 1.5rem;
+  padding: 2rem 1.5rem;
   background: #fff;
 }
 .site-footer h3{
   text-align: center;
   font-size: .8rem;
+  margin-bottom: 1rem;
 }
 .contato{
   display: flex;
@@ -290,6 +291,10 @@ body {
   border-radius: 5px;
   box-shadow: 1px 1px 5px rgba(0, 0, 0, .5);
 }
+.post-preview:hover{
+  box-shadow: 2px 2px 10px #2c3e50;
+  transition: box-shadow .3s;
+}
 .post-preview .post-thumb{
   height: 160px;
   width: 100%;
@@ -423,7 +428,7 @@ body {
   Últimos livros lançados
 -------------------------------------------*/
 .new-books{
-  background-color: #2c3e50;
+  background-color: #8c8c8c;
   padding: 1rem 1rem 2rem;
 }
 .new-books h2{
@@ -448,6 +453,10 @@ body {
   border-radius: .3rem;
   flex-basis: 220px;
   text-align: center;
+}
+.new-books .cx-books .book:hover{
+  box-shadow: 2px 2px 10px #2c3e50;
+  transition: box-shadow .3s;
 }
 .new-books .cx-books .book .subcx{
   width: 100%;
@@ -639,7 +648,8 @@ body {
   padding: .5rem .5rem .5rem 1rem;
 }
 .ativ-desc p{
-  margin-bottom: 1rem;
+  margin: .5rem 0rem;
+  font-size: .9rem;
 }
 .ativ-desc a{
   text-decoration: none;
