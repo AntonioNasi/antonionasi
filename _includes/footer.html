@@ -9,7 +9,43 @@
 <body>
 
   <footer class="site-footer">
-  <p>© {{ site.time | date: "%Y" }} — {{ site.author }}</p>
+
+    <h3>Contato:</h3>
+
+    <div class="contato">
+
+      <a href="https://www.instagram.com/toimnasi/" target="_blank">
+        <div class="ct-item">
+          <img src="{{ '/assets/img/insta-icon.png' | relative_url }}">
+          <p>Instagram</p>
+        </div>
+      </a>
+
+      <a href="https://www.facebook.com/antonio.nasi.73" target="_blank">
+        <div class="ct-item">
+          <img src="{{ '/assets/img/face-icon.png' | relative_url }}">
+         <p>Facebook</p>
+        </div>
+      </a>
+
+      <a href="https://www.youtube.com/@EstudosMarxiano-Lukacsianos" target="_blank">
+        <div class="ct-item">
+          <img src="{{ '/assets/img/youtube-icon.png' | relative_url }}">
+          <p>Youtube</p>
+        </div>
+      </a>
+
+      <a href="mailto:toimnasi@gmail.com" target="_blank">
+        <div class="ct-item">
+          <img src="{{ '/assets/img/mail-icon.png' | relative_url }}">
+          <p>Email</p>
+        </div>
+      </a>
+      
+    </div>
+
+    <p class="cr">© {{ site.time | date: "%Y" }} — {{ site.author }}</p>
+
   </footer>
   
 </body>
