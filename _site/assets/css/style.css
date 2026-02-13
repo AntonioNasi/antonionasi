@@ -20,7 +20,7 @@ body {
 -------------------------------------------*/
 .container {
   max-width: 1200px;
-  margin: 1.5rem auto;
+  margin: 3rem auto;
   display: flex;
   justify-content: center;
   flex-wrap: wrap;
@@ -45,8 +45,9 @@ body {
 --------------------------*/
 .site-footer {
   text-align: center;
-  padding: 2rem 1.5rem;
+  padding: 3rem 1.5rem;
   background: #fff;
+  border-top: solid 1px #8c8c8c;
 }
 .site-footer h3{
   text-align: center;
@@ -149,7 +150,7 @@ body {
 .container-post{
   display: flex;
   max-width: 1200px;
-  margin: 1rem auto;
+  margin: 3rem auto;
 }
 .container-post .l-side{
   width: 70%;
@@ -180,7 +181,8 @@ body {
   height: 340px;
   object-fit: cover;
   object-position: center;
-  margin: 1rem 0;
+  margin: 2rem 0;
+  border-radius: .3rem;
 }
 .container-post .r-side{
   width: 30%;
@@ -237,6 +239,7 @@ body {
   padding: .5rem 1rem;
   margin-bottom: 2rem;
   color: #f2efea;
+  border-radius: .3rem;
 }
 .sidebar-posts{
   width: 100%;
@@ -252,6 +255,7 @@ body {
   height: 160px;
   object-fit: cover;
   border-radius: 0px;
+  border-radius: .3rem;
 }
 .sidebar-post span {
   display: block;
@@ -284,7 +288,6 @@ body {
   Blog archive
 --------------------------*/
 .post-preview {
-  margin-bottom: 1rem;
   padding-bottom: .7rem;
   background-color: white;
   flex-basis: 220.5px;
@@ -429,12 +432,12 @@ body {
 -------------------------------------------*/
 .new-books{
   background-color: #8c8c8c;
-  padding: 1rem 1rem 2rem;
+  padding: 3rem 1.5rem;
 }
 .new-books h2{
   color: #f2efea;
   text-align: center;
-  font-size: 1.1rem;
+  font-size: 1.6rem;
   margin-bottom: 1rem;
 }
 .new-books .cx-books{
@@ -529,12 +532,12 @@ body {
 -------------------------------------------*/
 .all-books{
   max-width: 1200px;
-  margin: 2rem auto;
+  margin: 3rem auto;
 }
 .all-books h2{
   color: #2c3e50;
   text-align: center;
-  font-size: 1.1rem;
+  font-size: 1.7rem;
   margin-bottom: 1rem;
 }
 .all-books .cx-books{
@@ -613,7 +616,7 @@ body {
 -------------------------------------------*/
 .main-content{
   max-width: 1200px;
-  margin: 2rem auto;
+  margin: 3rem auto;
 }
 .atividades{
   display: flex;
