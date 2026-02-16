@@ -173,7 +173,7 @@ body {
 .post p{
   font-size: 1rem;
   margin-bottom: 1rem;
-  hyphens: auto;
+  text-align: justify;
   line-height: 1.6;
 }
 .post img {
@@ -506,6 +506,9 @@ body {
 }
 
 @media screen and (max-width:600px){
+  .new-books h2{
+    font-size: 1.2rem;
+  }
   .new-books .cx-books{
     display: block;
   }
@@ -537,7 +540,7 @@ body {
 .all-books h2{
   color: #2c3e50;
   text-align: center;
-  font-size: 1.7rem;
+  font-size: 1.6rem;
   margin-bottom: 1rem;
 }
 .all-books .cx-books{
@@ -588,6 +591,9 @@ body {
 @media screen and (max-width:600px){
   .all-books{
     padding: 0rem 1rem;
+  }
+  .all-books h2{
+    font-size: 1.2rem;
   }
   .all-books .cx-books{
     display: block;
