@@ -80,6 +80,12 @@ body {
 }
 .cr{
   font-size: .8rem;
+  margin-bottom: 2rem;
+}
+.site-footer .priva{
+  text-decoration: none;
+  color: #2c3e50;
+  font-size: .8rem;
 }
 @media screen and (max-width:600px){
   .contato{
