@@ -2,7 +2,7 @@
 layout: post
 title: "Nota de estudo 1 - POSS vol 14 1a edição"
 date: 2025-06-05
-image: https://outraspalavras.net/wp-content/uploads/2023/12/screenshot_2023-04-14_at_15-26-16_young_lukacs.png
+image: https://estaticos.opara.me/outraspalavras/uploads/2024/01/31204056/image-6.png
 excerpt: "No mesmo sentido, as diferenças físico-psíquicas entre os humanos e os animais superiores não explicam o salto, além do que, elas só podem ser explicadas a partir do ser social."
 featured: false
 sidebar: false
