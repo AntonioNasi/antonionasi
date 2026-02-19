@@ -9,7 +9,6 @@ sidebar: false
 categories: Educação
 --
 
-
 O Laboratório de Pesquisas sobre Políticas Sociais (LAPPS), sediado na FECLESC/UECE em Quixadá, irá disponibilizar vagas para os professores do ensino fundamental e demais interessados que queiram participar da disciplina de Educação Artística.
 
 A disciplina, ofertada pela primeira vez no curso de Pedagogia da FECLESC, será ministrada pelo professor PhD. Deribaldo Santos. O docente, pesquisador do CNPq lotado na instituição desde 2008, é estudioso da Estética de Lukács, sendo referência também na área de educação profissionalizante.
