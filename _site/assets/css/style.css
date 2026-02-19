@@ -112,19 +112,25 @@ hr{
   color: #2c3e50;
   font-size: .8rem;
 }
+
 @media screen and (max-width:600px){
   .cx-footer{
-    display: block;
+    column-gap: 0rem;
+  }
+  .footer-item{
+    padding: .5rem;
   }
   .contato{
     display: block;
   }
-  .contato .ct-item{
-    max-width: 100px;
-    margin: 1rem auto;
+  .contato a{
+    display: inline-block;
   }
-  .contato .ct-item img{
-    width: 20px;
+  .contato a p{
+    font-size: .7rem;
+  }
+  .contato .ct-item{
+    margin-bottom: 1rem;
   }
 }
 
