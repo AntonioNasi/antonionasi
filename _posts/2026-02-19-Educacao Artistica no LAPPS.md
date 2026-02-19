@@ -7,7 +7,7 @@ excerpt: "O curso será ofertado como disciplina no semestre 2026.1, com carga h
 featured: true
 sidebar: false
 categories: Educação
---
+---
 
 O Laboratório de Pesquisas sobre Políticas Sociais (LAPPS), sediado na FECLESC/UECE em Quixadá, irá disponibilizar vagas para os professores do ensino fundamental e demais interessados que queiram participar da disciplina de Educação Artística.
 
