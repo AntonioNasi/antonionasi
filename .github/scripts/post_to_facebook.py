@@ -1,3 +1,5 @@
+print("VERSÃO CORRETA ATIVA")
+
 import requests
 import xml.etree.ElementTree as ET
 import os
