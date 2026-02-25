@@ -48,3 +48,5 @@ Mais do que isso, o SPAECE conseguiu a proeza de, nas escolas, inverter o foco d
 Apesar de lamentável, essa dura realidade da escola, da educação como um todo, está distante de uma mudança positiva. Enquanto persistir a sua base, ou seja, o modelo societário vigente, ela continuará a na prática da pedagogia da concorrência, alinhada aos ditames e interesses do Estado e da divindade mercado.
 
 Mas não desanimemos! A história nos prova que nem sempre foi assim, e que portanto, poderá ser diferente no futuro. Para onde iremos? Aí já é uma pergunta difícil de responder. Mas um grande maraxista certa vez disse: comunismo ou barbárie! Bom, muitos já consideram que vivemos numa verdadeira barbárie, nesse caso, nos restaria a outra opção.
+
+Fato é que, ontologicamente, o ser humano desenvolveu-se ampliando a cooperação entre indivíduos e grupos cada vez mais numerosos, isso inclusive foi decisivo nos processos que permitiram o surgimento da educação. Atualmente, observamos o movimento contrário: a educação em sua forma stricta fomentando diariamente a concorrência sem limites e o individualismo. Ao que parece, estamos regredindo nesse ponto.
