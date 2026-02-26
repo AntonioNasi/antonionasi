@@ -124,6 +124,9 @@
 <loc>http://localhost:4000/publicados/</loc>
 </url>
 <url>
+<loc>http://localhost:4000/servicos/</loc>
+</url>
+<url>
 <loc>http://localhost:4000/sobre/</loc>
 </url>
 <url>
