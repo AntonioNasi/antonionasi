@@ -3,4 +3,6 @@ Layout: single-page
 Title: Serviços
 ---
 
-Ainda estamos trabalhando aqui.
+<div class="cx-serv">
+  Ainda estamos trabalhando aqui.
+</div>
