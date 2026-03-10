@@ -161,11 +161,53 @@ h1, h2, h3, h4, span, a{
 
 
 /*-------------------------------------------
+  Secção Bem Vindos
+-------------------------------------------*/
+.sec-bvindo{
+  background-color: #ffffff;
+}
+.cx-bvindo{
+  display: flex;
+  flex-wrap: wrap;
+  gap: 3rem;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 2rem 0rem;
+  justify-content: center;
+}
+.item-bv{
+  flex-basis: 220.5px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.item-bv img{
+  width: 34%;
+}
+.item-bv hr{
+  height: 1px;
+  width: 100%;
+  margin: 1rem 0rem;
+  background-color: #b07d62;
+}
+.item-bv p{
+  text-align: center;
+  font-size: .9rem;
+}
+
+
+/*-------------------------------------------
   Container - preview post & blog archive
 -------------------------------------------*/
-.container {
+
+.container .sec-preview{
+  background-color: #889c9b;
+}
+.container .sec-preview .cx-preview{
   max-width: 1200px;
   margin: 3rem auto 1rem;
+  padding: 2rem 0rem;
   display: flex;
   justify-content: center;
   flex-wrap: wrap;
@@ -384,7 +426,7 @@ hr{
 /*------------------------- 
   Blog archive
 --------------------------*/
-.post-preview {
+.container .sec-preview .cx-preview .post-preview {
   padding-bottom: .7rem;
   background-color: white;
   flex-basis: 220.5px;

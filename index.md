@@ -3,32 +3,60 @@ layout: default
 title: Início
 ---
 
-{% for post in site.posts limit:5 %}
+<section class="sec-bvindo">
+  <div class="cx-bvindo">
+    <div class="item-bv">
+      <img src="{{ '/assets/img/icone-formacao.png' | relative_url }}">
+      <hr>
+      <p>Algum texto bem aqui, poucas linhas</p>
+    </div>
+    <div class="item-bv">
+      <img src="{{ '/assets/img/icone-publicacoes.png' | relative_url }}">
+      <hr>
+      <p>Algum texto bem aqui, poucas linhas</p>
+    </div>
+    <div class="item-bv">
+      <img src="{{ '/assets/img/icone-postagens.png' | relative_url }}">
+      <hr>
+      <p>Algum texto bem aqui, poucas linhas</p>
+    </div>
+  </div>
+</section>
 
-<article class="post-preview">
+<section class="sec-preview">
 
-  {% if post.image %}
-    <a href="{{ post.url | relative_url }}">
-      <img src="{{ post.image }}" alt="{{ post.title }}" class="post-thumb">
-    </a>
-  {% endif %}
+  <div class="cx-preview">
 
-  <div class="cx-txt-preview">
+    {% for post in site.posts limit:5 %}
 
-    <h2>
-      <a href="{{ post.url | relative_url }}">{{ post.title }}</a>
-    </h2>
+    <article class="post-preview">
+        
+      {% if post.image %}
+        <a href="{{ post.url | relative_url }}">
+              <img src="{{ post.image }}" alt="{{ post.title }}" class="post-thumb">
+        </a>
+      {% endif %}
 
-    <p class="post-meta">
-      {{ post.date | date: "%d/%m/%Y" }}
-    </p>
+      <div class="cx-txt-preview">
 
-    <p>{{ post.excerpt | strip_html | truncatewords: 15 }}</p>
+      <h2>
+        <a href="{{ post.url | relative_url }}">{{ post.title }}</a>
+      </h2>
+
+      <p class="post-meta">
+        {{ post.date | date: "%d/%m/%Y" }}
+      </p>
+
+      <p>{{ post.excerpt | strip_html | truncatewords: 15 }}</p>
+
+      </div>
+        
+    </article>
+    {% endfor %}
 
   </div>
-
-</article>
-{% endfor %}
+  
+</section>
 
 <section class="new-books">
 
