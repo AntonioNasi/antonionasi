@@ -6,19 +6,28 @@ title: Início
 <section class="sec-bvindo">
   <div class="cx-bvindo">
     <div class="item-bv">
-      <img src="{{ '/assets/img/icone-formacao.png' | relative_url }}">
-      <hr>
-      <p>Algum texto bem aqui, poucas linhas</p>
+      <a href="{{ '/blog/' | relative_url }}">
+        <img src="{{ '/assets/img/icone-formacao.png' | relative_url }}">
+        <h4>Formação</h4>
+        <hr>
+        <p>Cão que Lattes, não morde. Dito isso, você pode conferir aqui o meu currículo.</p>
+      </a>
     </div>
     <div class="item-bv">
-      <img src="{{ '/assets/img/icone-publicacoes.png' | relative_url }}">
-      <hr>
-      <p>Algum texto bem aqui, poucas linhas</p>
+      <a href="{{ '/publicados/' | relative_url }}">
+        <img src="{{ '/assets/img/icone-publicacoes.png' | relative_url }}">
+        <h4>Livros/Artigos</h4>
+        <hr>
+        <p>Algumas publicações, a maioria delas em parceria. Acesse e baixe grauitamente.</p>
+      </a>
     </div>
     <div class="item-bv">
-      <img src="{{ '/assets/img/icone-postagens.png' | relative_url }}">
-      <hr>
-      <p>Algum texto bem aqui, poucas linhas</p>
+      <a href="{{ '/blog/' | relative_url }}">
+        <img src="{{ '/assets/img/icone-postagens.png' | relative_url }}">
+        <h4>Blog</h4>
+        <hr>
+        <p>Reflexões, opiniões, nada acadêmico. Sem periodicidade, escrevo quando posso.</p>
+      </a>
     </div>
   </div>
 </section>
@@ -60,7 +69,7 @@ title: Início
 
 <section class="new-books">
 
-    <h2>Últimas publicações</h2>
+    <h2>Publicações recentes</h2>
 
     <div class="cx-books">
 
