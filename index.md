@@ -3,36 +3,73 @@ layout: default
 title: Início
 ---
 
-{% for post in site.posts limit:5 %}
+<section class="sec-bvindo">
+  <div class="cx-bvindo">
+    <div class="item-bv">
+      <a href="{{ '/blog/' | relative_url }}">
+        <img src="{{ '/assets/img/icone-formacao.png' | relative_url }}">
+        <h4>Formação</h4>
+        <hr>
+        <p>Cão que Lattes, não morde. Dito isso, você pode conferir aqui o meu currículo.</p>
+      </a>
+    </div>
+    <div class="item-bv">
+      <a href="{{ '/publicados/' | relative_url }}">
+        <img src="{{ '/assets/img/icone-publicacoes.png' | relative_url }}">
+        <h4>Livros/Artigos</h4>
+        <hr>
+        <p>Algumas publicações, a maioria delas em parceria. Acesse e baixe grauitamente.</p>
+      </a>
+    </div>
+    <div class="item-bv">
+      <a href="{{ '/blog/' | relative_url }}">
+        <img src="{{ '/assets/img/icone-postagens.png' | relative_url }}">
+        <h4>Blog</h4>
+        <hr>
+        <p>Reflexões, opiniões, nada acadêmico. Sem periodicidade, escrevo quando posso.</p>
+      </a>
+    </div>
+  </div>
+</section>
 
-<article class="post-preview">
+<section class="sec-preview">
 
-  {% if post.image %}
-    <a href="{{ post.url | relative_url }}">
-      <img src="{{ post.image }}" alt="{{ post.title }}" class="post-thumb">
-    </a>
-  {% endif %}
+  <div class="cx-preview">
 
-  <div class="cx-txt-preview">
+    {% for post in site.posts limit:5 %}
 
-    <h2>
-      <a href="{{ post.url | relative_url }}">{{ post.title }}</a>
-    </h2>
+    <article class="post-preview">
+        
+      {% if post.image %}
+        <a class="a-img" href="{{ post.url | relative_url }}">
+              <img src="{{ post.image }}" alt="{{ post.title }}" class="post-thumb">
+        </a>
+      {% endif %}
 
-    <p class="post-meta">
-      {{ post.date | date: "%d/%m/%Y" }}
-    </p>
+      <div class="cx-txt-preview">
 
-    <p>{{ post.excerpt | strip_html | truncatewords: 15 }}</p>
+      <h2>
+        <a href="{{ post.url | relative_url }}">{{ post.title }}</a>
+      </h2>
+
+      <p class="post-meta">
+        {{ post.date | date: "%d/%m/%Y" }}
+      </p>
+
+      <p>{{ post.excerpt | strip_html | truncatewords: 15 }}</p>
+
+      </div>
+        
+    </article>
+    {% endfor %}
 
   </div>
-
-</article>
-{% endfor %}
+  
+</section>
 
 <section class="new-books">
 
-    <h2>Últimas publicações</h2>
+    <h2>Publicações recentes</h2>
 
     <div class="cx-books">
 
