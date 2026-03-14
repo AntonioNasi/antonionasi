@@ -41,7 +41,7 @@ title: Início
     <article class="post-preview">
         
       {% if post.image %}
-        <a href="{{ post.url | relative_url }}">
+        <a class="a-img" href="{{ post.url | relative_url }}">
               <img src="{{ post.image }}" alt="{{ post.title }}" class="post-thumb">
         </a>
       {% endif %}
