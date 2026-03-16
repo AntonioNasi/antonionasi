@@ -40,9 +40,14 @@ h1, h2, h3, h4, span, a{
   column-gap: .5rem;
   text-decoration: none;
   color: #f2efea;
-  font-size: .8rem;
-  font-weight: 400;
+  font-size: .7rem;
+  font-weight: 300;
   text-transform: uppercase;
+}
+.site-header .container-nav nav #a-serv{
+  background-color: #b07d62;
+  padding: .3rem .5rem;
+  border-radius: 1rem;
 }
 .site-header .container-nav nav a img{
   width: 20%;
@@ -57,6 +62,11 @@ h1, h2, h3, h4, span, a{
   }
   .site-header .container-nav nav a{
     width: 2rem;
+  }
+  .site-header .container-nav nav #a-serv{
+    background-color: #b07d62;
+    padding: .2rem;
+    border-radius: 1rem;
   }
   .site-header .container-nav{
     padding: 1rem 0rem;
@@ -194,12 +204,13 @@ h1, h2, h3, h4, span, a{
 }
 .item-bv h4{
   margin: 1rem 0rem;
+  font-weight: 400;
 }
 .item-bv hr{
   height: 1px;
   width: 100%;
   margin: 0rem 0rem 1rem;
-  background-color: #b07d62;
+  background-color: rgba(176, 125, 98, .5);
 }
 .item-bv p{
   text-align: center;

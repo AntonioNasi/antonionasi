@@ -6,7 +6,7 @@ title: Início
 <section class="sec-bvindo">
   <div class="cx-bvindo">
     <div class="item-bv">
-      <a href="{{ '/blog/' | relative_url }}">
+      <a href="https://lattes.cnpq.br/6014284170206157" target="_blank">
         <img src="{{ '/assets/img/icone-formacao.png' | relative_url }}">
         <h4>Formação</h4>
         <hr>
