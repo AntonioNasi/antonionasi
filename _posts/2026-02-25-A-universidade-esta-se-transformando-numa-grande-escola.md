@@ -23,7 +23,7 @@ Hoje, aparenta o contrário. Estudantes disputam bolsas pelo valor a receber ape
 
 Ao mesmo tempo, os jovens parecem estar entrando na universidade não exatamente mais novos, e sim, mais imaturos para o mundo universitário. A despeito desse fenômeno, vale lembrar que pesquisas já estão apontando que a adolescência está iniciando mais cedo e indo até aos 24 anos, como é o caso do trabalho publicado na revista científica The Lancet: Child & Adolescent Health. O que é, de certo modo, corroborado pelo fato de que o cérebro humano só atinge seu ápice de desenvolvimento por volta dos 30 anos.
 
-É possível assim que haja uma relação entre essa adolescência prolongada e a falta ou pouca responsabilidade sobre a própria formação demonstrada por muitos universitários atualmente. Mas há entre um pólo e outro dessa equação inúmeras mediações.
+É possível assim que haja uma relação entre essa adolescência prolongada e a falta ou pouca responsabilidade sobre a própria formação demonstrada por muitos universitários atualmente. Mas há entre um polo e outro dessa equação inúmeras mediações.
 
 Na época de ensino médio, de certo modo, os jovens são ‘obrigados’ a comparecem na escola e nas aulas. Quando há qualquer problema em sala, um pouco mais de falta de atenção, conversa paralela etc, os estudantes são chamados a atenção e os pais são notificados a depender da gravidade. Daí há toda uma cobrança por parte dos pais, castigos se as notas não forem satisfatórias ou se houver reprovação no colégio. Bom, pelo menos era assim até alguns anos atrás, atualmente esse cenário parece passar também por uma inversão.
 
