@@ -228,7 +228,10 @@ h1, h2, h3, h4, span, a{
   .item-bv h4{
     font-weight: 400;
   }
-  .item-bv hr, p{
+  .sec-bvindo .cx-bvindo .item-bv hr{
+    display: none;
+  }
+  .sec-bvindo .cx-bvindo .item-bv p{
     display: none;
   }
 }
