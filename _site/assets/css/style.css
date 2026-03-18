@@ -296,11 +296,18 @@ h1, h2, h3, h4, span, a{
   padding: 3rem 0;
   background-color: #889c9b;
 }
-.new-books h2{
+.new-books .intro-sec-nb{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 0rem 0rem 3rem;
+  padding: 0rem 2rem;
+}
+.new-books .intro-sec-nb h2{
   color: #f2efea;
   text-align: center;
   font-size: 1.3rem;
-  margin-bottom: 2rem;
 }
 .new-books .cx-books{
   display: flex;

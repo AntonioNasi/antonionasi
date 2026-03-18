@@ -69,7 +69,11 @@ title: Início
 
 <section class="new-books">
 
-    <h2>Publicações recentes</h2>
+    <div class="intro-sec-nb">
+      
+      <h2>Conheça algumas de nossas últimas publicações</h2>
+
+    </div>
 
     <div class="cx-books">
 
@@ -77,7 +81,7 @@ title: Início
         <div class="subcx">
           <img src="{{ '/assets/img/educação-ciência-e-formação-humana.png' | relative_url }}">
           <h3>Educação, ciência e formação humana: a produção de conhecimento a serviço da classe trabalhadora</h3>
-          <p>Dr. Antonio Nasi - Dra. Júlia Bastos - Me. Layslância Santos (Lutas Anticapital, 2025)</p>
+          <p>Dr. Antonio Nasi - Dra. Júlia Bastos - Dra. Layslândia Santos (Lutas Anticapital, 2025)</p>
         </div>
         <a href="{{ '/assets/docs/iv-eniteessc-educação-ciência-e-formação-humana.pdf' | relative_url }}" download>Baixar</a>
       </div>
@@ -86,7 +90,7 @@ title: Início
         <div class="subcx">
           <img src="{{ '/assets/img/marcadores-sociais-da-diferença.png' | relative_url }}">
           <h3>Arte e Religião: elementos para o processo de autonomia relativa do reflexo estético (cap)</h3>
-          <p>Antonio Nasi - Adriano Lopes - Deribaldo Santos (Mentes Abertas - 2025)</p>
+          <p>Dr. Antonio Nasi - Dr. Adriano Lopes - Dr. Deribaldo Santos (Mentes Abertas - 2025)</p>
         </div>
         <a href="{{ '/assets/docs/Marcadores-sociais-da-diferença.pdf' | relative_url }}" download>Baixar</a>
       </div>
@@ -95,7 +99,7 @@ title: Início
         <div class="subcx">
           <img src="{{ '/assets/img/lapps-marxismo-educação-e-formação-humana.png' | relative_url }}">
           <h3>LAPPS: Marxismo, educação e formação humana</h3>
-          <p>Dr. Antonio Nasi - Me. Layslândia Santos - Me. Lailton Santos (Lutas Anticapital - 2025)</p>
+          <p>Dr. Antonio Nasi - Dra. Layslândia Santos - Me. Lailton Santos (Lutas Anticapital - 2025)</p>
         </div>
         <a href="{{ '/assets/docs/lapps-marxismo-educação-e-formação-humana.pdf' }}" download >Baixar</a>
       </div>
