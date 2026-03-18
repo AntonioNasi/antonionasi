@@ -2,7 +2,7 @@
 layout: post
 title: "Cultura de paz nas escolas: um falso socialmente necessário?"
 date: 2025-10-10
-image: https://www.tuaradio.com.br/image/resize_crop?w=1250&h=900&q=80&src=intranet/userfiles/noticias/659e3d96397c777af94f31c753ebc09d.jpg
+image: https://assojuris.org.br/wp-content/uploads/2024/12/world-3043067_1280.jpg
 excerpt: "A primeira e principal falha desses programas é que eles parecem entender que a violência surge a partir da escola."
 featured: true
 sidebar: false
