@@ -137,28 +137,28 @@ title: Início
   <p>Momentos aleatórios, trabalho, pesquisa, mundo!</p>
   <div class="cx-galeria">
     <div class="item-galeria">
-      <img src="https://www.56thparallel.com/wp-content/uploads/2020/04/Russian-village-tour-min-1.jpg">
+      <img src="{{ '/assets/img/gl-1.png' | relative_url }}">
     </div>
     <div class="item-galeria">
-      <img src="https://upload.wikimedia.org/wikipedia/commons/0/0d/Russian_Landscape.jpg">
+      <img src="{{ '/assets/img/gl-2.png' | relative_url }}">
     </div>
     <div class="item-galeria">
-      <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSxtS32WVQAqJzF2r_7J4TTFIXZRr0buJ3twQ&s">
+      <img src="{{ '/assets/img/gl-3.png' | relative_url }}">
     </div>
     <div class="item-galeria">
-      <img src="https://mir-s3-cdn-cf.behance.net/project_modules/hd/dacf7659888371.5a32b938d8f57.jpg">
+      <img src="{{ '/assets/img/gl-4.png' | relative_url }}">
     </div>
     <div class="item-galeria">
-      <img src="https://www.africanwildlifesafaris.com/wp-content/uploads/arctic-russian-highlights-landscapes.jpg">
+      <img src="{{ '/assets/img/gl-5.png' | relative_url }}">
     </div>
     <div class="item-galeria">
-      <img src="https://i.redd.it/tiuhhf0kx5f51.jpg">
+      <img src="{{ '/assets/img/gl-6.png' | relative_url }}">
     </div>
     <div class="item-galeria">
-      <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT99cHSEqApgLGigZZQx4_VJARe-9ZaCco-Bg&s">
+      <img src="{{ '/assets/img/gl-7.png' | relative_url }}">
     </div>
     <div class="item-galeria">
-      <img src="https://www.expresstorussia.com/files/pages/016808.jpg">
+      <img src="{{ '/assets/img/gl-8.png' | relative_url }}">
     </div>
   </div>
 
