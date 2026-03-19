@@ -295,6 +295,10 @@ h1, h2, h3, h4, span, a{
   margin-top: 2rem;
   padding: 3rem 0;
   background-color: #889c9b;
+
+  opacity: 0;
+  transform: translateY(40px);
+  transition: opacity 0.8s ease, transform 0.8s ease;
 }
 .new-books .intro-sec-nb{
   display: flex;
@@ -397,6 +401,50 @@ h1, h2, h3, h4, span, a{
 @media screen and (min-width:600px) and (max-width:1200px){
   .new-books .cx-books .book{
     flex-basis: 221px;
+  }
+}
+
+
+/*-------------------------------------------
+  Galeria
+-------------------------------------------*/
+.sec-galeria{
+  max-width: 1200px;
+  margin: 0 auto;
+
+  opacity: 0;
+  transform: translateY(40px);
+  transition: opacity 0.8s ease, transform 0.8s ease;
+}
+.aparecer {
+  opacity: 1;
+  transform: translateY(0);
+}
+.sec-galeria .cx-galeria{
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+  gap: 1rem;
+  padding: 3rem 0rem;
+}
+.sec-galeria .cx-galeria .item-galeria img{
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+.sec-galeria .cx-galeria .item-galeria img:hover{
+  transform: scale(110%);
+}
+.sec-galeria .cx-galeria .item-galeria .cx-legenda{
+  background-color: #889c9b;
+  margin: -2rem;
+  z-index: 1;
+  width: 100%;
+  border: solid 1px blue;
+
+}
+@media screen and (max-width:600px){
+  .sec-galeria{
+    padding: 0rem 2rem;
   }
 }
 
