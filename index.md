@@ -137,28 +137,28 @@ title: Início
   <p>Momentos aleatórios, trabalho, pesquisa, mundo!</p>
   <div class="cx-galeria">
     <div class="item-galeria">
-      <img src="{{ '/assets/img/gl-1.png' | relative_url }}">
+      <img src="{{ '/assets/img/gl-1.jpeg' | relative_url }}">
     </div>
     <div class="item-galeria">
-      <img src="{{ '/assets/img/gl-2.png' | relative_url }}">
+      <img src="{{ '/assets/img/gl-2.jpeg' | relative_url }}">
     </div>
     <div class="item-galeria">
-      <img src="{{ '/assets/img/gl-3.png' | relative_url }}">
+      <img src="{{ '/assets/img/gl-3.jpeg' | relative_url }}">
     </div>
     <div class="item-galeria">
-      <img src="{{ '/assets/img/gl-4.png' | relative_url }}">
+      <img src="{{ '/assets/img/gl-4.jpeg' | relative_url }}">
     </div>
     <div class="item-galeria">
-      <img src="{{ '/assets/img/gl-5.png' | relative_url }}">
+      <img src="{{ '/assets/img/gl-5.jpeg' | relative_url }}">
     </div>
     <div class="item-galeria">
-      <img src="{{ '/assets/img/gl-6.png' | relative_url }}">
+      <img src="{{ '/assets/img/gl-6.jpeg' | relative_url }}">
     </div>
     <div class="item-galeria">
-      <img src="{{ '/assets/img/gl-7.png' | relative_url }}">
+      <img src="{{ '/assets/img/gl-7.jpeg' | relative_url }}">
     </div>
     <div class="item-galeria">
-      <img src="{{ '/assets/img/gl-8.png' | relative_url }}">
+      <img src="{{ '/assets/img/gl-8.jpeg' | relative_url }}">
     </div>
   </div>
 
