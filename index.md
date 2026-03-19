@@ -13,7 +13,7 @@ title: Início
         <p>Cão que Lattes, não morde. Dito isso, você pode conferir aqui o meu currículo.</p>
       </a>
     </div>
-    <div class="item-bv">
+    <div class="item-bv" id="bordas">
       <a href="{{ '/publicados/' | relative_url }}">
         <img src="{{ '/assets/img/icone-publicacoes.png' | relative_url }}">
         <h4>Livros/Artigos</h4>
@@ -71,7 +71,8 @@ title: Início
 
     <div class="intro-sec-nb">
       
-      <h2>Conheça algumas de nossas últimas publicações</h2>
+      <h2>Livros e Artigos</h2>
+      <p>Conheça algumas de nossas últimas publicações</p>
 
     </div>
 
@@ -132,6 +133,8 @@ title: Início
   </section>
 
 <section class="sec-galeria bloco">
+  <h2>Galeria de imagens</h2>
+  <p>Momentos aleatórios, trabalho, pesquisa, mundo!</p>
   <div class="cx-galeria">
     <div class="item-galeria">
       <img src="https://www.56thparallel.com/wp-content/uploads/2020/04/Russian-village-tour-min-1.jpg">

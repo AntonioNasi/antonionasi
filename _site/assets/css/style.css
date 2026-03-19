@@ -220,10 +220,13 @@ h1, h2, h3, h4, span, a{
 }
 @media screen and (max-width:600px){
   .cx-bvindo{
-    gap: 2rem;
+    gap: 1rem;
   }
   .item-bv{
     flex-basis: 100px;
+  }
+  .item-bv a img{
+    width: 70%;
   }
   .item-bv h4{
     font-weight: 400;
@@ -312,6 +315,9 @@ h1, h2, h3, h4, span, a{
   color: #f2efea;
   text-align: center;
   font-size: 1.3rem;
+}
+.new-books .intro-sec-nb p{
+  font-size: .8rem;
 }
 .new-books .cx-books{
   display: flex;
@@ -419,6 +425,16 @@ h1, h2, h3, h4, span, a{
 .aparecer {
   opacity: 1;
   transform: translateY(0);
+}
+.sec-galeria h2{
+  text-align: center;
+  font-size: 1.3rem;
+  margin-top: 2rem;
+}
+.sec-galeria p{
+  text-align: center;
+  font-size: .8rem;
+  color: #b07d62;
 }
 .sec-galeria .cx-galeria{
   display: grid;
