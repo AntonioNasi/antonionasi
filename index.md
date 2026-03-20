@@ -135,7 +135,7 @@ title: Início
 <section class="sec-galeria bloco">
   <h2>Galeria de imagens</h2>
   <p>Momentos aleatórios, trabalho, pesquisa, mundo!</p>
-  <div class="cx-galeria">
+  <div class="cx-galeria galeria">
     <div class="item-galeria">
       <img src="{{ '/assets/img/gl-1.jpeg' | relative_url }}">
     </div>
@@ -161,6 +161,13 @@ title: Início
       <img src="{{ '/assets/img/gl-8.jpeg' | relative_url }}">
     </div>
   </div>
+
+  <div class="lightbox" id="lightbox">
+    <button class="fechar" id="fechar">&times;</button>
+    <img id="imagem-ampliada" src="" alt="">
+  </div>
+
+  <script src="../assets/js/modal-galeria.js"></script>
 
   <script src="../assets/js/surgir.js"></script>
 

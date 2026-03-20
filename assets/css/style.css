@@ -442,10 +442,14 @@ h1, h2, h3, h4, span, a{
   gap: 1rem;
   padding: 3rem 0rem;
 }
+.sec-galeria .cx-galeria .item-galeria{
+  height: 300px;
+}
 .sec-galeria .cx-galeria .item-galeria img{
   width: 100%;
   height: 100%;
   object-fit: cover;
+  border-radius: .3rem;
 }
 .sec-galeria .cx-galeria .item-galeria img:hover{
   transform: scale(110%);
@@ -458,11 +462,54 @@ h1, h2, h3, h4, span, a{
   border: solid 1px blue;
 
 }
+
 @media screen and (max-width:600px){
   .sec-galeria{
     padding: 0rem 2rem;
   }
+  .sec-galeria .cx-galeria .item-galeria img{
+    height: 300px;
+  }
 }
+
+/*---- Modal da Galeria ----*/
+.lightbox {
+  display: none;
+  position: fixed;
+  inset: 0;
+  background: rgba(0, 0, 0, 0.85);
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+  z-index: 999;
+}
+.lightbox.ativo {
+  display: flex;
+}
+@media screen and (max-width:600px){
+  .lightbox.ativo{
+    display: none;
+  }
+}
+.lightbox img {
+  max-width: 95vw;
+  max-height: 95vh;
+  width: auto;
+  height: auto;
+  border-radius: 10px;
+  box-shadow: 0 4px 20px rgba(0,0,0,0.4);
+}
+.fechar {
+  position: absolute;
+  top: 20px;
+  right: 25px;
+  font-size: 32px;
+  color: white;
+  background: none;
+  border: none;
+  cursor: pointer;
+}
+
 
 
 /*------------------------- 
