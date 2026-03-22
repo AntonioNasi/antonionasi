@@ -23,9 +23,9 @@ O resultado disso é uma pressão constante sobre os estudantes, cobranças reit
 
 O fato é que toda essa pressão por parte dos programas de pós-graduação produz ou amplia quadros de ansiedade e depressão nos estudantes. Já existem estudos que associam, por exemplo, a nota do programa com o sofrimento psíquico de estudantes. Ou seja, quanto maior a nota do programa de pós-graduação, maior o índice de adoecimento/sofrimento psíquico dos alunos de mestrado e doutorado.
 
-Para se ter uma ideia, logo na realização da matrícula nesses programas de pós-graduação, os estudantes são submetidos a uma assinatura de um termo em que se comprometem em realizar as publicações exigidas pelo programa. Se no decorrer do mestrado ou doutorado os discentes não cumprirem esta exigência, serão impedidos de realizar a defesa de tese ou dissertação.
+Para se ter uma ideia, logo na realização da matrícula nesses programas de pós-graduação, os estudantes são submetidos a uma assinatura de um termo em que se comprometem em realizar as publicações exigidas pelo programa. Se no decorrer do mestrado ou doutorado os discentes não cumprirem esta exigência, serão impedidos de realizar a defesa de tese ou dissertação. Além disso, claro, são ameaçado de perderem as bolsas caso atrazem prazos ridicularmente estabelecidos ou não cumpram metas produtivistas que servem apenas, como sabemos, para gerar números.
 
-Tudo isso produz uma adoecedora sensação de angústia constante nos estudantes, além do medo de a qualquer momento, até por conta de um imprevisto, ficarem sem bolsa ou não poderem defender por não terem batido as metas do programa.
+Tudo isso produz uma adoecedora sensação de angústia constante nos estudantes, o medo de a qualquer momento, até por conta de um imprevisto, ficarem sem bolsa ou não poderem defender por não terem batido as metas do programa, está literalmente adoecendo estudantes de mestrado e doutorado.
 
 Alguns poderiam aqui alegar que os programas de pós-graduação e suas respectivas coordenações são tão vítimas dessa realidade quanto os estudantes. Mas será? Até que ponto professores e coordenadores desses programas estão, ainda que no discurso, fazendo a crítica a essa lógica produtivista? Será que a maioria deles não estão, ao contrário, fazendo eco e reforçando o produtivismo acadêmico e por consequência o sofrimento mental dos discentes?
 
