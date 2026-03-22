@@ -292,10 +292,127 @@ h1, h2, h3, h4, span, a{
 
 
 /*-------------------------------------------
+  Pesquisadores em Destaque
+-------------------------------------------*/
+.sec-pesqDestaq{
+  padding: 3rem 0rem;
+  background-color: #ffffff;
+}
+.sec-pesqDestaq .intro-pd{
+  padding: 0rem 2rem;
+  text-align: center;
+  margin-bottom: 2rem;
+}
+.sec-pesqDestaq .intro-pd h2{
+  font-size: 1.3rem;
+}
+.sec-pesqDestaq .intro-pd p{
+  font-size: .8rem;
+}
+.carrossel {
+  position: relative;
+  width: 100%;
+  max-width: 1200px;
+  margin: auto;
+  overflow: hidden;
+  padding: 60px 0;
+}
+
+/* linha horizontal */
+.linha {
+  position: absolute;
+  top: 50%;
+  left: 0;
+  width: 100%;
+  height: 2px;
+  background: black;
+  z-index: 0;
+  display: none;
+}
+
+.track {
+  will-change: transform;
+  display: flex;
+  gap: 40px;
+  transition: transform 0.5s ease;
+  justify-content: flex-start; /* IMPORTANTE */
+}
+
+/* itens */
+.item {
+  text-align: center;
+  position: relative;
+  z-index: 2;
+  opacity: 0.5;
+  transform: scale(0.7);
+  transition: all 0.5s ease;
+}
+
+.item img {
+  width: 160px;
+  height: 160px;
+  border-radius: 50%;
+  border: 4px solid #b07d62;
+  object-fit: cover;
+}
+
+.item a{
+  text-decoration: none;
+}
+
+/* item ativo (centro) */
+.item.ativo {
+  opacity: 1;
+  transform: scale(1.2);
+}
+
+.item.ativo img {
+  width: 300px;
+  height: 300px;
+  object-fit: cover;
+  object-position: center;
+}
+
+/* texto só no ativo */
+.item h3,
+.item p {
+  display: none;
+}
+
+.item.ativo h3,
+.item.ativo p {
+  display: block;
+}
+
+.item h3 {
+  color: #b07d62;
+  margin-top: .5rem;
+}
+
+.item p {
+  padding: 10px;
+  border-radius: 8px;
+  font-size: .8rem;
+  font-family: "Merriweather", serif;
+}
+
+@media screen and (max-width:600px){
+  .item img{
+    width: 140px;
+    height: 140px;
+  }
+  .item.ativo img {
+    width: 240px;
+    height: 240px;
+  }
+}
+
+
+/*-------------------------------------------
   Últimos livros lançados
 -------------------------------------------*/
 .new-books{
-  margin-top: 2rem;
+  margin-top: 0rem;
   padding: 3rem 0;
   background-color: #889c9b;
 
