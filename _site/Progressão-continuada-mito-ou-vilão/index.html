@@ -80,12 +80,7 @@
 
 </head>
 
-<body>
-
-  <div id="fb-root"></div>
-  <script async defer crossorigin="anonymous"
-  src="https://connect.facebook.net/pt_BR/sdk.js#xfbml=1&version=v18.0&appId=884987704586276">
-  </script>
+<body> 
 
   <!DOCTYPE html>
 <html lang="pt-br">
@@ -430,20 +425,22 @@ Ao mesmo tempo, o vínculo estreito entre a educação, escola e o mercado, tem 
 
         </div>
 
-        <div class="fb-comments"
-          data-href="http://localhost:4000/Progress%C3%A3o-continuada-mito-ou-vil%C3%A3o/"
-          data-width="100%"
-          data-numposts="5">
-        </div>
+        <div id="disqus_thread"></div>
+        <script>
+          var disqus_config = function () {
+            this.page.url = "http://localhost:4000/Progress%C3%A3o-continuada-mito-ou-vil%C3%A3o/";
+            this.page.identifier = "/Progressão continuada mito ou vilão";
+          };
 
-        <script src="https://utteranc.es/client.js"
-          repo="AntonioNasi/antonionasi"
-          issue-term="pathname"
-          label="comentarios"
-          theme="github-light"
-          crossorigin="anonymous"
-          async>
+          (function() {
+            var d = document, s = d.createElement('script');
+            s.src = 'https://antonionasi.disqus.com/embed.js';
+            s.setAttribute('data-timestamp', +new Date());
+            (d.head || d.body).appendChild(s);
+          })();
         </script>
+
+        <script></script>
         
 </div>
 

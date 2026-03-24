@@ -831,6 +831,12 @@ hr{
 .container-post .r-side{
   width: 30%;
 }
+#disqus_thread{
+  border: solid 1px #b07d62;
+  border-radius: .3rem;
+  padding: 1rem;
+  margin: 3rem 0rem;
+}
 
 @media screen and (max-width:600px){
   .container-post{
