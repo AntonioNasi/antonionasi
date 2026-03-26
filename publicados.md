@@ -22,7 +22,7 @@ title: Publicações
         <div class="subcx">
           <img src="{{ '/assets/img/marcadores-sociais-da-diferença.png' | relative_url }}">
           <h3>Arte e Religião: elementos para o processo de autonomia relativa do reflexo estético (cap)</h3>
-          <p>Antonio Nasi - Adriano Lopes - Deribaldo Santos (Mentes Abertas - 2025)</p>
+          <p> Dr. Antonio Nasi - Dr. Adriano Lopes - Dr. Deribaldo Santos (Mentes Abertas - 2025)</p>
         </div>
         <a href="{{ '/assets/docs/Marcadores-sociais-da-diferença.pdf' | relative_url }}" download>Baixar</a>
       </div>
@@ -31,9 +31,18 @@ title: Publicações
         <div class="subcx">
           <img src="{{ '/assets/img/lapps-marxismo-educação-e-formação-humana.png' | relative_url }}">
           <h3>LAPPS: Marxismo, educação e formação humana</h3>
-          <p>Dr. Antonio Nasi - Me. Layslândia Santos - Me. Lailton Santos (Lutas Anticapital - 2025)</p>
+          <p>Dr. Antonio Nasi - Dra. Layslândia Santos - Me. Lailton Santos (Lutas Anticapital - 2025)</p>
         </div>
         <a href="{{ '/assets/docs/lapps-marxismo-educação-e-formação-humana.pdf' }}" download >Baixar</a>
+      </div>
+
+      <div class="book">
+        <div class="subcx">
+          <img src="{{ '/assets/img/entre-trilhos-fe-e-luta.png' | relative_url }}">
+          <h3>Desafios para um ensino laico no Brasil: análise introdutória à luz da ontometodologia marxiana-lukacsiana (cap)</h3>
+          <p>Dr. Antonio Nasi - Ma. Karollynne Dantas - Dr. Deribaldo Santos (Metanoia - 2025)</p>
+        </div>
+        <a href="https://loja.metanoiaeditora.com/entre-trilhos-fe-e-luta/" target="_blank">Comprar</a>
       </div>
 
       <div class="book">
