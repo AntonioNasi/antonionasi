@@ -1019,6 +1019,33 @@ hr{
 }
 
 
+
+/*-------------------------------------------
+  Vídeos
+-------------------------------------------*/
+.sec-videos{
+  margin: 3rem 0rem;
+}
+.sec-videos .cx-videos{
+  max-width: 1200px;
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+  gap: 1rem;
+}
+.sec-videos .cx-videos .video-item iframe{
+  width: 100%;
+  height: 100%;
+  border-radius: .3rem;
+}
+
+@media screen and (max-width:600px){
+  .sec-videos .cx-videos{
+    padding: 0rem 2rem;
+  }
+}
+
+
 /*-------------------------------------------
   Atividades
 -------------------------------------------*/
