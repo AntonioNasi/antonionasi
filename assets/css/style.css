@@ -1021,17 +1021,84 @@ hr{
 
 
 /*-------------------------------------------
-  Vídeos
+  Pastas dos Vídeos
 -------------------------------------------*/
 .sec-videos{
   margin: 3rem 0rem;
 }
+.sec-videos .cxp-videos{
+  max-width: 1200px;
+  margin: 0 auto;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 2rem;
+}
+
+.sec-videos .cxp-videos .ct-pasta-videos{
+  max-width: 213px;
+}
+.sec-videos .cxp-videos .ct-pasta-videos .pasta-videos{
+  position: relative;
+  flex-basis: 213px;
+  height: 170px;
+}
+.sec-videos .cxp-videos .ct-pasta-videos .pasta-videos a img{
+  position: absolute;
+  transition: opacity 0.3s ease-in-out;
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+}
+.img-hover{
+  opacity: 0;
+}
+.pasta-videos:hover .img-hover{
+  opacity: 1;
+}
+.pasta-videos:hover .img-original{
+  opacity: 0;
+}
+.sec-videos .cxp-videos .ct-pasta-videos h3{
+  margin: .5rem 0rem;
+  font-size: 1rem;
+  color: #b07d62;
+  text-align: center;
+}
+.pasta-videos:hover h3{
+  text-shadow: 1px 1px 13px rgba(0, 0, 0, .5);
+}
+
+@media screen and (max-width:600px){
+  .sec-videos .cxp-videos{
+    display: block;
+    width: 100%;
+  }
+  .sec-videos .cxp-videos .ct-pasta-videos{
+    width: 100%;
+    margin: 0 auto 2rem;
+  }
+  .sec-videos .cxp-videos .ct-pasta-videos .pasta-videos{
+    position: relative;
+    width: 100%;
+  }
+}
+
+/* Conteúdo das pastas de vídeos */
 .sec-videos .cx-videos{
   max-width: 1200px;
   margin: 0 auto;
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
   gap: 1rem;
+}
+.sec-videos h1{
+  text-align: center;
+  padding: 0rem 2rem;
+}
+.sec-videos p{
+  margin-bottom: 2rem;
+  padding: 0rem 2rem;
+  text-align: center;
 }
 .sec-videos .cx-videos .video-item iframe{
   width: 100%;
