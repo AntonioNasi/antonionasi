@@ -35,7 +35,7 @@ h1, h2, h3, h4, span, a{
 }
 .site-header .container-nav nav a{
   display: flex;
-  width: 6rem;
+  width: 7.5rem;
   align-items: center;
   column-gap: .5rem;
   text-decoration: none;
@@ -1034,15 +1034,26 @@ hr{
   gap: 2rem;
 }
 
-.sec-videos .cxp-videos .ct-pasta-videos{
-  max-width: 213px;
+.sec-videos .cxp-videos a{
+  width: 48%;
+  height: 126px;
+  display: flex;
+  align-items: center;
+  border: solid 1px rgba(136, 156, 155, .3);
+  padding: .5rem;
+  border-radius: .3rem;
+  text-decoration: none;
 }
-.sec-videos .cxp-videos .ct-pasta-videos .pasta-videos{
+.sec-videos .cxp-videos a:hover{
+  box-shadow: 1px 1px 10px rgba(0, 0, 0, .2);
+}
+.sec-videos .cxp-videos a .pasta-videos{
   position: relative;
-  flex-basis: 213px;
+  flex-basis: 20%;
   height: 170px;
+  margin-right: 1rem;
 }
-.sec-videos .cxp-videos .ct-pasta-videos .pasta-videos a img{
+.sec-videos .cxp-videos a .pasta-videos img{
   position: absolute;
   transition: opacity 0.3s ease-in-out;
   width: 100%;
@@ -1052,19 +1063,28 @@ hr{
 .img-hover{
   opacity: 0;
 }
-.pasta-videos:hover .img-hover{
+a:hover .img-hover{
   opacity: 1;
 }
-.pasta-videos:hover .img-original{
+a:hover .img-original{
   opacity: 0;
 }
-.sec-videos .cxp-videos .ct-pasta-videos h3{
-  margin: .5rem 0rem;
+.sec-videos .cxp-videos a .vid-desc{
+  width: 80%;
+  display: block;
+}
+.sec-videos .cxp-videos a .vid-desc h3{
   font-size: 1rem;
   color: #b07d62;
-  text-align: center;
 }
-.pasta-videos:hover h3{
+.sec-videos .cxp-videos a .vid-desc p{
+  font-size: .8rem;
+  font-weight: 400;
+  text-align: left;
+  margin: 0;
+  padding: 0;
+}
+a:hover h3{
   text-shadow: 1px 1px 13px rgba(0, 0, 0, .5);
 }
 
@@ -1072,12 +1092,14 @@ hr{
   .sec-videos .cxp-videos{
     display: block;
     width: 100%;
+    padding: 0px 2rem;
   }
-  .sec-videos .cxp-videos .ct-pasta-videos{
+  .sec-videos .cxp-videos a{
     width: 100%;
-    margin: 0 auto 2rem;
+    margin: 0 auto 1rem;
+    height: 100px;
   }
-  .sec-videos .cxp-videos .ct-pasta-videos .pasta-videos{
+  .sec-videos .cxp-videos a .pasta-videos{
     position: relative;
     width: 100%;
   }

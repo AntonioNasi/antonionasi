@@ -143,10 +143,10 @@
 <loc>http://localhost:4000/privacidade/</loc>
 </url>
 <url>
-<loc>http://localhost:4000/publicados/</loc>
+<loc>http://localhost:4000/professores/</loc>
 </url>
 <url>
-<loc>http://localhost:4000/servicos/</loc>
+<loc>http://localhost:4000/publicados/</loc>
 </url>
 <url>
 <loc>http://localhost:4000/sobre/</loc>
