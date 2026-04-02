@@ -25,24 +25,24 @@ Title: Serviços
                 <p>Ministrante: Vários - EMANCIPA/IMO (2022)</p>
             </div>
         </a>
-        <a href="{{'/#/' | relative_url}}" class="ct-pasta-videos">
+        <a href="{{'/circulo-dominical/' | relative_url}}" class="ct-pasta-videos">
             <div class="pasta-videos">
                 <img src="{{'/assets/img/icone-close-folder.png' | relative_url}}" class="img-original">
                 <img src="{{'/assets/img/icone-open-folder.png' | relative_url}}" class="img-hover">
             </div>
             <div class="vid-desc">
-                <h3>Aguardando conteúdo...</h3>
-                <p>Ministrante: xxxx - xxxx (xxxx)</p>
+                <h3>Circulo Dominical</h3>
+                <p>Ministrante: Sérgio Lessa - Coletivo Veredas (2017)</p>
             </div>
         </a>
-        <a href="{{'/#/' | relative_url}}" class="ct-pasta-videos">
+        <a href="{{'/circulo-dominical-quarentena/' | relative_url}}" class="ct-pasta-videos">
             <div class="pasta-videos">
                 <img src="{{'/assets/img/icone-close-folder.png' | relative_url}}" class="img-original">
                 <img src="{{'/assets/img/icone-open-folder.png' | relative_url}}" class="img-hover">
             </div>
             <div class="vid-desc">
-                <h3>Aguardando conteúdo...</h3>
-                <p>Ministrante: xxxx - xxxx (xxxx)</p>
+                <h3>Circulo Dominical de Quarentena</h3>
+                <p>Ministrante: Sérgio Lessa - Coletivo Veredas (2020)</p>
             </div>
         </a>
         <a href="{{'/#/' | relative_url}}" class="ct-pasta-videos">
