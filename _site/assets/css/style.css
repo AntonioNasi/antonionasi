@@ -1050,6 +1050,7 @@ hr{
 }
 .sec-videos .cxp-videos a:hover{
   box-shadow: 1px 1px 10px rgba(0, 0, 0, .2);
+  transition: box-shadow 0.3s;
 }
 .sec-videos .cxp-videos a .pasta-videos{
   position: relative;
@@ -1079,7 +1080,7 @@ a:hover .img-original{
 }
 .sec-videos .cxp-videos a .vid-desc h3{
   font-size: 1rem;
-  color: #b07d62;
+  color: #333333;
 }
 .sec-videos .cxp-videos a .vid-desc p{
   font-size: .8rem;
@@ -1090,6 +1091,7 @@ a:hover .img-original{
 }
 a:hover h3{
   text-shadow: 1px 1px 13px rgba(0, 0, 0, .5);
+  transition: text-shadow 0.3s;
 }
 
 @media screen and (max-width:600px){

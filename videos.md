@@ -7,8 +7,8 @@ Title: Serviços
     <div class="cxp-videos">
         <a href="{{'/playlist-1/' | relative_url}}" class="ct-pasta-videos">
             <div class="pasta-videos">
-                <img src="{{'/assets/img/icone-close-folder.png' | relative_url}}" class="img-original">
-                <img src="{{'/assets/img/icone-open-folder.png' | relative_url}}" class="img-hover">
+                <img src="{{'/assets/img/icone-close-folder1.png' | relative_url}}" class="img-original">
+                <img src="{{'/assets/img/icone-open-folder1.png' | relative_url}}" class="img-hover">
             </div>
             <div class="vid-desc">
                 <h3>Introdução à Grande Estética de Lukács</h3>
@@ -17,8 +17,8 @@ Title: Serviços
         </a>
         <a href="{{'/circulos-formativos/' | relative_url}}" class="ct-pasta-videos">
             <div class="pasta-videos">
-                <img src="{{'/assets/img/icone-close-folder.png' | relative_url}}" class="img-original">
-                <img src="{{'/assets/img/icone-open-folder.png' | relative_url}}" class="img-hover">
+                <img src="{{'/assets/img/icone-close-folder1.png' | relative_url}}" class="img-original">
+                <img src="{{'/assets/img/icone-open-folder1.png' | relative_url}}" class="img-hover">
             </div>
             <div class="vid-desc">
                 <h3>Círculos Formativos</h3>
@@ -27,8 +27,8 @@ Title: Serviços
         </a>
         <a href="{{'/circulo-dominical/' | relative_url}}" class="ct-pasta-videos">
             <div class="pasta-videos">
-                <img src="{{'/assets/img/icone-close-folder.png' | relative_url}}" class="img-original">
-                <img src="{{'/assets/img/icone-open-folder.png' | relative_url}}" class="img-hover">
+                <img src="{{'/assets/img/icone-close-folder1.png' | relative_url}}" class="img-original">
+                <img src="{{'/assets/img/icone-open-folder1.png' | relative_url}}" class="img-hover">
             </div>
             <div class="vid-desc">
                 <h3>Circulo Dominical</h3>
@@ -37,8 +37,8 @@ Title: Serviços
         </a>
         <a href="{{'/circulo-dominical-quarentena/' | relative_url}}" class="ct-pasta-videos">
             <div class="pasta-videos">
-                <img src="{{'/assets/img/icone-close-folder.png' | relative_url}}" class="img-original">
-                <img src="{{'/assets/img/icone-open-folder.png' | relative_url}}" class="img-hover">
+                <img src="{{'/assets/img/icone-close-folder1.png' | relative_url}}" class="img-original">
+                <img src="{{'/assets/img/icone-open-folder1.png' | relative_url}}" class="img-hover">
             </div>
             <div class="vid-desc">
                 <h3>Circulo Dominical de Quarentena</h3>
@@ -47,8 +47,8 @@ Title: Serviços
         </a>
         <a href="{{'/#/' | relative_url}}" class="ct-pasta-videos">
             <div class="pasta-videos">
-                <img src="{{'/assets/img/icone-close-folder.png' | relative_url}}" class="img-original">
-                <img src="{{'/assets/img/icone-open-folder.png' | relative_url}}" class="img-hover">
+                <img src="{{'/assets/img/icone-close-folder1.png' | relative_url}}" class="img-original">
+                <img src="{{'/assets/img/icone-open-folder1.png' | relative_url}}" class="img-hover">
             </div>
             <div class="vid-desc">
                 <h3>Aguardando conteúdo...</h3>
@@ -57,8 +57,8 @@ Title: Serviços
         </a>
         <a href="{{'/#/' | relative_url}}" class="ct-pasta-videos">
             <div class="pasta-videos">
-                <img src="{{'/assets/img/icone-close-folder.png' | relative_url}}" class="img-original">
-                <img src="{{'/assets/img/icone-open-folder.png' | relative_url}}" class="img-hover">
+                <img src="{{'/assets/img/icone-close-folder1.png' | relative_url}}" class="img-original">
+                <img src="{{'/assets/img/icone-open-folder1.png' | relative_url}}" class="img-hover">
             </div>
             <div class="vid-desc">
                 <h3>Aguardando conteúdo...</h3>
