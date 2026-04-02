@@ -19,6 +19,44 @@ h1, h2, h3, h4, a{
 }
 
 
+.dmento .engm{
+  display: flex;
+  max-width: 300px;
+  margin: 0 auto 10px;
+  align-items: center;
+  justify-content: center;
+}
+.dmento .engm .eng1{
+  width: 50%;
+  animation-name: horario;
+  animation-duration: 60s;
+  animation-timing-function: linear;
+  animation-iteration-count: infinite;
+}
+@keyframes horario {
+  100%{transform: rotate(360deg);}
+}
+.dmento .engm .eng2{
+  width: 80px;
+  height: 80px;
+  margin: 0px 0px 0px 0px;
+  animation-name: antihorario;
+  animation-duration: 60s;
+  animation-timing-function: linear;
+  animation-iteration-count: infinite;
+}
+@keyframes antihorario {
+  100%{transform: rotate(-360deg);}
+}
+.dmento h2{
+  text-align: center;
+  font-size: 1rem;
+}
+.dmento p{
+  text-align: center;
+}
+
+
 /*------------------------- 
   Header & Nav
 --------------------------*/
