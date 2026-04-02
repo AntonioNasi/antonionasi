@@ -6,6 +6,7 @@ image: https://i1.wp.com/blogs.lib.umich.edu/sites/default/files/leacockportrait
 excerpt: "[...] a Europa usou por muito tempo a religião como desculpa – e legitimação – para a escravização dos povos."
 featured: true
 sidebar: true
+categories: religiao escravidao patriarcado
 ---
 
 Eleanor Leacock, no seu livro Mitos da dominação masculina¹ traduzido para o português pela maravilhosa professora Susana Jimenez, traz uma interessante e assertiva ideia sobre a relação entre escravidão e religião.

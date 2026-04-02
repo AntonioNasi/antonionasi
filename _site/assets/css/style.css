@@ -879,6 +879,20 @@ hr{
   }
 }
 
+.post-category{
+  text-decoration: none;
+  background-color: #889c9b;
+  color: #f2efea;
+  padding: .3rem .5rem;
+  font-size: .8rem;
+}
+.preview-category{
+  text-decoration: none;
+  font-size: .8rem;
+  color: #b07d62;
+}
+
+
 
 /*------------------------- 
   Side bar

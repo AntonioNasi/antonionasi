@@ -6,7 +6,7 @@ image: https://lavrapalavra.com/wp-content/uploads/2021/08/858829_79705726365749
 excerpt: "Seguindo esse mesmo raciocínio, o conjunto de ideias neoliberais sobre a educação que se materializam nas salas de aulas das universidades e dos programas de pós-graduação, constituem-se igualmente como ideologia."
 featured: true
 sidebar: true
-categories: Marxismo
+categories: marxismo ideologia
 ---
 
 Uma das críticas mais recorrentes que os opositores medianos do marxismo fazem, inclusive dentro da academia, é: _O marxismo é uma ideologia¹._ Esse posicionamento demostra basicamente duas coisas. A primeira é que esses opositores são ignorantes quanto ao marxismo e, em segundo lugar, que prestam um enorme desserviço para a classe trabalhadora. Vejamos a situação um pouco mais de perto.

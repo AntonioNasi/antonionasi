@@ -6,7 +6,7 @@ image: https://i.ytimg.com/vi/pLcK91ha19A/maxresdefault.jpg
 excerpt: "No mesmo ano de 2022, se os dados do IBGE estiverem certos, Capistrano estava com 20,4% de analfabetos."
 featured: false
 sidebar: false
-categories: Escola
+categories: escola educacao_basica
 ---
 
 NO Ceará tem sido uma referência em ensino fundamental para outros estados brasileiros. Pelo menos é o que mostra a propaganda oficial do governo estadual. Isso, segundo os veículos oficiais, deve-se ao Programa de Alfabetização na Idade Certa (PAIC), que passou depois de alguns anos a se chamar MAIS PAIC e recentemente ganhou nova nomenclatura: PAIC Integral.

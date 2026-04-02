@@ -6,7 +6,7 @@ image: https://www.brasildefato.com.br/wp-content/uploads/2024/09/image_processi
 excerpt: "Não importa qual seja seu objeto, ele pode ser investigado a partir do materialismo histórico-dialético como referencial teórico-metodológico."
 featured: true
 sidebar: false
-categories: Marxismo
+categories: marxismo metodo
 ---
 
 Para estudantes de graduação ou outras pessoas que estão se aproximando do marxismo pela primeira vez, seja através de grupos de estudo, de pesquisa ou laboratórios, há sempre muitas dúvidas. Isso é, obviamente, algo esperado.

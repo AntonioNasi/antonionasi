@@ -6,7 +6,7 @@ image: https://substackcdn.com/image/fetch/$s_!MdHg!,f_auto,q_auto:good,fl_progr
 excerpt: "Todo nível de ser – incluindo o ser social mencionado acima –, seja no todo ou em partes, constitui-se como um complexo."
 featured: false
 sidebar: false
-categories: Marxismo
+categories: ontologia trabalho ser_social
 ---
 
 Para expor as categorias específicas do ser social – ou seja, aquelas que existem  plenamente desenvolvidas apenas no ser social –, sua gênese nas esferas anteriores, sua combinabilidade com elas, a intrelaçabilidade e fundabilidade nelas, deve-se iniciar pela análise do trabalho.

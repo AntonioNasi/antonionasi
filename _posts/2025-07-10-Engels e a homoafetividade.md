@@ -5,7 +5,7 @@ image: https://i0.wp.com/membros.institutosantoatanasio.org/wp-content/uploads/2
 excerpt: "Como não poderia ser diferente, o amor, em todas as suas manifestações, não escapa a essa regra geral. Tanto é que o amor que conhecemos hoje surge na época vitoriana, que"
 featured: false
 sidebar: false
-categories: Homoafetividade
+categories: genero luta_de_classes
 ---
 
 Na Ideologia Alemã Marx e Engels exaltam a história como única ciência. Claro que os fundadores do socialismo científico não estavam a negar todos os outros campos do conhecimento científico, mas afirmando que economia é história, física é história, matemática é história, tudo é história.

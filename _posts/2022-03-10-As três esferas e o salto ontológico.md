@@ -6,7 +6,7 @@ image: https://pt.quizur.com/_image?href=https%3A%2F%2Fimg.quizur.com%2Ff%2Fimg5
 excerpt: "Como espécie, antes de nós sermos humanizados, fomos hominizados. Enquanto éramos apenas hominizados [...]"
 featured: false
 sidebar: false
-categories: Religião
+categories: esferas_de_ser salto_ontologico
 ---
 
 Tratar das esferas do ser e o processo chamado de salto ontológico é lidar com uma campo imenso, sendo praticamente impossível de resumir e fundamentar adequadamente em um post de blog. Ciente disso, já pedimos desculpas pelas lacunas.

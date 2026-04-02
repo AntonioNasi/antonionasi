@@ -6,7 +6,7 @@ image: https://ichef.bbci.co.uk/ace/ws/640/cpsprodpb/710e/live/21b46610-e2db-11e
 excerpt: "Tanto a progressão parcial como a continuada têm como pressuposto que a escola irá dispor de meios para que as deficiências."
 featured: false
 sidebar: false
-categories: Educação
+categories: educacao_basica avaliacao
 ---
 
 Tramita na Câmara Federal com relatoria do deputado – perdoem a expressão de baixo calão – Nikolas Ferreira (PL), o projeto de lei que visa acabar com a chamada aprovação automática. Para o relator, a passagem compulsória de estudantes de um ano a outro prejudica a qualidade da educação. Não obstante o misto de limitação cognitiva e caráter duvidoso do deputado, há muitos aspectos que precisam ser entendidos nesse debate. Vejamos alguns deles.

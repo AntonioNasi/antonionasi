@@ -6,7 +6,7 @@ image: https://www.tanalousa.com.br/wp-content/uploads/2023/10/post-thumbnail-36
 excerpt: "Para a Psicogênese, os erros que as crianças cometem quando estão aprendendo a ler e escrever constituem-se como uma verdadeira mina de ouro pedagógica."
 featured: false
 sidebar: false
-categories: Pedagogia
+categories: pedagogia psicogenese
 ---
 
 No que diz respeito a aquisição da escrita, a Psicogênese da Língua Escrita, teoria elaborada por Emília Ferreiro e Ana Teberosky a partir dos estudos de Jean Piaget, revolucionou o modo como compreendemos o processo de desenvolvimento da leitura e da escrita pelas crianças. Diferente de explicar alfabetização como simples “decodificação de letras”, a Psicogênese da Língua Escrita mostra que as crianças constroem hipóteses sobre a escrita de forma ativa e progressiva, e que essas hipóteses refletem suas ideias sobre o sistema de escrita.

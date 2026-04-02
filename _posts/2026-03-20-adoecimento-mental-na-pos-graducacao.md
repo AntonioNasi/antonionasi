@@ -6,7 +6,7 @@ image: https://www.talkscience.com.br/source/files/c/19544/sofrimento-psiquico-n
 excerpt: "A pós-graduação tem se afundado cada vez mais na lógica produtivista que impera na sociedade atual, e isso tem impactado violentamente na saúde mental dos discentes. A competitividade exacerbada do mercado já há muito tempo é uma realidade dentro da pós-graduação"
 featured: true
 sidebar: false
-categories: Pós-Graduação
+categories: pos-graduacao adoecimento_mental
 ---
 
 Pós-graduação e adoecimento mental: quando a instituição é cúmplice

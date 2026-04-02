@@ -21,6 +21,15 @@ title: Blog
 
       <p class="post-meta">
         {{ post.date | date: "%d/%m/%Y" }}
+
+        {% if post.categories and post.categories.size > 0 %}
+        •
+        {% for category in post.categories %}
+          <a href="/categories/{{ category | slugify }}/"  class="preview-category">
+              {{ category }}
+          </a>{% unless forloop.last %} {% endunless %}
+        {% endfor %}
+        {% endif %}
       </p>
 
       <p>{{ post.excerpt | strip_html | truncatewords: 15 }}</p>

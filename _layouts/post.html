@@ -29,6 +29,16 @@
           👁️ <span id="busuanzi_value_page_pv">0</span> visualizações
         </p>
 
+        <p>
+            {% if page.categories %}
+            {% for category in page.categories %}
+            <a href="/categories/{{ category | slugify }}/" class="post-category">
+              {{ category }}
+            </a>{% unless forloop.last %}, {% endunless %}
+            {% endfor %}
+            {% endif %}
+        </p>
+
         {% if page.image %}
           <img src="{{ page.image }}" alt="{{ page.title }}">
         {% endif %}
