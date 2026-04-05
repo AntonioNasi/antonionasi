@@ -434,6 +434,22 @@ h1, h2, h3, h4, a{
   font-family: "Merriweather", serif;
 }
 
+.item button{
+  padding: .5rem 1rem;
+  background-color: #b07d62;
+  color: #f2efea;
+  border: none;
+  border-radius: .3rem;
+  display: none;
+}
+.item.ativo button{
+  padding: .5rem 1rem;
+  background-color: #b07d62;
+  color: #f2efea;
+  border: none;
+  border-radius: .3rem;
+}
+
 @media screen and (max-width:600px){
   .item img{
     width: 140px;
