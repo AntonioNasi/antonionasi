@@ -1,0 +1,33 @@
+
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>timeline</title>
+</head>
+<body>
+    <section class="timeline">
+        {% for item in site.data.timeline %}
+        <article class="timeline-item">
+    
+            <div class="timeline-marker"></div>
+        
+            <div class="timeline-content">
+
+                <span class="timeline-date">{{ item.date }}</span>
+
+                <h3>{{ item.title }}</h3>
+
+                {% if item.image %}
+                <img src="{{ item.image }}" alt="{{ item.title }}" class="timeline-img">
+                {% endif %}
+
+                <p>{{ item.description }}</p>
+
+            </div>
+
+        </article>
+        {% endfor %}
+    </section>
+</body>
+</html>

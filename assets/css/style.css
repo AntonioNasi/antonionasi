@@ -1298,3 +1298,98 @@ a:hover h3{
     margin: 0 auto;
   }
 }
+
+
+
+
+/*-------------------------------------------
+  Atividades
+-------------------------------------------*/
+.timeline {
+  position: relative;
+  max-width: 800px;
+  margin: 50px auto;
+  padding: 0 20px;
+}
+
+/* Linha vertical */
+.timeline::before {
+  content: "";
+  position: absolute;
+  left: 25px;
+  top: 0;
+  width: 3px;
+  height: 100%;
+  background: #e5e7eb;
+}
+
+.timeline-item {
+  position: relative;
+  margin-bottom: 40px;
+  padding-left: 70px;
+}
+
+/* Marcador */
+.timeline-marker {
+  position: absolute;
+  left: 15px;
+  top: 5px;
+  width: 18px;
+  height: 18px;
+  background: #1f2a38;
+  border-radius: 50%;
+  border: 3px solid #fff;
+  box-shadow: 0 0 0 3px #e5e7eb;
+}
+
+/* Conteúdo */
+.timeline-content {
+  background: #ffffff;
+  padding: 16px 20px;
+  border-radius: 10px;
+  border: 1px solid #eee;
+}
+
+.timeline-date {
+  font-size: 1.5rem;
+  color: #b07d62;
+  font-weight: 600;
+}
+
+.timeline-content h3 {
+  margin: 5px 0 10px;
+}
+
+.timeline-content p {
+  margin: 0;
+}
+
+/* Responsivo */
+@media (max-width: 600px) {
+  .timeline {
+    padding-left: 10px;
+  }
+
+  .timeline::before {
+    left: 15px;
+  }
+
+  .timeline-item {
+    padding-left: 55px;
+  }
+
+  .timeline-marker {
+    left: 5px;
+  }
+  .timeline-content p {
+    font-size: .8rem;
+  }
+}
+
+.pesquisa img{
+  width: 100%;
+  border-radius: .5rem;
+  height: 200px;
+  object-fit: cover;
+  object-position: center;
+}
