@@ -1007,6 +1007,22 @@ hr{
 }
 
 
+
+/*-------------------------------------------
+  Paginas de categorias
+-------------------------------------------*/
+.title-categ{
+  text-align: center;
+  margin-top: 3rem;
+}
+.lista-posts{
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  gap: 2rem;
+  margin: 1.5rem auto 2rem;
+  max-width: 1200px;
+}
+
 /*-------------------------------------------
   Todos os livros lançados
 -------------------------------------------*/
