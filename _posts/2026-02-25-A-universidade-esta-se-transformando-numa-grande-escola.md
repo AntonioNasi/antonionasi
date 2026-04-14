@@ -6,7 +6,7 @@ image: https://thumbor.novaescola.org.br/stkKhcU7nPi8P8KVJayv3UkvLSs=/nova-escol
 excerpt: "Ao mesmo tempo, os jovens parecem estarem entrando na universidade não exatamente mais novos, e sim, mais imaturos para o mundo universitário."
 featured: true
 sidebar: true
-categories: [Ensino Superior]
+categories: Educacao
 ---
 
 As atividades acadêmicas estão cada vez mais esvaziadas, já não há tanta procura dos universitários pelos grupos de estudo, por exemplo. Esses espaços que antes concentravam muitos estudantes interessados em ir além da sala de aula da universidade. Os próprios eventos acadêmicos estão com menos presença.
