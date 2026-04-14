@@ -6,7 +6,7 @@ image: https://fasbam.edu.br/wp-content/uploads/2020/08/Galileu-1024x709.jpg
 excerpt: "Essa personificação leva à criação de deuses e posteriormente ao que conhecemos hoje por religião."
 featured: false
 sidebar: false
-categories: Ontologia, Religiao
+categories: Ontologia Religiao
 ---
 
 O trabalho é, como muito bem explica o húngaro Lukács, o ponto médio entre o indivíduo, o sujeito e a natureza, bem como a sociedade. É ele que possibilita o salto ontológico, que leva da hominização à humanização, mas, além disso e em paralelo a isso, é através do trabalho que se desenvolve a ciência e a religião.
