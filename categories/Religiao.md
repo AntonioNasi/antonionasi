@@ -1,6 +1,6 @@
 ---
 layout: category
 title: Religião
-category: Religiao
-permalink: /categoria/Religiao/
+category: religiao
+permalink: /categoria/religiao/
 ---
