@@ -6,7 +6,7 @@ image: https://blog.ulbra.br/wp-content/uploads/2022/12/mestrado-doutorado.jpeg
 excerpt: "Criou-se uma imagem ­– especialmente dirigida para os mais pobres – de que cursar mestrado ou doutorado é algo reservado apenas para mentes brilhantes."
 featured: false
 sidebar: false
-categories: ensino_superior educacao
+categories: Educacao
 ---
 
 Até pouco tempo atrás, acessar um curso de mestrado ou doutorado era uma realidade muito distante para a maioria dos(as) trabalhadores(as). Na verdade, qualquer curso em nível superior já era de difícil acesso para nossa classe. Nossa formação sempre foi restrita e limitada aos interesses dos patrões.
