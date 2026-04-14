@@ -6,7 +6,7 @@ image: https://i0.wp.com/revistaintertelas.com/wp-content/uploads/2019/03/27307e
 excerpt: "O dia das mulheres jamais será desmembrado de sua história: a história do socialismo e do comunismo."
 featured: true
 sidebar:
-categories: Marxismo
+categories: marxismo
 ---
 
 Nada mais justo, antes de qualquer coisa, do que dar um sonoro Feliz Dia Internacional das Mulheres! Parabéns pela luta que travam e pela força com a qual lidam com uma sociedade que parece retroceder. Mas não, não podemos parar apenas numa felicitação.
