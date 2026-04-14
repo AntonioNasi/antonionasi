@@ -5,7 +5,7 @@ image: https://conectas.org/wp-content/uploads/2021/06/1-Congresso_-30-Foto_Juli
 excerpt: "Algumas falas do recém falecido Papa Francisco, vale dizer, alimentou significativamente essa ingênua esperança. É o caso da declaração Fiducia Supplicans (Confiança Suplicante)."
 featured: false
 sidebar: false
-categories: lgbtqiap+ cristianismo
+categories: Religiao
 ---
 
 Há sempre uma comunidade grande de cristãos, especialmente católicos, esperançosos – para não dizer iludidos – que a Igreja Católica tenha uma posição mais humana perante os/as LGBTQIAP+.
