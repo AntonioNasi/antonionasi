@@ -6,7 +6,7 @@ image: https://i3.wp.com/noticias-stf-wp-prd.s3.sa-east-1.amazonaws.com/wp-conte
 excerpt: "[...] a decisão do STF reforça e legitima a exclusão e discriminação das religiões minoritárias já existentes."
 featured: false
 sidebar: false
-categories: estado laicidade
+categories: Religiao Estado
 ---
 
 Nesta semana, o STF mais uma vez mostrou que o Estado laico não passa de uma farsa. A maioria dos ministros do Supremo decidiram que a ostentação de símbolos religiosos nas repartições públicas, não viola o suposto princípio da laicidade do estado brasileiro.
