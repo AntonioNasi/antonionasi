@@ -6,7 +6,7 @@ image: https://upload.wikimedia.org/wikipedia/commons/a/ab/Bundesarchiv_B_145_Bi
 excerpt: "A escola ensina os alunos a competirem entre si desde as primeiras séries, por consequência corroboram desde cedo a ideia do ‘melhor’, do que se sobressai perante os demais. Este será premiado, será homenageado, em contraposição aos outros que fracassaram."
 featured: true
 sidebar: false
-categories: pedagogia capitalismo
+categories: Educacao
 ---
 
 Até que ponto o modelo atual de educação é realmente benéfico para as atuais e futuras gerações? Sabemos que quando o assunto é educação, vários problemas são visíveis logo de cara, como o pouco investimento que reflete em uma estrutura obsoleta e inapropriada para os tempos atuais.
