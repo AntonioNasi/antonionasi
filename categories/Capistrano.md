@@ -1,6 +1,6 @@
 ---
 layout: category
-title: Educação
-category: Capistrano
-permalink: /categoria/Capistrano/
+title: Capistrano
+category: capistrano
+permalink: /categoria/capistrano/
 ---
