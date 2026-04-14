@@ -1,6 +1,6 @@
 ---
 layout: category
 title: Política
-category: Politica
-permalink: /categoria/Politica/
+category: politica
+permalink: /categoria/politica/
 ---
