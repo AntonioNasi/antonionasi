@@ -6,7 +6,7 @@ image: /assets/img/v-eniteessc.png
 excerpt: "A essência do complexo científico não deve servir exclusivamente aos interesses do capital. Para isso, é necessário que a ciência seja direcionada em prol da totalidade da espécie humana."
 featured: true
 sidebar: true
-categories: Marxismo Educacao
+categories: marxismo educacao
 ---
 
 Em 2026 teremos mais uma edicação do maior evento científico da região, o **V ENITEESSC** (V Encontro Internacional Trabalho, Educação, Estética e Sociedade do Sertão Central) O ENITEESSC tem caráter acadêmico e científico de grande relevância, sendo promovido por universidades públicas e destinado a fomentar debates críticos sobre a formação dos sujeitos na sociedade capitalista.
