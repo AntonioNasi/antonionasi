@@ -1012,11 +1012,11 @@ hr{
   Paginas de categorias
 -------------------------------------------*/
 .lista-posts{
-  margin: o auto;
+  display: grid;
+  grid-template-column: 1fr 1fr 1fr 1fr;
+  gap: 2rem;
+  margin: 3rem auto 2rem;
   max-width: 1200px;
-}
-.lista-posts .post-preview{
-  margin-bottom: 2rem;
 }
 
 /*-------------------------------------------
