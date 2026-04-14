@@ -6,7 +6,7 @@ image: https://static.planejativo.com/uploads/images/2023/07/pAUx8j8sa6nqtFi4.pn
 excerpt: "Teologia, como diz o esteta húngaro Georg Lukács, não consegue se desvencilhar das bases mágicas da religião"
 featured: false
 sidebar: false
-categories: Ontologia
+categories: ontologia
 ---
 
 Primeiro, aos recém iniciados e aos desavisados, um importante alerta: não confundir teleologia com teologia. A última trata-se de uma pseudo ciência que munida de técnicas e métodos de pesquisa, parte de pressupostos totalmente antropomórficos assumindo-os como fatos, para a partir disso tentar argumentar principalmente em defesa da existência de Deus.
