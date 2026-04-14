@@ -6,7 +6,7 @@ image: https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhVyZ3YUKDPBgcF
 excerpt: "[...] é um legítimo atestado de incompetência do Estado e dos municípios."
 featured: false
 sidebar: false
-categories: educacao_basica ensino
+categories: Educacao
 ---
 
 Não deveríamos comemorar o MAISPAIC, ao contrário, deveríamos lamentar sua existência! Isso pode parecer um sacrilégio aos ouvidos de tantos secretários de educação e agentes pedagógicos espalhados pelo Ceará, o que não surpreende nem um pouco.
