@@ -6,7 +6,7 @@ image: https://i3.wp.com/s2-techtudo.glbimg.com/1augn6oqfEKkKm7OUmOHGsy_nL4=/0x0
 excerpt: "Parafraseando Marx e Engels, as ideias dominantes são sempre as ideias da classe dominante."
 featured: false
 sidebar: true
-categories: Marxismo
+categories: marxismo
 ---
 
 Longe de mim querer reivindicar o papel de crítico da cultura pop, muito menos pagar de sommelier de filmes ou produções audiovisuais diversas. Os únicos motivos para estas poucas linhas é meu debute no mundo dos doramas depois de, confesso, ter resistido por algum tempo. E, pelo fato da primeira produção com a qual eu me deparei trazer algumas referências ao comunismo.
