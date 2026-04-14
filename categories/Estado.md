@@ -1,6 +1,6 @@
 ---
 layout: category
 title: Estado
-category: Estado
-permalink: /categoria/Estado/
+category: estado
+permalink: /categoria/estado/
 ---
