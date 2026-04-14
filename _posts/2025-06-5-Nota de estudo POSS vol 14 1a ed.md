@@ -6,7 +6,7 @@ image: https://estaticos.opara.me/outraspalavras/uploads/2024/01/31204056/image-
 excerpt: "No mesmo sentido, as diferenças físico-psíquicas entre os humanos e os animais superiores não explicam o salto, além do que, elas só podem ser explicadas a partir do ser social."
 featured: false
 sidebar: false
-categories: Ontologia
+categories: ontologia
 ---
 
 Para Lukács o "salto" é uma ontologicamente necessária transição repentina de uma esfera de ser para outra qualitativamente diferente. Os traços biológicos não podem iluminar mais que patamares dessa transição, mas jamais podem elucidar o salto em si. Nesse sentido, as tentativas dos primeiros darwinistas de descobrir o elo perdido entre macacos e humanos já estavam condenadas ao fracasso.
