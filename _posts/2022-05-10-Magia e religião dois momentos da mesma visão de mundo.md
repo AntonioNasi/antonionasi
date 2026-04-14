@@ -6,7 +6,7 @@ image: https://escolademagia.com.br/wp-content/uploads/2025/11/metamagia-96a5dcc
 excerpt: "A superação das práticas mágicas pela religião moderna é dialética, assim, a religião passa a ser a forma predominante de manifestação."
 featured: false
 sidebar: false
-categories: Religiao
+categories: religiao
 ---
 
 Geralmente, quando ouvimos falar de magia, lembramos das bruxas da idade média, dos feiticeiros, da “magia negra”, de grupos ocultistas, quase sempre com uma conotação negativa. Quando não é isso, nos vem na imaginação produções cinematográficas que envolvem o tema da magia, na maioria das vezes fazendo distinção entre uma magia boa e outra ruim, retratando uma dualidade muito antiga.
