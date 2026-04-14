@@ -6,7 +6,7 @@ image: https://i2.wp.com/imagens.ebc.com.br/xgCDjAjLXzKhiVVTnh5cN0BWK1E=/1170x70
 excerpt: "Logo ela, a Igreja detentora de um patrimônio até hoje incalculável, defender explicitamente a propriedade privada?"
 featured: true
 sidebar: true
-categories: Religiao
+categories: religiao
 ---
 
 Que a religião em geral é sempre reacionária e conservadora, disso já sabemos. É sabido também que esse caráter, em última instância, relaciona-se com a própria natureza do reflexo religioso. Se tomarmos uma instituição específica como a Igreja Católica Apostólica Romana, os exemplos de reacionarismo e conservadorismo são quase incontáveis.
