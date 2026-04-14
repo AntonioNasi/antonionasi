@@ -6,7 +6,7 @@ image: https://i0.wp.com/www.opovo.com.br/_midias/jpg/2022/06/17/818x460/1_julio
 excerpt: "[...] a fome saciada com um prato de nome bonito em um restaurante é diferente da fome saciada com restos podres em um lixão."
 featured: false
 sidebar: false
-categories: Religiao
+categories: religiao
 ---
 
 Nas últimas semanas a internet foi dominada por postagens referentes ao religioso padre Júlio Lancellotti. O sacerdote passou a ser conhecido nacionalmente já em 2021, quando circulou imagens suas quebrando pedras que impediam moradores de rua de se abrigarem sob viaduto em São Paulo.
