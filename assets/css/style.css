@@ -1007,6 +1007,18 @@ hr{
 }
 
 
+
+/*-------------------------------------------
+  Paginas de categorias
+-------------------------------------------*/
+.lista-posts{
+  margin: o auto;
+  max-width: 1200px;
+}
+.lista-posts .post-preview{
+  margin-bottom: 2rem;
+}
+
 /*-------------------------------------------
   Todos os livros lançados
 -------------------------------------------*/
