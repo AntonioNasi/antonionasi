@@ -6,7 +6,7 @@ image: https://media.gazetadopovo.com.br/2020/02/27100004/religi%C3%A3o-urss-1-9
 excerpt: "Na antiga URSS as religiões sofreram igualmente a mão pesada do Estado. Houve um esforço no sentido de abolir a religião."
 featured: false
 sidebar: true
-categories: Religiao Marxismo
+categories: religiao marxismo
 ---
 
 Após a revolução cubana, houve um período intenso em que buscou-se suprimir a religião com a instauração do que se chamou de um Estado ateu. Notadamente, nesse processo os cristãos e a Igreja Católica, por exemplo, sofreram forte repressão. É conhecido, inclusive, a relação que Frei Beto estabelece com Fidel e a tentativa do primeiro em transformar a Ilha num Estado laico ao invés de ateu.
