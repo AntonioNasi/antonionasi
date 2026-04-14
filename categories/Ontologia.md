@@ -1,6 +1,6 @@
 ---
 layout: category
 title: Ontologia
-category: Ontologia
-permalink: /categoria/Ontologia/
+category: ontologia
+permalink: /categoria/ontologia/
 ---
