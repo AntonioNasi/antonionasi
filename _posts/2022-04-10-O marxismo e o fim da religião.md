@@ -6,7 +6,7 @@ image: https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS6ZEQ1SCi-z74xX_--B
 excerpt: "O pensador mouro, certa vez afirmou que “a religião é o ópio do povo”."
 featured: false
 sidebar: false
-categories: religiao marxismo
+categories: Marxismo Religiao
 ---
 
 Não é de hoje que muitos entendem o marxismo como diametralmente oposto à religião. Para muitas pessoas, inclusive acadêmicos, ser marxista e católico, por exemplo, é uma grande contradição, afirmando estes que o próprio Marx “pregou” o fim da religião. Automaticamente, quem diz ser comunista, no entendimento desse grupo, deve ser avesso a qualquer religião, sendo no mínimo um ateu convicto.
