@@ -6,7 +6,7 @@ image: https://i1.wp.com/esquerdaonline.com.br/wp-content/uploads/2020/03/capita
 excerpt: "Essa concepção de ética, a qual recorre o reflexo religioso, é claramente mistificadora."
 featured: false
 sidebar: false
-categories: etica capitalismo
+categories: Religiao Etica
 ---
 
 Tendo sido superada – naquele sentido hegeliano recuperado por Marx – pelo reflexo científico, a religião persiste com considerável influência no cotidiano das pessoas. Uma das razões para este fato tem relação com sua concepção ética e como ela se encaixa no contexto de classes sociais antagônicas, destacadamente no seio do capitalismo em crise estrutural.
