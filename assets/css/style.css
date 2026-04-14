@@ -1013,7 +1013,7 @@ hr{
 -------------------------------------------*/
 .lista-posts{
   display: grid;
-  grid-template-column: 1fr 1fr 1fr 1fr;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
   gap: 2rem;
   margin: 3rem auto 2rem;
   max-width: 1200px;
