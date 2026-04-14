@@ -6,7 +6,7 @@ image: https://assojuris.org.br/wp-content/uploads/2024/12/world-3043067_1280.jp
 excerpt: "A primeira e principal falha desses programas é que eles parecem entender que a violência surge a partir da escola."
 featured: true
 sidebar: false
-categories: Educacao
+categories: educacao
 ---
 
 Não sei você, mas eu não me recordo que em algum momento da minha vida estudantil um professor tenha estimulado, pelo menos intencionalmente, qualquer tipo de violência. Mas é claro que isso não basta para afirmarmos que a escola como um todo não reproduz variadas formas de violência. Ela o faz, e isso é um fato.
