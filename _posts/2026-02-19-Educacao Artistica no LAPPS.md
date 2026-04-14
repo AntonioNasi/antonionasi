@@ -6,7 +6,7 @@ image: https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgaiEY7np938ecX
 excerpt: "O curso será ofertado como disciplina no semestre 2026.1, com carga horária de 68h e certificado para participantes com mais de 75% de frequência."
 featured: true
 sidebar: false
-categories: Marxismo Educacao
+categories: marxismo educacao
 ---
 
 O Laboratório de Pesquisas sobre Políticas Sociais (LAPPS), sediado na FECLESC/UECE em Quixadá, irá disponibilizar vagas para os professores do ensino fundamental e demais interessados que queiram participar da disciplina de Educação Artística.
