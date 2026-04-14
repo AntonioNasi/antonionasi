@@ -6,7 +6,7 @@ image: https://lh4.googleusercontent.com/proxy/eEAhya5TMXSDBAys4HdOcbcQPX62Zewpy
 excerpt: "Não aprendemos quase nada na escola sobre a história do nosso município."
 featured: false
 sidebar: false
-categories: Capistrano
+categories: capistrano
 ---
 
 Tudo bem, é carnaval. Uma das datas mais esperadas por boa parte dos brasileiros e, não é diferente em Capistrano. Mas não é sobre essa festa tradicional que quero falar. Correndo o risco de ser chato, pretendo tratar de como somos tão ignorantes sobre a história do nosso próprio "torrão natal".
