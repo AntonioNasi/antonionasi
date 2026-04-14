@@ -1,6 +1,6 @@
 ---
 layout: category
 title: Marxismo
-category: Marxismo
-permalink: /categoria/Marxismo/
+category: marxismo
+permalink: /categoria/marxismo/
 ---
