@@ -6,7 +6,7 @@ image: https://midias.correiobraziliense.com.br/_midias/jpg/2023/04/29/1200x800/
 excerpt: "Passado séculos, quando olhamos para nossas escolas o que salta aos olhos são paredes que ameaçam cair. Salas de aulas sem piso, telhado com goteiras, instalações elétricas ultrapassadas."
 featured: true
 sidebar: false
-categories: Educacao_Basica
+categories: Educacao
 ---
 
 Pare para pensar um pouco. Por que a educação pública é ruim? Qualquer pessoa hoje com seus trinta anos recorda que, também, as escolas nas quais estudou eram precárias. Se perguntarmos para outra geração ainda mais velha, a resposta será a mesma: as escolas eram ruins.
