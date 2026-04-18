@@ -4,8 +4,8 @@ title: "A caridade religiosa de mãos dada com o capitalismo"
 date: 2024-01-10
 image: https://i0.wp.com/www.opovo.com.br/_midias/jpg/2022/06/17/818x460/1_julio_lancellotti_o_povo-19004891.jpg?resize=818,459&ssl=1
 excerpt: "[...] a fome saciada com um prato de nome bonito em um restaurante é diferente da fome saciada com restos podres em um lixão."
-featured: false
-sidebar: false
+featured: true
+sidebar: true
 categories: religiao
 ---
 

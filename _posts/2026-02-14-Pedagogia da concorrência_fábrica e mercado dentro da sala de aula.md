@@ -4,7 +4,7 @@ title: "Pedagogia da concorrência: fábrica e mercado dentro da sala de aula"
 date: 2026-02-14
 image: https://upload.wikimedia.org/wikipedia/commons/a/ab/Bundesarchiv_B_145_Bild-F079064-0006%2C_Bonn%2C_Gymnasium.jpg
 excerpt: "A escola ensina os alunos a competirem entre si desde as primeiras séries, por consequência corroboram desde cedo a ideia do ‘melhor’, do que se sobressai perante os demais. Este será premiado, será homenageado, em contraposição aos outros que fracassaram."
-featured: true
+featured: false
 sidebar: false
 categories: educacao
 ---

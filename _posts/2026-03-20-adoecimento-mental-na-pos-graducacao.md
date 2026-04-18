@@ -4,7 +4,7 @@ title: "Pós-graduação e adoecimento mental: quando a instituição é cúmpli
 date: 2026-03-20
 image: https://www.talkscience.com.br/source/files/c/19544/sofrimento-psiquico-nas-empresas-485709_1152-648-0-0.jpg
 excerpt: "A pós-graduação tem se afundado cada vez mais na lógica produtivista que impera na sociedade atual, e isso tem impactado violentamente na saúde mental dos discentes. A competitividade exacerbada do mercado já há muito tempo é uma realidade dentro da pós-graduação"
-featured: true
+featured: false
 sidebar: false
 categories: educacao psicologia
 ---

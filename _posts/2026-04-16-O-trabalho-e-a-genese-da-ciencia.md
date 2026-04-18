@@ -4,8 +4,8 @@ title: "O trabalho e a gênese da ciência"
 date: 2026-04-16
 image: https://s4.static.brasilescola.uol.com.br/be/2023/06/ciencia-inteligencia-artificial.jpg
 excerpt: "Nesse processo de trabalho, como sabemos, opera a teleologia, pressupondo também momentos distintos: a posição de finalidade, a pesquisa dos meios e a realização daquela posição inicial."
-featured: true
-sidebar: true
+featured: false
+sidebar: false
 categories: ontologia
 ---
 

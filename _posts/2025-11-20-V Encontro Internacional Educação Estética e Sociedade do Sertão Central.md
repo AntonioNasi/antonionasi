@@ -4,8 +4,8 @@ title: "V Encontro Internacional Trabalho, Educação, Estética e Sociedade do 
 date: 2025-11-20
 image: /assets/img/v-eniteessc.png
 excerpt: "A essência do complexo científico não deve servir exclusivamente aos interesses do capital. Para isso, é necessário que a ciência seja direcionada em prol da totalidade da espécie humana."
-featured: true
-sidebar: true
+featured: false
+sidebar: false
 categories: marxismo educacao
 ---
 

@@ -5,7 +5,7 @@ date: 2024-05-10
 image: https://i3.wp.com/s2-techtudo.glbimg.com/1augn6oqfEKkKm7OUmOHGsy_nL4=/0x0:1200x800/888x0/smart/filters:strip_icc()/i.s3.glbimg.com/v1/AUTH_08fbf48bc0524877943fe86e43087e7a/internal_photos/bs/2023/Z/D/BVNbGHSWiLxlpxUc4rBg/pousando-no-amor-dorama-netflix.jpg?resize=888,592&ssl=1
 excerpt: "Parafraseando Marx e Engels, as ideias dominantes são sempre as ideias da classe dominante."
 featured: false
-sidebar: true
+sidebar: false
 categories: marxismo
 ---
 

@@ -4,8 +4,8 @@ title: "Nota de estudo nº 2: o ser como complexo"
 date: 2026-02-22
 image: https://substackcdn.com/image/fetch/$s_!MdHg!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F02e1168a-3b62-464b-9710-4fe538b38283_1200x720.png
 excerpt: "Todo nível de ser – incluindo o ser social mencionado acima –, seja no todo ou em partes, constitui-se como um complexo."
-featured: false
-sidebar: false
+featured: true
+sidebar: true
 categories: ontologia
 ---
 

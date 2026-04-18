@@ -4,8 +4,8 @@ title: "Papa Leão XIV: a Rerum Novarum e os comunistas"
 date: 2024-06-10
 image: https://i2.wp.com/imagens.ebc.com.br/xgCDjAjLXzKhiVVTnh5cN0BWK1E=/1170x700/smart/https://agenciabrasil.ebc.com.br/sites/default/files/thumbnails/image/2025/05/08/2025-05-08t173055z_1131598868_rc2tdeaamrif_rtrmadp_3_pope-succession.jpg?itok=Ulpy_d9D&resize=1170,700&ssl=1
 excerpt: "Logo ela, a Igreja detentora de um patrimônio até hoje incalculável, defender explicitamente a propriedade privada?"
-featured: true
-sidebar: true
+featured: false
+sidebar: false
 categories: religiao
 ---
 

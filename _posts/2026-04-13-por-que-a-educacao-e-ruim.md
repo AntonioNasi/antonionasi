@@ -4,7 +4,7 @@ title: "Por que a nossa educação é tão ruim?"
 date: 2026-04-13
 image: https://midias.correiobraziliense.com.br/_midias/jpg/2023/04/29/1200x800/1_escola-27927529.jpg
 excerpt: "Passado séculos, quando olhamos para nossas escolas o que salta aos olhos são paredes que ameaçam cair. Salas de aulas sem piso, telhado com goteiras, instalações elétricas ultrapassadas."
-featured: true
+featured: false
 sidebar: false
 categories: educacao
 ---

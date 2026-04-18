@@ -4,8 +4,8 @@ title: "Seria o marxismo uma ideologia?"
 date: 2026-04-1
 image: https://lavrapalavra.com/wp-content/uploads/2021/08/858829_797057263657490_3444411155067205203_o.jpg
 excerpt: "Seguindo esse mesmo raciocínio, o conjunto de ideias neoliberais sobre a educação que se materializam nas salas de aulas das universidades e dos programas de pós-graduação, constituem-se igualmente como ideologia."
-featured: true
-sidebar: true
+featured: false
+sidebar: false
 categories: marxismo
 ---
 

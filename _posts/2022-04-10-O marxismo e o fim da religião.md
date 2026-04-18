@@ -4,8 +4,8 @@ title: "O marxismo e o fim da religião"
 date: 2022-04-10
 image: https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS6ZEQ1SCi-z74xX_--BO-k4Sfr4bCuEYFf1A&s
 excerpt: "O pensador mouro, certa vez afirmou que “a religião é o ópio do povo”."
-featured: false
-sidebar: false
+featured: true
+sidebar: true
 categories: marxismo religiao
 ---
 

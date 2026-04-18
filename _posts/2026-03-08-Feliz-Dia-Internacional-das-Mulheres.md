@@ -4,8 +4,8 @@ title: "Feliz Dia Internacional das Mulheres"
 date: 2026-03-08
 image: https://i0.wp.com/revistaintertelas.com/wp-content/uploads/2019/03/27307e64-eedf-4e93-883e-fdd030055b03.jpg
 excerpt: "O dia das mulheres jamais será desmembrado de sua história: a história do socialismo e do comunismo."
-featured: true
-sidebar:
+featured: false
+sidebar: false
 categories: marxismo
 ---
 

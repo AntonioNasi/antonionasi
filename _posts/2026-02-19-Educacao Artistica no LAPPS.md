@@ -4,7 +4,7 @@ title: "LAPPS oferece curso de Educação Artística para professores do ensino 
 date: 2026-02-16
 image: https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgaiEY7np938ecXlm7kYl488GXwo3bbkuwPnvg6YAgqaeg-rhE4zEcuyig0iGdXbbO-6uCl6qMzCiHlcF97WQ81GO5cNEoMLKoBWmUVeQL6vJ9R7hCDdD5XU8QBJHGnUg7VJt9VjpnoRSM/w1200-h630-p-k-no-nu/IMG_8397.JPG
 excerpt: "O curso será ofertado como disciplina no semestre 2026.1, com carga horária de 68h e certificado para participantes com mais de 75% de frequência."
-featured: true
+featured: false
 sidebar: false
 categories: marxismo educacao
 ---
