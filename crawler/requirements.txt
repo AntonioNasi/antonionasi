@@ -1,0 +1,6 @@
+duckduckgo-search
+beautifulsoup4
+requests
+dateparser
+lxml
+playwright

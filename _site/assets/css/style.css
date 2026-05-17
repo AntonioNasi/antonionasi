@@ -1453,3 +1453,18 @@ a:hover h3{
   object-fit: cover;
   object-position: center;
 }
+
+
+
+/* Página de eventos */
+.cx-eventos{
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+.cx-eventos article{
+  flex-basis: 200px;
+}
+.cx-eventos article img{
+  width: 100%;
+}

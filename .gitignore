@@ -1,0 +1,6 @@
+.venv/
+_site/
+.sass-cache/
+.jekyll-cache/
+__pycache__/
+*.pyc

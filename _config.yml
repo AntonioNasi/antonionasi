@@ -13,3 +13,12 @@ plugins:
   - jekyll-sitemap
 
 permalink: /:title/
+
+collections:
+  eventos:
+    output: true
+    permalink: /eventos/:title/
+
+exclude:
+  - .venv
+  - crawler
