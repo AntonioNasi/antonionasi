@@ -6,6 +6,6 @@ image: https://estudosmarxistas.ufsc.br/favicon.ico
 crawler: true
 ---
 
-Leitura obrigatória: Do socialismo utópico ao socialismo científico (Engels). Aula 3: O pressuposto materialista. Leitura obrigatória: Fragmentos d’A Ideologia Alemã (Marx e Engels).
+Todo o semestre, o Núcleo organiza minicursos de temas atuais ou introdutórios ao marxismo e os participantes dos minicursos são convidados à formação de turmas dos cursos.
 
-[Acessar evento](https://estudosmarxistas.ufsc.br/textos/)
+[Acessar evento](https://estudosmarxistas.ufsc.br/2020/10/05/porque-ser-anticapitalista-pode-nao-significar-avanco-nenhum/)

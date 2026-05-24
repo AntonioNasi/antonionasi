@@ -4,55 +4,39 @@ title: Eventos acadêmicos
 permalink: /eventos/
 ---
 
-# Eventos acadêmicos
+# Esta página está em fase de teste.
 
-<div class="cx-eventos">
-    {% assign eventos = site.eventos | sort:"date" | reverse %}
+<div class="eventos-grid">
 
-    {% if eventos.size > 0 %}
+    {% assign eventos = site.eventos | sort: "date" | reverse %}
 
     {% for evento in eventos %}
 
-    <article>
+    <article class="evento-card">
 
         {% if evento.image %}
-
         <img
-        src="{{evento.image}}"
-        alt="{{evento.title}}"
-        style="
-        width:100%;
-        max-height:250px;
-        object-fit:cover;
-        border-radius:8px;
-        ">
-
+            src="{{ evento.image }}"
+            alt="{{ evento.title }}"
+        >
         {% endif %}
 
         <h2>
-        <a href="{{evento.url}}">
-        {{evento.title}}
-        </a>
+            <a href="{{ evento.url }}">
+                {{ evento.title }}
+            </a>
         </h2>
 
         <small>
-        {{evento.date | date:"%d/%m/%Y"}}
+            {{ evento.date | date: "%d/%m/%Y" }}
         </small>
 
         <p>
-
-        {{evento.excerpt}}
-
+            {{ evento.excerpt | strip_html | truncatewords: 15 }}
         </p>
 
-         {% endfor %}
-
-        {% else %}
-
-        Nenhum evento encontrado.
-
-        {% endif %}
-
     </article>
+
+    {% endfor %}
 
 </div>

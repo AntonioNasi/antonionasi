@@ -108,6 +108,9 @@ h1, h2, h3, h4, a{
     padding: .2rem;
     border-radius: 1rem;
   }
+  .site-header .container-nav nav #a-serv img{
+  width: 100%;
+  }
   .site-header .container-nav{
     padding: 1rem 0rem;
   }
@@ -1457,14 +1460,34 @@ a:hover h3{
 
 
 /* Página de eventos */
-.cx-eventos{
-  display: flex;
-  flex-wrap: wrap;
+h1{
+  text-align: center;
+  font-size: 22px;
+}
+.eventos-grid{
+  margin-top: 30px;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(260px,1fr));
   gap: 20px;
 }
-.cx-eventos article{
-  flex-basis: 200px;
+.eventos-grid .evento-card{
+  border: solid 1px #889c9b;
+  border-radius: 6px;
+  padding: 10px;
 }
-.cx-eventos article img{
+.eventos-grid .evento-card img{
   width: 100%;
+  height: 160px;
+  object-fit: cover;
+  object-position: center;
+}
+.eventos-grid .evento-card h2{
+  font-size: 14px;
+  text-transform: uppercase;
+}
+.eventos-grid .evento-card a{
+  text-decoration: none;
+}
+.eventos-grid .evento-card p{
+  font-size: 14px;
 }

@@ -156,7 +156,9 @@ SEARCH_SITES=[
     "site:ueg.br",
     "site:unitins.br",
     "site:uerr.edu.br",
-    "site:unemat.br"
+    "site:unemat.br",
+    "site:even3.com.br",
+    "site:doity.com.br"
 
 ]
 
@@ -226,11 +228,10 @@ def university_logo(url):
 
 
 # -------------------------
-# título
+# extrai título
 # -------------------------
 
 def extract_title(soup):
-
 
     h1=soup.find(
         "h1"
@@ -252,7 +253,6 @@ def extract_title(soup):
 
     )
 
-
     if og:
 
         return og.get(
@@ -270,19 +270,6 @@ def extract_title(soup):
 
 
 # -------------------------
-# termos crawl
-# -------------------------
-
-CRAWL_TERMS=(
-
-    EVENT_TERMS
-    +
-    ALL_KEYWORDS
-
-)
-
-
-# -------------------------
 # crawl interno
 # -------------------------
 
@@ -293,11 +280,9 @@ def crawl_internal(
 
 ):
 
-
     visitados=set()
 
     encontrados=[]
-
 
     try:
 
@@ -354,7 +339,6 @@ def crawl_internal(
             r=session.get(
 
                 url,
-
                 timeout=4
 
             )
@@ -363,26 +347,21 @@ def crawl_internal(
             soup=BeautifulSoup(
 
                 r.text,
-
                 "lxml"
 
             )
 
 
-            texto=soup.get_text(
-
-                " ",
-
-                strip=True
-
+            titulo=extract_title(
+                soup
             ).lower()
 
 
             if any(
 
-                termo in texto
+                termo in titulo
 
-                for termo in CRAWL_TERMS
+                for termo in ALL_KEYWORDS
 
             ):
 
@@ -394,7 +373,6 @@ def crawl_internal(
             for a in soup.find_all(
 
                 "a",
-
                 href=True
 
             ):
@@ -403,7 +381,6 @@ def crawl_internal(
                 link=urljoin(
 
                     url,
-
                     a["href"]
 
                 )
@@ -434,7 +411,7 @@ def crawl_internal(
 
                     termo in link.lower()
 
-                    for termo in CRAWL_TERMS
+                    for termo in EVENT_TERMS
 
                 ):
 
@@ -462,7 +439,6 @@ def crawl_internal(
 
 def process_url(url,r):
 
-
     global results
 
 
@@ -489,7 +465,6 @@ def process_url(url,r):
         page=session.get(
 
             url,
-
             timeout=4
 
         )
@@ -498,7 +473,6 @@ def process_url(url,r):
         soup=BeautifulSoup(
 
             page.text,
-
             "lxml"
 
         )
@@ -507,13 +481,10 @@ def process_url(url,r):
         text=soup.get_text(
 
             " ",
-
             strip=True
 
         ).lower()
 
-
-        # precisa parecer evento
 
         if not any(
 
@@ -530,9 +501,6 @@ def process_url(url,r):
             soup
         ).lower()
 
-
-        # precisa ter marxismo etc
-        # no título
 
         if not any(
 
@@ -552,8 +520,7 @@ def process_url(url,r):
 
             "meta",
 
-            property=
-            "og:image"
+            property="og:image"
 
         )
 
@@ -596,9 +563,39 @@ def process_url(url,r):
             )
 
 
+        texto_data=[]
+
+
+        for linha in text.split("."):
+
+
+            if any(
+
+                x in linha
+
+                for x in [
+
+                    "data",
+                    "evento",
+                    "realização",
+                    "acontece",
+                    "ocorre",
+                    "inscrição"
+
+                ]
+
+            ):
+
+                texto_data.append(
+                    linha
+                )
+
+
         datas=search_dates(
 
-            text,
+            " ".join(
+                texto_data
+            ),
 
             languages=["pt"]
 
@@ -636,6 +633,7 @@ def process_url(url,r):
             ):
 
                 futura=data
+
                 break
 
 
@@ -682,13 +680,20 @@ def process_url(url,r):
 
 
 # -------------------------
-# busca principal
+# BUSCA PRINCIPAL
 # -------------------------
+
+keywords_query=" OR ".join(
+
+    [f'"{k}"' for k in ALL_KEYWORDS]
+
+)
+
 
 with DDGS() as ddgs:
 
 
-    for keyword in ALL_KEYWORDS:
+    for site in SEARCH_SITES:
 
 
         if len(
@@ -698,97 +703,94 @@ with DDGS() as ddgs:
             break
 
 
-        for site in SEARCH_SITES:
+        query=(
+
+            f'{site} ({keywords_query})'
+
+        )
 
 
-            query=(
+        print(
+            "\nBuscando:",
+            query
+        )
 
-                f'{site} "{keyword}"'
+
+        try:
+
+
+            busca=ddgs.text(
+
+                query,
+
+                max_results=5
 
             )
 
 
-            print(
-                "\nBuscando:",
-                query
-            )
+            tarefas=[]
 
 
-            try:
+            for r in busca:
 
 
-                busca=ddgs.text(
+                url=r.get(
+                    "href"
+                )
 
-                    query,
 
-                    max_results=5
+                if not url:
+
+                    continue
+
+
+                urls=[url]
+
+
+                internas=crawl_internal(
+
+                    url,
+
+                    max_depth=2
 
                 )
 
 
-                tarefas=[]
+                urls.extend(
+                    internas
+                )
 
 
-                for r in busca:
+                for u in urls:
 
-
-                    url=r.get(
-                        "href"
+                    tarefas.append(
+                        (u,r)
                     )
 
 
-                    if not url:
+            with ThreadPoolExecutor(
 
-                        continue
+                max_workers=10
 
-
-                    urls=[url]
-
-
-                    internas=crawl_internal(
-
-                        url,
-
-                        max_depth=2
-
-                    )
+            ) as executor:
 
 
-                    urls.extend(
-                        internas
-                    )
+                executor.map(
+
+                    lambda x:
+                    process_url(
+                        x[0],
+                        x[1]
+                    ),
+
+                    tarefas
+
+                )
 
 
-                    for u in urls:
+        except:
 
-                        tarefas.append(
-                            (u,r)
-                        )
-
-
-                with ThreadPoolExecutor(
-
-                    max_workers=10
-
-                ) as executor:
-
-
-                    executor.map(
-
-                        lambda x:
-                        process_url(
-                            x[0],
-                            x[1]
-                        ),
-
-                        tarefas
-
-                    )
-
-
-            except:
-
-                continue
+            continue
 
 
 # -------------------------
@@ -861,8 +863,8 @@ encoding="utf8"
 
 
 print(
-    "\nEventos encontrados:",
-    len(events)
+"\nEventos encontrados:",
+len(events)
 )
 
 print(
