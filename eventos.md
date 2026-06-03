@@ -7,36 +7,16 @@ permalink: /eventos/
 # Esta página está em fase de teste.
 
 <div class="eventos-grid">
-
-    {% assign eventos = site.eventos | sort: "date" | reverse %}
-
+    {% assign eventos = site.data.eventos %}
     {% for evento in eventos %}
-
     <article class="evento-card">
-
-        {% if evento.image %}
-        <img
-            src="{{ evento.image }}"
-            alt="{{ evento.title }}"
-        >
-        {% endif %}
-
-        <h2>
-            <a href="{{ evento.url }}">
-                {{ evento.title }}
-            </a>
-        </h2>
-
-        <small>
-            {{ evento.date | date: "%d/%m/%Y" }}
-        </small>
-
-        <p>
-            {{ evento.excerpt | strip_html | truncatewords: 15 }}
-        </p>
-
+        <a href="{{ evento.url }}" target="_blank" rel="noopener noreferrer">
+            <img src="{{ evento.image }}"
+                alt="{{ evento.title }}">
+            <h2>{{ evento.title }}</h2>
+            <p class="data">{{ evento.date | date: "%d/%m/%Y" }}</p>
+            <p>{{ evento.excerpt | strip_html | truncatewords: 15 }}</p>
+        </a>
     </article>
-
     {% endfor %}
-
 </div>
