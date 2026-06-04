@@ -14,7 +14,7 @@
 
     <div class="container-nav">
 
-      <nav>
+      <nav class="large-menu">
 
         <a href="{{ '/' | relative_url }}">
           <img src="{{ '/assets/img/home_b.png' | relative_url }}">
@@ -46,6 +46,30 @@
         </a>
 
       </nav>
+
+      <nav class="mobile-menu">
+        <div class="mobile-container">
+          <!-- Top Navigation Menu -->
+          <div class="topnav">
+            <a href="{{ '/' | relative_url }}" class="active">
+              <img src="{{ '/assets/img/icon-mobile.png' | relative_url }}">
+            </a>
+            <div id="myLinks">
+              <a href="{{ '/' | relative_url }}">Início</a>
+              <a href="{{ '/blog/' | relative_url }}">Blog</a>
+              <a href="{{ '/publicados/' | relative_url }}">Publicações</a>
+              <a href="{{ '/videos/' | relative_url }}">Vídeos</a>
+              <a href="{{ '/atividades/' | relative_url }}">Grupos</a>
+              <a href="{{ '/pesquisa/' | relative_url }}">Pesquisa</a>
+              <a href="{{ '/eventos/' | relative_url }}">Eventos</a>
+            </div>
+            <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+              <span id="menu-icon">☰</span>
+            </a>
+          </div>
+        </div>
+      </nav>
+      <script src="../assets/js/menu-mobile.js"></script>
 
     </div>
 

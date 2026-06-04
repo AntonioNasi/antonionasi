@@ -97,25 +97,13 @@ h1, h2, h3, h4, a{
 }
 
 @media screen and (max-width:600px){
-  .site-header .container-nav nav{
-    justify-content: space-around;
+  .site-header .container-nav .large-menu{
+    display: none;
   }
-  .site-header .container-nav nav a{
-    width: 2rem;
-  }
-  .site-header .container-nav nav #a-serv{
-    background-color: #b07d62;
-    padding: .2rem;
-    border-radius: 1rem;
-  }
-  .site-header .container-nav nav #a-serv img{
-  width: 100%;
-  }
-  .site-header .container-nav{
-    padding: 1rem 0rem;
-  }
-  .site-header .container-nav nav a img{
-    width: 100%;
+}
+@media screen and (min-width:600px){
+  .site-header .container-nav .mobile-menu{
+    display: none;
   }
 }
 @media screen and (max-width:1024px){
@@ -123,6 +111,108 @@ h1, h2, h3, h4, a{
     display: none;
   }
 }
+
+
+/*------------------------- 
+  Menu mobile
+--------------------------*/
+/* Container apenas para demonstração */
+
+/* Barra superior */
+.mobile-menu{
+  width: 320px;
+  margin: 0 auto;
+  padding: 6px 0px;
+}
+.topnav {
+    position: relative;
+    box-shadow: 0 2px 8px rgba(0,0,0,.08);
+    width: 320px;
+    height: 100%;
+}
+
+/* Logo */
+.topnav .active {
+    display: block;
+    color: white;
+    text-decoration: none;
+    width: 320px;
+    text-align: center;
+}
+
+/* Menu oculto inicialmente */
+#myLinks {
+    display: none;
+    background: #1f2a38;
+    width: 320px;
+    margin-top: 16px;
+}
+
+/* Exibido pelo JavaScript */
+#myLinks.active {
+    display: block;
+    width: 320px;
+}
+
+/* Links do menu */
+#myLinks a {
+    display: block;
+    width: 320px;
+    padding: 14px 0px;
+    color: #889c9b;
+    text-decoration: none;
+    font-weight: 500;
+    text-align: center;
+    border-top: 1px solid #889c9b;
+    transition: background-color .2s ease;
+}
+
+/* Hover */
+#myLinks a:hover {
+    color: #ffffff;
+}
+
+/* Botão hamburguer */
+.topnav .icon {
+    position: absolute;
+    right: 0;
+    top: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+
+    width: auto !important;
+    height: auto;
+    padding: 0px 0px 2px;
+}
+
+/* Hover do botão */
+.topnav .icon:hover {
+    color: #ffffff;
+}
+#menu-icon{
+  font-size: 24px;
+  padding: 0px;
+  margin: 0px;
+}
+
+/* Pequena animação */
+#myLinks {
+    opacity: 0;
+    max-height: 0;
+    overflow: hidden;
+    transition:
+        opacity .25s ease,
+        max-height .25s ease;
+}
+
+#myLinks.active {
+    opacity: 1;
+    max-height: 320px;
+}
+
+
 
 
 /*------------------------- 
