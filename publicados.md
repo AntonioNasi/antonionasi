@@ -47,6 +47,15 @@ title: Publicações
 
       <div class="book">
         <div class="subcx">
+          <img src="{{ '/assets/img/obstaculo-para-um-ensino-laico-no-Brasil.png' | relative_url }}">
+          <h3>Obstáculo para um ensino laico no Brasil: análise preliminar à luz da ontometodologia marxiana-lukacsiana (cap)</h3>
+          <p>Dr. Antonio Nasi - Dra. Betânea Moraes - Dr. Deribaldo Santos (EdUECE - 2023)</p>
+        </div>
+        <a href="{{ '/assets/docs/educação-estética-e-sociedade.pdf' }}" download >Baixar</a>
+      </div>
+
+      <div class="book">
+        <div class="subcx">
           <img src="{{ '/assets/img/estética-educação-e-sociedade.png' | relative_url }}">
           <h3>Princípios básicos da diferenciação entre magia e religião (cap)</h3>
           <p>Dr. Antonio Nasi - Dra. Betânea Moraes - Dr. Deribaldo Santos (Acadêmica Editorial - 2022)</p>
