@@ -51,7 +51,7 @@ title: Publicações
           <h3>Obstáculo para um ensino laico no Brasil: análise preliminar à luz da ontometodologia marxiana-lukacsiana (cap)</h3>
           <p>Dr. Antonio Nasi - Dra. Betânea Moraes - Dr. Deribaldo Santos (EdUECE - 2023)</p>
         </div>
-        <a href="{{ '/assets/docs/educação-estética-e-sociedade.pdf' }}" download >Baixar</a>
+        <a href="{{ '/assets/docs/Marxismo-e-formacao-do-educador-EdUECE.pdf' }}" download >Baixar</a>
       </div>
 
       <div class="book">
