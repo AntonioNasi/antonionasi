@@ -4,7 +4,7 @@ title: Eventos acadêmicos
 permalink: /eventos/
 ---
 
-# Esta página está em fase de teste.
+<h1 id="titulo-pgEvento">Esta página está em fase de teste.</h1>
 
 <div class="eventos-grid">
     {% assign eventos = site.data.eventos %}
