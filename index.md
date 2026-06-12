@@ -7,7 +7,7 @@ title: Início
   <div class="cx-bvindo">
     <div class="item-bv">
       <a href="https://lattes.cnpq.br/6014284170206157" target="_blank">
-        <img src="{{ '/assets/img/icone-formacao.png' | relative_url }}">
+        <img src="{{ '/assets/img/icone-formacao-2.png' | relative_url }}">
         <h4>Formação</h4>
         <hr>
         <p>Cão que Lattes, não morde. Dito isso, você pode conferir aqui o meu currículo.</p>
@@ -15,7 +15,7 @@ title: Início
     </div>
     <div class="item-bv" id="bordas">
       <a href="{{ '/publicados/' | relative_url }}">
-        <img src="{{ '/assets/img/icone-publicacoes.png' | relative_url }}">
+        <img src="{{ '/assets/img/icone-publicacoes-2.png' | relative_url }}">
         <h4>Livros/Artigos</h4>
         <hr>
         <p>Algumas publicações, a maioria delas em parceria. Acesse e baixe grauitamente.</p>
@@ -23,7 +23,7 @@ title: Início
     </div>
     <div class="item-bv">
       <a href="{{ '/blog/' | relative_url }}">
-        <img src="{{ '/assets/img/icone-postagens.png' | relative_url }}">
+        <img src="{{ '/assets/img/icone-postagens-2.png' | relative_url }}">
         <h4>Blog</h4>
         <hr>
         <p>Reflexões, opiniões, nada acadêmico. Sem periodicidade, escrevo quando posso.</p>
