@@ -156,6 +156,7 @@ h1, h2, h3, h4, a{
 #myLinks a {
     display: flex;
     justify-content: center;
+    align-items: center;
     width: 320px;
     padding: 14px 0px;
     color: #ffffff;
@@ -164,6 +165,10 @@ h1, h2, h3, h4, a{
     text-align: center;
     border-top: 1px solid #aea79f;
     transition: background-color .2s ease;
+}
+
+#myLinks a span{
+  margin-right: 5px;
 }
 
 /* Hover */
