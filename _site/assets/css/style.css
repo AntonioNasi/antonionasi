@@ -154,7 +154,8 @@ h1, h2, h3, h4, a{
 
 /* Links do menu */
 #myLinks a {
-    display: block;
+    display: flex;
+    justify-content: center;
     width: 320px;
     padding: 14px 0px;
     color: #ffffff;
@@ -207,7 +208,7 @@ h1, h2, h3, h4, a{
 
 #myLinks.active {
     opacity: 1;
-    max-height: 320px;
+    max-height: 100%;
 }
 
 

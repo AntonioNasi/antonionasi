@@ -17,31 +17,35 @@
       <nav class="large-menu">
 
         <a href="{{ '/' | relative_url }}">
-          <img src="{{ '/assets/img/home_b.png' | relative_url }}">
+          <span class="material-symbols-outlined">home</span>
           <p>Início</p>
         </a>
         <a href="{{ '/blog/' | relative_url }}">
-          <img src="{{ '/assets/img/blog_b.png' | relative_url }}">
+          <span class="material-symbols-outlined">news</span>
           <p>Blog</p>
         </a>
         <a href="{{ '/publicados/' | relative_url }}">
-          <img src="{{ '/assets/img/publicações_b.png' | relative_url }}">
+          <span class="material-symbols-outlined">picture_as_pdf</span>
           <p>Publicações</p>
         </a>
         <a href="{{ '/videos/' | relative_url }}">
-          <img src="{{ '/assets/img/video_b.png' | relative_url }}">
+          <span class="material-symbols-outlined">video_library</span>
           <p>Vídeos</p>
         </a>
         <a href="{{ '/atividades/' | relative_url }}">
-          <img src="{{ '/assets/img/atividades_b.png' | relative_url }}">
+          <span class="material-symbols-outlined">component_exchange</span>
           <p>Grupos</p>
         </a>
+        <a href="{{ '/em-construcao/' | relative_url }}">
+          <span class="material-symbols-outlined">download_for_offline</span>
+          <p>Downloads</p>
+        </a>
         <a href="{{ '/pesquisa/' | relative_url }}">
-          <img src="{{ '/assets/img/pesquisa_b.png' | relative_url }}">
+          <span class="material-symbols-outlined">content_paste_search</span>
           <p>Pesquisa</p>
         </a>
         <a id="a-serv" href="{{ '/eventos/' | relative_url }}">
-          <img src="{{ '/assets/img/prof_b.png' | relative_url }}">
+          <span class="material-symbols-outlined">event_available</span>
           <p>Eventos</p>
         </a>
 
@@ -55,13 +59,15 @@
               <img src="{{ '/assets/img/icon-mobile.png' | relative_url }}">
             </a>
             <div id="myLinks">
-              <a href="{{ '/' | relative_url }}">Início</a>
-              <a href="{{ '/blog/' | relative_url }}">Blog</a>
-              <a href="{{ '/publicados/' | relative_url }}">Publicações</a>
-              <a href="{{ '/videos/' | relative_url }}">Vídeos</a>
-              <a href="{{ '/atividades/' | relative_url }}">Grupos</a>
-              <a href="{{ '/pesquisa/' | relative_url }}">Pesquisa</a>
-              <a href="{{ '/eventos/' | relative_url }}">Eventos</a>
+              <a href="{{ '/' | relative_url }}">
+                <span class="material-symbols-outlined">home</span>Início</a>
+              <a href="{{ '/blog/' | relative_url }}"><span class="material-symbols-outlined">news</span>Blog</a>
+              <a href="{{ '/publicados/' | relative_url }}"><span class="material-symbols-outlined">picture_as_pdf</span>Publicações</a>
+              <a href="{{ '/videos/' | relative_url }}"><span class="material-symbols-outlined">video_library</span>Vídeos</a>
+              <a href="{{ '/atividades/' | relative_url }}"><span class="material-symbols-outlined">component_exchange</span>Grupos</a>
+              <a href="{{ '/em-construcao/' | relative_url }}"><span class="material-symbols-outlined">download_for_offline</span>Downloads</a>
+              <a href="{{ '/pesquisa/' | relative_url }}"><span class="material-symbols-outlined">content_paste_search</span>Pesquisa</a>
+              <a href="{{ '/eventos/' | relative_url }}"><span class="material-symbols-outlined">event_available</span>Eventos</a>
             </div>
             <a href="javascript:void(0);" class="icon" onclick="myFunction()">
               <span id="menu-icon">☰</span>
