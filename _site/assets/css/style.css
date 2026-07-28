@@ -83,9 +83,11 @@ h1, h2, h3, h4, a{
   font-weight: 300;
   text-transform: uppercase;
 }
-.site-header .container-nav nav a:hover{
+@media screen and (min-width:600px){
+  .site-header .container-nav nav a:hover{
   background-color: #e95420;
   transition: background-color .3s;
+}
 }
 .site-header .container-nav nav a img{
   width: 14%;
@@ -98,6 +100,7 @@ h1, h2, h3, h4, a{
   .site-header .container-nav .large-menu{
     display: none;
   }
+  
 }
 @media screen and (min-width:600px){
   .site-header .container-nav .mobile-menu{
@@ -120,13 +123,17 @@ h1, h2, h3, h4, a{
 .mobile-menu{
   width: 320px;
   margin: 0 auto;
-  padding: 6px 0px;
+  padding: 0px 0px;
 }
 .topnav {
     position: relative;
     box-shadow: 0 2px 8px rgba(0,0,0,.08);
     width: 320px;
     height: 100%;
+}
+
+#cx-logo{
+  width: 240px;
 }
 
 /* Logo */
@@ -155,10 +162,10 @@ h1, h2, h3, h4, a{
 /* Links do menu */
 #myLinks a {
     display: flex;
-    justify-content: center;
+    justify-content:left;
     align-items: center;
     width: 320px;
-    padding: 14px 0px;
+    padding: 14px;
     color: #ffffff;
     text-decoration: none;
     font-weight: 500;
@@ -196,7 +203,7 @@ h1, h2, h3, h4, a{
     color: #ffffff;
 }
 #menu-icon{
-  font-size: 34px;
+  font-size: 26px;
   padding: 0px;
   margin: 0px;
 }
