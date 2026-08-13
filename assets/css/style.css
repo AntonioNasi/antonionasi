@@ -92,6 +92,9 @@ h1, h2, h3, h4, a{
 .site-header .container-nav nav a img{
   width: 14%;
 }
+.site-header .container-nav nav a span{
+  font-weight: 200;
+}
 .site-header .container-nav nav a p{
   display: inline-block;
 }
@@ -253,6 +256,7 @@ h1, h2, h3, h4, a{
   background: #ffffff;
 }
 .slider-dots {
+  display: none;
   text-align: center;
   margin-top: 0rem;
   background-color: #ffffff;
@@ -315,10 +319,23 @@ h1, h2, h3, h4, a{
 
 
 /*-------------------------------------------
+  Div gradiente
+-------------------------------------------*/
+.gradiente{
+  height: 250px;
+  position: relative;
+  background-image: linear-gradient(to top, #ffffff, rgba(250, 250, 250, .7), transparent);
+  margin-top: -250px;
+  z-index: 1;
+}
+
+
+/*-------------------------------------------
   Secção Bem Vindos
 -------------------------------------------*/
 .sec-bvindo{
   background-color: #ffffff;
+  padding: 60px 0px;
 }
 .cx-bvindo{
   display: flex;
@@ -326,7 +343,6 @@ h1, h2, h3, h4, a{
   gap: 3rem;
   max-width: 1200px;
   margin: 0 auto;
-  padding: 3rem 0rem;
   justify-content: center;
 }
 .item-bv{
@@ -344,12 +360,11 @@ h1, h2, h3, h4, a{
   text-decoration: none;
 }
 .item-bv a span{
-  border: solid 2px #e95420;
   border-radius: 100%;
   padding: 10px;
   font-size: 60px;
   font-weight:300;
-  color: #772953;
+  color: #333333;
 }
 @media screen and (max-width:600px){
   .item-bv a span{
@@ -357,8 +372,11 @@ h1, h2, h3, h4, a{
   }
 }
 .item-bv h4{
+  font-family: "Inter", sans-serif ;
+  text-transform: uppercase;
+  font-size: .8rem;
   margin: 1rem 0rem;
-  font-weight: 400;
+  font-weight: 600;
 }
 .item-bv hr{
   height: 1px;
@@ -398,12 +416,11 @@ h1, h2, h3, h4, a{
   Container - preview post & blog archive
 -------------------------------------------*/
 .sec-preview{
-  background-color: #aea79f;
+  padding: 60px 0px;
 }
 .container .sec-preview .cx-preview{
   max-width: 1200px;
-  margin: 3rem auto 1rem;
-  padding: 2rem 0rem;
+  margin: auto;
   display: flex;
   justify-content: center;
   flex-wrap: wrap;
@@ -451,7 +468,7 @@ h1, h2, h3, h4, a{
   Pesquisadores em Destaque
 -------------------------------------------*/
 .sec-pesqDestaq{
-  padding: 3rem 0rem;
+  padding: 60px 0px;
   background-color: #ffffff;
 }
 .sec-pesqDestaq .intro-pd{
@@ -585,7 +602,7 @@ h1, h2, h3, h4, a{
 -------------------------------------------*/
 .new-books{
   margin-top: 0rem;
-  padding: 3rem 0;
+  padding: 60px 0;
   background-color: #e95420;
 
   opacity: 0;
@@ -706,6 +723,7 @@ h1, h2, h3, h4, a{
 .sec-galeria{
   max-width: 1200px;
   margin: 0 auto;
+  padding: 60px 0px;
 
   opacity: 0;
   transform: translateY(40px);
@@ -729,7 +747,7 @@ h1, h2, h3, h4, a{
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
   gap: 1rem;
-  padding: 3rem 0rem;
+  padding-top: 30px;
 }
 .sec-galeria .cx-galeria .item-galeria{
   height: 300px;

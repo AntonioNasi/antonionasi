@@ -80,9 +80,9 @@
     </div>
 
     <div class="slider-wrapper">
-  <div class="slider" id="featuredSlider">
-    {% for post in site.posts %}
-      {% if post.featured %}
+      <div class="slider" id="featuredSlider">
+        {% for post in site.posts %}
+        {% if post.featured %}
         <article class="slide">
           <a href="{{ post.url }}" class="slide-link">
 
@@ -98,15 +98,16 @@
 
           </a>
         </article>
-      {% endif %}
-    {% endfor %}
-  </div>
+        {% endif %}
+        {% endfor %}
+      </div>
 
-  <div class="slider-dots" id="sliderDots"></div>
-</div>
-    
+      <div class="slider-dots" id="sliderDots"></div>
+    </div>
 
     <script src="../assets/js/slider.js"></script>
+
+    <div class="gradiente"></div>
 
   </header>
 
