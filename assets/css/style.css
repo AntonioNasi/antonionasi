@@ -294,6 +294,8 @@ h1, h2, h3, h4, a{
   justify-content: flex-end;
   padding: 1.5rem;
   color: #fff;
+  background-image: linear-gradient(to top, #ffffff, rgba(250, 250, 250, .5), transparent);;
+  z-index: 2;
 }
 .slide-overlay h3 {
   margin: 0 auto 2rem;
@@ -303,7 +305,7 @@ h1, h2, h3, h4, a{
   font-size: 1.5rem;
   line-height: 1.2;
   text-align: center;
-  background-color: #e95420;
+  background-color: #333333;
   color: #ffffff;
 }
 .slide-overlay p {
@@ -322,10 +324,11 @@ h1, h2, h3, h4, a{
   Div gradiente
 -------------------------------------------*/
 .gradiente{
-  height: 250px;
+  display: none;
+  height: 200px;
   position: relative;
   background-image: linear-gradient(to top, #ffffff, rgba(250, 250, 250, .7), transparent);
-  margin-top: -250px;
+  margin-top: -200px;
   z-index: 1;
 }
 

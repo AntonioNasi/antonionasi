@@ -101,7 +101,7 @@ SEARCH_SITES = [
     "site:uesc.br", "site:uea.edu.br", "site:uepa.br", "site:udesc.br",
     "site:uepb.edu.br", "site:upe.br", "site:uern.br", "site:uema.br",
     "site:uemasul.edu.br", "site:uespi.br", "site:ueg.br", "site:unitins.br",
-    "site:uerr.edu.br", "site:unemat.br", "site:even3.com.br", "site:doity.com.br", "site:instagram.com", "site:mit.edu", "site:havard.edu", "site:utoronto.ca", "site:mcgill.ca", "site:unam.mx", "site:ipn.mx", "site:uba.ar", "site:unlp.edu.ar", "site:uc.cl", "site:uchile.cl", "site:unal.edu.co", "site:uniandes.edu.co", "site:psl.eu", "site:ip-paris.fr", "site:ucm.es", "site:uab.cat", "site:tum.de", "site:lmu.de", "site:unibo.it", "site:unipd.it", "site:helsinki.fi", "site:aalto.fi", "site:",
+    "site:uerr.edu.br", "site:unemat.br", "site:even3.com.br", "site:doity.com.br"
 ]
 
 # Lista de perfis do Instagram (será usada apenas se login funcionar)

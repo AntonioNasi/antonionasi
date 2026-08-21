@@ -1,44 +1,7 @@
 {
-  "total_events": 4,
+  "total_events": 0,
   "instagram_events": 0,
-  "web_events": 4,
-  "last_update": "2026-07-27T20:41:10.007769",
-  "events": [
-    {
-      "title": "Grupo de estudos Tempo, Trabalho e Fetichização",
-      "date": "2026-07-29",
-      "date_display": "29/07/2026",
-      "url": "https://ufop.br/eventos/grupo-de-estudos-tempo-trabalho-e-fetichizacao",
-      "excerpt": "O Núcleo de Estudos, Pesquisas e Extensão em Trabalho, Formação Social Brasileira, Política Social e Serviço Social (Gerais) promove o grupo de estudos “Tempo, Trabalho e Fetichização”.",
-      "image": "https://ufop.br/sites/default/files//site_logo_ufop_txtwte_0.png",
-      "source_domain": "ufop.br"
-    },
-    {
-      "title": "Grupo de estudos Tempo, Trabalho e Fetichização",
-      "date": "2026-07-29",
-      "date_display": "29/07/2026",
-      "url": "https://ufop.br/eventos/grupo-de-estudos-tempo-trabalho-e-fetichizacao?mini=2026-06",
-      "excerpt": "O Núcleo de Estudos, Pesquisas e Extensão em Trabalho, Formação Social Brasileira, Política Social e Serviço Social (Gerais) promove o grupo de estudos “Tempo, Trabalho e Fetichização”.",
-      "image": "https://ufop.br/sites/default/files//site_logo_ufop_txtwte_0.png",
-      "source_domain": "ufop.br"
-    },
-    {
-      "title": "Grupo de estudos Tempo, Trabalho e Fetichização",
-      "date": "2026-07-29",
-      "date_display": "29/07/2026",
-      "url": "https://ufop.br/eventos/grupo-de-estudos-tempo-trabalho-e-fetichizacao?mini=2026-08",
-      "excerpt": "O Núcleo de Estudos, Pesquisas e Extensão em Trabalho, Formação Social Brasileira, Política Social e Serviço Social (Gerais) promove o grupo de estudos “Tempo, Trabalho e Fetichização”.",
-      "image": "https://ufop.br/sites/default/files//site_logo_ufop_txtwte_0.png",
-      "source_domain": "ufop.br"
-    },
-    {
-      "title": "PPGSS - Programa de Pós-Graduação em Serviço Social",
-      "date": "2028-06-17",
-      "date_display": "17/06/2028",
-      "url": "https://ppgss.propesp.ufpa.br/index.php/br/agenda/eventos",
-      "excerpt": "PPGSS - Programa de Pós-Graduação em Serviço Social",
-      "image": "https://ppgss.propesp.ufpa.br/IMAGENS/ppg_logo_small_1.png",
-      "source_domain": "ppgss.propesp.ufpa.br"
-    }
-  ]
+  "web_events": 0,
+  "last_update": "2026-08-20T22:00:24.874101",
+  "events": []
 }
