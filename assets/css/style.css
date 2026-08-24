@@ -65,27 +65,36 @@ span, a, p{
 --------------------------*/
 .site-header .container-nav{
   margin: 0 auto;
-  padding: 0rem 0rem;
+  padding: 5px 0px;
   background-color: #f4f1ea;
-}
-.site-header .container-nav nav{
   max-width: 1200px;
-  margin: 0 auto;
   display: flex;
   justify-content: space-between;
 }
+.site-header .container-nav .titulo-site{
+  padding: 5px 0px;
+}
+.site-header .container-nav .titulo-site h1{
+  font-size: 20px;
+}
+.site-header .container-nav .titulo-site p{
+  font-size: 12px;
+}
+.site-header .container-nav nav{
+  max-width: 1200px;
+  display: flex;
+  justify-content: end;
+}
 .site-header .container-nav nav a{
   display: flex;
+  margin-left: 16px;
   width: 100%;
-  padding: 0.5rem;
   align-items: center;
-  column-gap: .5rem;
   text-decoration: none;
   color: #212529;
-  font-family: "Inter", sans-serif;
-  font-size: .7rem;
+  font-family: 'Merriweather', serif;
+  font-size: 16px;
   font-weight: 400;
-  text-transform: uppercase;
 }
 @media screen and (min-width:600px){
   .site-header .container-nav nav a:hover{
@@ -104,6 +113,12 @@ span, a, p{
 }
 
 @media screen and (max-width:600px){
+  .site-header .container-nav{
+    padding: 0px 14px;
+  }
+  .site-header .container-nav .titulo-site h1{
+    font-size: 18px;
+  }
   .site-header .container-nav .large-menu{
     display: none;
   }
@@ -228,6 +243,52 @@ span, a, p{
 #myLinks.active {
     opacity: 1;
     max-height: 100%;
+}
+
+
+
+/*------------------------- 
+  Capa do site
+--------------------------*/
+header .capa-site{
+  height: 600px;
+  background-image: url(../img/capa_site_1-b.jpeg);
+  background-position: center;
+  background-size: cover;
+}
+header .capa-site .gradiente-capa{
+  background-image: linear-gradient(to right, rgba(244, 241, 234, .8), rgba(244, 241, 234, .4));
+  height: 100%;
+  display: flex;
+  align-items: center;
+}
+header .capa-site .gradiente-capa .txt-capa{
+  margin: 0 auto;
+  width: 1200px;
+}
+header .capa-site .gradiente-capa .txt-capa p{
+  font-family: 'Merriweather', serif;
+  font-size: 20px;
+}
+header .capa-site .gradiente-capa .txt-capa span{
+  font-family: 'Merriweather', serif;
+  background-color: #9e472a;
+  color: #f4f1ea;
+}
+header .capa-site .gradiente-capa .txt-capa a{
+  display: block;
+  width: 120px;
+  background-color: #f4f1ea;
+  padding: 10px;
+  color: #212529;
+  text-decoration: none;
+  margin-top: 30px;
+  box-shadow: 1px 1px 8px #212529;
+}
+@media screen and (max-width:600px){
+  header .capa-site{
+    height: 400px;
+  }
 }
 
 
