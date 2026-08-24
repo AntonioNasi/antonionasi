@@ -74,6 +74,11 @@ span, a, p{
 .site-header .container-nav .titulo-site{
   padding: 5px 0px;
 }
+@media screen and (max-width:600px){
+  .site-header .container-nav .titulo-site{
+    display: none;
+  }
+}
 .site-header .container-nav .titulo-site h1{
   font-size: 20px;
 }
@@ -140,16 +145,31 @@ span, a, p{
   Menu mobile
 --------------------------*/
 /* Container apenas para demonstração */
+@media screen and (max-width:600px){
+  .container-nav{
+    height: 70px;
+  }
+}
+.titulo-site-mobile{
+  width: 60%;
+  height: auto;
+}
+.titulo-site-mobile h1{
+  font-size: 16px;
+  font-weight: 600;
+}
+.titulo-site-mobile p{
+  font-size: 12px;
+}
 
 /* Barra superior */
 .mobile-menu{
   width: 320px;
   margin: 0 auto;
-  padding: 0px 0px;
+  padding: 10px 0px 0px;
 }
 .topnav {
     position: relative;
-    box-shadow: 0 2px 8px rgba(0,0,0,.08);
     width: 320px;
     height: 100%;
 }
