@@ -278,7 +278,7 @@ header .capa-site{
   background-size: cover;
 }
 header .capa-site .gradiente-capa{
-  background-image: linear-gradient(to right, rgba(244, 241, 234, .8), rgba(244, 241, 234, .4));
+  background-image: linear-gradient(to right, rgba(158, 71, 42, .8), rgba(158, 71, 42, .5));
   height: 100%;
   display: flex;
   align-items: center;
@@ -523,7 +523,6 @@ header .capa-site .gradiente-capa .txt-capa a{
   padding-bottom: .7rem;
   background-color: #ffffff;
   flex-basis: 220.5px;
-  border-radius: 5px;
   box-shadow: 1px 1px 5px rgba(0, 0, 0, .2);
 }
 @media screen and (max-width:600px){
@@ -1014,7 +1013,6 @@ hr{
   padding-bottom: .7rem;
   background-color: white;
   flex-basis: 220.5px;
-  border-radius: 5px;
   box-shadow: 1px 1px 5px rgba(0, 0, 0, .2);
 }
 .post-preview:hover{
@@ -1052,7 +1050,6 @@ hr{
   height: 180px;
   object-fit: cover;
   object-position: center;
-  border-radius: 5px 5px 0px 0px;
   margin-bottom: .5rem;
 }
 
@@ -1107,7 +1104,6 @@ hr{
   object-fit: cover;
   object-position: center;
   margin: 2rem 0;
-  border-radius: .3rem;
 }
 .container-post .r-side{
   width: 30%;
@@ -1117,8 +1113,7 @@ hr{
   line-height: 0;
 }
 #disqus_thread{
-  border: solid 1px #b07d62;
-  border-radius: .3rem;
+  border: solid 1px #9e472a;
   padding: 1rem;
   margin: 3rem 0rem;
 }
@@ -1142,9 +1137,8 @@ hr{
   .container-post .l-side .post .post-meta{
     display: inline-block;
     font-size: .8rem;
-    border: solid 1px #2c3e50;
+    border: solid 1px #212529;
     padding: .3rem .5rem;
-    border-radius: .5rem;
   }
   .container-post .l-side .post p{
     font-size: 1.1rem;
@@ -1162,15 +1156,14 @@ hr{
 
 .post-category{
   text-decoration: none;
-  background-color: #889c9b;
-  color: #f2efea;
+  background-color: #9e472a;
+  color: #f4f1ea;
   padding: .3rem .5rem;
   font-size: .8rem;
 }
 .preview-category{
   text-decoration: none;
   font-size: .8rem;
-  color: #aea79f;
 }
 
 
@@ -1184,11 +1177,10 @@ hr{
 .sidebar h3{
   font-size: 1.2rem;
   text-align: center;
-  background-color: #b07d62;
+  background-color: #9e472a;
   padding: .5rem 1rem;
   margin-bottom: 2rem;
-  color: #f2efea;
-  border-radius: .3rem;
+  color: #f4f1ea;
 }
 .sidebar-posts{
   width: 100%;
@@ -1203,7 +1195,6 @@ hr{
   height: 160px;
   object-fit: cover;
   border-radius: 0px;
-  border-radius: .3rem;
 }
 .sidebar-post span {
   display: block;
