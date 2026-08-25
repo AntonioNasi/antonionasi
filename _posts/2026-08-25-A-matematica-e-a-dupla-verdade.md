@@ -13,7 +13,7 @@ Com o desvanecer do iluminismo, o que parecia caminhar para uma sempre mais prof
 
 A necessidade religiosa, já de caráter outro em face daquela antes das luzes, não mais impunha ao reflexo científico seu modo de ser, não mais perseguia aquelas mentes mais tendenciosas a conhecer a realidade como ela é em si. Sob o neopositivismo, era a ciência que, gentilmente, cedia à religião um espaço de manobra. Ou, um campo de conciliação e harmonia.
 
-Nesse contexto, a matematização da apreensão do mundo serviu muito utilmente como ferramenta para concretizar – e celebrar – a paz entre religião e ciência. A matemática assumida no neopositivismo como expressão última de toda a verdade, necessariamente negligência a realidade em sua imanência. Pela linguagem matemática pode-se, sem muito esforço, operar qualquer tipo de manipulação do real.
+Nesse contexto, a matematização da apreensão do mundo serviu muito utilmente como ferramenta para concretizar – e celebrar – a paz entre religião e ciência. A matemática assumida no neopositivismo como expressão última de toda a verdade, necessariamente negligencia a realidade em sua imanência. Pela linguagem matemática pode-se, sem muito esforço, operar qualquer tipo de manipulação do real.
 
 Ora, a partir do momento em que a realidade pode ser moldada, manipulada matematicamente, o resultado – e nem é preciso levar o raciocínio até às últimas consequências – é que pode-se ter várias verdades sobre o mesmo objeto. Isso, naturalmente, abre um espaço de manobra significativo para a religião. Se há várias verdades – ou uma dupla verdade – uma delas pode ser a orientada pelo reflexo religioso.
 
