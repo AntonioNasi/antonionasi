@@ -4,7 +4,7 @@ title: "Qual a relação da matemática com a dupla verdade?"
 date: 2026-08-25
 image: https://cdn.britannica.com/89/44089-050-89B6120C/Rudolf-Carnap-1960.jpg
 excerpt: "Daí decorre que, como se sabe, não há necessária concorrência entre religião e ciência neopositivista. Se por um lado a realidade social demanda ainda necessidades religiosas"
-featured: true
+featured: false
 sidebar: true
 categories: neopositivismo
 ---
