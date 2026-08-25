@@ -6,7 +6,7 @@ image: https://cdn.britannica.com/89/44089-050-89B6120C/Rudolf-Carnap-1960.jpg
 excerpt: "Daí decorre que, como se sabe, não há necessária concorrência entre religião e ciência neopositivista. Se por um lado a realidade social demanda ainda necessidades religiosas"
 featured: true
 sidebar: true
-categories: Neopositivismo
+categories: neopositivismo
 ---
 
 Com o desvanecer do iluminismo, o que parecia caminhar para uma sempre mais profunda tendência em apreender a realidade em seu em-si, desaguou num pantano gnosiológico. O que sinalizava a chegada de uma ciência que tivesse por base uma consideração cada vez mais ontológica do mundo, ao final, levou-nos ao neopositivismo.
