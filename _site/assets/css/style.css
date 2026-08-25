@@ -119,7 +119,7 @@ span, a, p{
 
 @media screen and (max-width:600px){
   .site-header .container-nav{
-    padding: 0px 14px;
+    padding: 0px 14px 10px;
   }
   .site-header .container-nav .titulo-site h1{
     font-size: 18px;
