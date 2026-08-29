@@ -79,64 +79,88 @@ title: Início
 <section class="sec-pesqDestaq">
 
   <div class="intro-pd">
-    <h2>Pesquisadores Parceiros</h2>
+    <h2>Pesquisadores(as) Parceiros(as)</h2>
     <p>Conheça alguns pesquisadores que colaboram com nosso trablho</p>
   </div>
 
-  <div class="carrossel">
-    <div class="linha"></div>
-    <div class="track" id="track">
-      <div class="item">
-        <a href="https://lattes.cnpq.br/1153130807459034" target="_blank">
-          <img src="{{ '/assets/img/kdantas.jpeg' | relative_url }}">
-          <h3>Ma. Karollynne Dantas</h3>
-          <p>Desenvolve pesquisa sobre o rebaixamento da personalidade a partir da ontologia marxiana-lukacsiana.</p>
-        </a>
+  <div class="cx-colabs">
+    <div class="pesq">
+      <div class="aquece-foto">
+        <img src="{{ '/assets/img/kdantas.jpeg' | relative_url }}">
       </div>
-      <div class="item">
-        <a href="https://lattes.cnpq.br/1317529947912305" target="_blank">
-          <img src="https://i.ytimg.com/vi/ZgbeLeSIWOg/maxresdefault.jpg">
-          <h3>Dr. Deribaldo Santos</h3>
-          <p>Densenvolve pesquisas sobre Estética lukacsiana e sobre educação técnico-profissionalizante.</p>
-        </a>
+      <h3>Ma. Karollynne Dantas</h3>
+      <p>Desenvolve pesquisa sobre o rebaixamento da personalidade a partir da ontologia marxiana-lukacsiana.</p>
+      <a href="https://lattes.cnpq.br/1153130807459034" target="_blank">Acessar Lattes</a>
+    </div>
+    <div class="pesq">
+      <div class="aquece-foto">
+        <img src="https://i.ytimg.com/vi/ZgbeLeSIWOg/maxresdefault.jpg">
       </div>
-      <div class="item">
-        <a href="https://lattes.cnpq.br/1027375323372139" target="_blank">
-          <img src="{{ '/assets/img/lays-pesq.jpg' | relative_url }}">
-          <h3>Dra. Layslândia Santos</h3>
-          <p>Desenvolve pesquisa na área de educação, formação humana, trabalho e legislação educacional.</p>
-        </a>
+      <h3>Dr. Deribaldo Santos</h3>
+      <p>Densenvolve pesquisas sobre Estética lukacsiana e sobre educação técnico-profissionalizante.</p>
+      <a href="https://lattes.cnpq.br/1317529947912305" target="_blank">Acessar Lattes</a>
+    </div>
+    <div class="pesq">
+      <div class="aquece-foto">
+        <img src="{{ '/assets/img/lays-pesq.jpg' | relative_url }}">
       </div>
-      <div class="item">
-        <a href="https://lattes.cnpq.br/0729806328978216" target="_blank">
-          <img src="{{ '/assets/img/jana-pesq.jpg' | relative_url }}">
-          <h3>Ma. Janaira Teixeira</h3>
-          <p>Desenvolve pesquisa sobre a formação da personalidade a partir da ontologia lukacsiana.</p>
-        </a>
+      <h3>Dra. Layslândia Santos</h3>
+      <p>Desenvolve pesquisa na área de educação, formação humana, trabalho e legislação educacional.</p>
+      <a href="https://lattes.cnpq.br/1027375323372139" target="_blank">Acessar Lattes</a>
+    </div>
+    <div class="pesq">
+      <div class="aquece-foto">
+        <img src="{{ '/assets/img/jana-pesq.jpg' | relative_url }}">
       </div>
-      <div class="item">
-        <a href="https://lattes.cnpq.br/0834231585359453" target="_blank">
-          <img src="{{ '/assets/img/betania-pesq.jpg' | relative_url }}">
-          <h3>Dra. Betânia Moraes</h3>
-          <p>Desenvolve pesquisa sobre formação humana, individualidade, aprendizagem e desenvolvimento humano-social.</p>
-        </a>
+      <h3>Ma. Janaira Teixeira</h3>
+      <p>Desenvolve pesquisa sobre a formação da personalidade a partir da ontologia lukacsiana.</p>
+      <a href="https://lattes.cnpq.br/0729806328978216" target="_blank">Acessar Lattes</a>
+    </div>
+    <div class="pesq">
+      <div class="aquece-foto">
+        <img src="{{ '/assets/img/betania-pesq.jpg' | relative_url }}">
       </div>
-      <div class="item">
-        <a href="https://lattes.cnpq.br/5700823644219229" target="_blank">
-          <img src="{{ '/assets/img/george-pesq.jpg' | relative_url }}">
-          <h3>Dr. George Amaral</h3>
-          <p>Desenvolve pesquisa sobre ensino profissional a partir do referencial marxista.</p>
-        </a>
+      <h3>Dra. Betânia Moraes</h3>
+      <p>Desenvolve pesquisa sobre formação humana, individualidade, aprendizagem e desenvolvimento humano-social.</p>
+      <a href="https://lattes.cnpq.br/0834231585359453" target="_blank">Acessar Lattes</a>
+    </div>
+    <div class="pesq">
+      <div class="aquece-foto">
+        <img src="{{ '/assets/img/george-pesq.jpg' | relative_url }}">
       </div>
+      <h3>Dr. George Amaral</h3>
+      <p>Desenvolve pesquisa sobre ensino profissional a partir do referencial marxista.</p>
+      <a href="https://lattes.cnpq.br/5700823644219229" target="_blank">Acessar Lattes</a>
+    </div>
+    <div class="pesq">
+      <div class="aquece-foto">
+        <img src="{{ '/assets/img/adele-pesq.png' | relative_url }}">
+      </div>
+      <h3>Dra. Adele Araújo</h3>
+      <p>Desenvolve pesquisa sobre Arte e Educação a partir da Estética de Lukács.</p>
+      <a href="https://lattes.cnpq.br/4698247619300122" target="_blank">Acessar Lattes</a>
+    </div>
+    <div class="pesq">
+      <div class="aquece-foto">
+      <img src="{{ '/assets/img/isadora-pesq.jpeg' | relative_url }}">
+      </div>
+      <h3>Ma. Isadora Paiva</h3>
+      <p>Socióloga, desenvolveu pesquisa sobre a estética em Lukács. </p>
+      <a href="https://lattes.cnpq.br/9342337446424494" target="_blank">Acessar Lattes</a>
+    </div>
+  </div>
+
+  <!--
+  
       <div class="item">
-        <a href="https://lattes.cnpq.br/5700823644219229" target="_blank">
-          <img src="{{ '/assets/img/adele-pesq.png' | relative_url }}">
-          <h3>Dra. Adele Araújo</h3>
-          <p>Desenvolve pesquisa sobre Arte e Educação a partir da Estética de Lukács.</p>
+        <a href="https://lattes.cnpq.br/" target="_blank">
+          <img src="{{ '/assets/img/' | relative_url }}">
+          
         </a>
       </div>
     </div>
   </div>
+  -->
 
   <script src="../assets/js/pesqdestaq.js" defer></script>
 
