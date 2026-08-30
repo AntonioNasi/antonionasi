@@ -557,96 +557,68 @@ header .capa-site .gradiente-capa .txt-capa a{
 /*-------------------------------------------
   Pesquisadores em Destaque
 -------------------------------------------*/
-.sec-pesqDestaq{
-  padding: 60px 0px;
-  background-color: #f4f1ea;
+.sec-pesqcolab{
+  margin: 40px 0px;
 }
-.sec-pesqDestaq .intro-pd{
-  padding: 0rem 2rem;
-  text-align: center;
-  margin-bottom: 2rem;
+.sec-pesqcolab .intro-colab{
+  max-width: 1200px;
+  margin: 0 auto 30px;
 }
-.sec-pesqDestaq .intro-pd h2{
-  font-size: 1.3rem;
-}
-.sec-pesqDestaq .intro-pd p{
-  font-size: .8rem;
-}
-.sec-pesqDestaq .cx-colabs{
+.sec-pesqcolab .cx-pesqcolabs{
   max-width: 1200px;
   margin: 0 auto;
   display: flex;
   flex-wrap: wrap;
-  flex-direction: row;
+  gap: 30px;
+}
+.sec-pesqcolab .cx-pesqcolabs .pesqcolab{
+  display: flex;
+  align-items: center;
+  padding: 5px;
+  flex-wrap: nowrap;
   gap: 20px;
+  width: 31.5%;
+  border: solid 1px #212529;
 }
-@media screen and (max-width:600px){
-  .sec-pesqDestaq{
-    padding: 0px 16px;
-    margin: 40px auto;
-  }
-  .sec-pesqDestaq .cx-colabs{
-    flex-wrap: nowrap;
-    overflow-x: auto;
-    scroll-snap-type: x mandatory;
-    scroll-behavior: smooth;
-    scrollbar-color: #9e472a #212529;
-    border-bottom: solid 1px #212529;
-    gap: 16px;
-    padding-bottom: 14px;
-  }
-  .sec-pesqDestaq .cx-colabs .pesq{
-    flex: 0 0 70%;
-    scroll-snap-align: center;
-    box-sizing: border-box;
-  }
+.sec-pesqcolab .cx-pesqcolabs .pesqcolab .img-pesq{
+  width: 30%;
+  height: 140px;
 }
-.sec-pesqDestaq .cx-colabs .pesq{
-  width: 223px;
-}
-.sec-pesqDestaq .cx-colabs .pesq .aquece-foto{
-  position: relative;
-  height: 280px;
-  margin-bottom: 12px;
-}
-.sec-pesqDestaq .cx-colabs .pesq .aquece-foto::after{
-  content: "";
-  position: absolute;
-  top: 0;
-  left: 0;
+.sec-pesqcolab .cx-pesqcolabs .pesqcolab .img-pesq img{
   width: 100%;
-  height: 100%;
-  background-color: #9e472a;
-  mix-blend-mode: overlay;
-  opacity: .6;
-  pointer-events: none;
-}
-.sec-pesqDestaq .cx-colabs .pesq img{
-  width: 100%;
-  height: 280px;
+  height: 140px;
   object-fit: cover;
   object-position: center;
 }
-.sec-pesqDestaq .cx-colabs h3{
-  font-size: 16px;
-  text-align: center;
+.sec-pesqcolab .cx-pesqcolabs .pesqcolab .txt-pesq{
+  width: 70%;
 }
-.sec-pesqDestaq .cx-colabs p{
-  font-size: 14px;
-  text-align: center;
-  margin-top: 5px;
-}
-.sec-pesqDestaq .cx-colabs a{
+.sec-pesqcolab .cx-pesqcolabs .pesqcolab .txt-pesq a{
   text-decoration: none;
-  display: block;
-  width: auto;
-  text-align: center;
-  font-size: 12px;
-  font-weight: 600;
   color: #9e472a;
-  margin: 12px auto 0px;
-  padding: 5px 10px;
+  font-weight: 600;
+  font-size: 14px;
+  padding-top: 10px;
 }
+.sec-pesqcolab .cx-pesqcolabs #outrospesq{
+  text-decoration: none;
+  font-size: 14px;
+  color: #9e472a;
+  font-weight: 600;
+}
+@media screen and (max-width:600px){
+  .sec-pesqcolab{
+    padding: 0px 14px;
+  }
+  .sec-pesqcolab .cx-pesqcolabs{
+    display: block;
+  }
+  .sec-pesqcolab .cx-pesqcolabs .pesqcolab{
+    width: 100%;
+    margin-bottom: 20px;
+  }
+}
+
 
 
 /*-------------------------------------------

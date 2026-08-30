@@ -3,6 +3,8 @@ layout: default
 title: Início
 ---
 
+
+
 <section class="sec-bvindo">
   <div class="cx-bvindo">
     <div class="item-bv">
@@ -76,33 +78,61 @@ title: Início
   
 </section>
 
-<section class="sec-pesqDestaq">
+<section class="sec-pesqcolab">
+  <div class="intro-colab">
+    <h2>Pesquisadores colaboradores</h2>
+    <p>Conheça pesquisadores e pesquisadoras com quem desenvolvo pesquisas e publicações.</p>
+  </div>
+  <div class="cx-pesqcolabs">
+    <div class="pesqcolab">
+      <div class="img-pesq">
+        <img src="{{ '/assets/img/kdantas.jpeg' | relative_url }}">
+      </div>
+      <div class="txt-pesq">
+        <h3>Ma. Karollynne Dantas</h3>
+        <p>Ontologia/Personalidade</p>
+        <a href="{{ '/colaboradores/' | relative_url }}">Saiba mais</a>
+      </div>
+    </div>
+    <div class="pesqcolab">
+      <div class="img-pesq">
+        <img src="https://i.ytimg.com/vi/ZgbeLeSIWOg/maxresdefault.jpg">
+      </div>
+      <div class="txt-pesq">
+        <h3>Dr. Deribaldo Santos</h3>
+        <p>Estética/Educação Profissional</p>
+        <a href="{{ '/colaboradores/' | relative_url }}">Saiba mais</a>
+      </div>
+    </div>
+    <div class="pesqcolab">
+      <div class="img-pesq">
+        <img src="{{ '/assets/img/lays-pesq.jpg' | relative_url }}">
+      </div>
+      <div class="txt-pesq">
+        <h3>Dra. Layslândia Santos</h3>
+        <p>Reforma do Ensino Médio</p>
+        <a href="{{ '/colaboradores/' | relative_url }}">Saiba mais</a>
+      </div>
+    </div>
+    <a id="outrospesq" href="{{ '/colaboradores/' | relative_url }}">Outros coloboradores</a>
+  </div>
 
+  <!--
   <div class="intro-pd">
-    <h2>Pesquisadores(as) Parceiros(as)</h2>
-    <p>Conheça alguns pesquisadores que colaboram com nosso trablho</p>
+    
   </div>
 
   <div class="cx-colabs">
     <div class="pesq">
-      <div class="aquece-foto">
-        <img src="{{ '/assets/img/kdantas.jpeg' | relative_url }}">
-      </div>
-      <h3>Ma. Karollynne Dantas</h3>
-      <p>Desenvolve pesquisa sobre o rebaixamento da personalidade a partir da ontologia marxiana-lukacsiana.</p>
+      
       <a href="https://lattes.cnpq.br/1153130807459034" target="_blank">Acessar Lattes</a>
     </div>
-    <div class="pesq">
-      <div class="aquece-foto">
-        <img src="https://i.ytimg.com/vi/ZgbeLeSIWOg/maxresdefault.jpg">
-      </div>
-      <h3>Dr. Deribaldo Santos</h3>
-      <p>Densenvolve pesquisas sobre Estética lukacsiana e sobre educação técnico-profissionalizante.</p>
+  
       <a href="https://lattes.cnpq.br/1317529947912305" target="_blank">Acessar Lattes</a>
     </div>
     <div class="pesq">
       <div class="aquece-foto">
-        <img src="{{ '/assets/img/lays-pesq.jpg' | relative_url }}">
+        <img src="">
       </div>
       <h3>Dra. Layslândia Santos</h3>
       <p>Desenvolve pesquisa na área de educação, formação humana, trabalho e legislação educacional.</p>
@@ -147,17 +177,6 @@ title: Início
       <h3>Ma. Isadora Paiva</h3>
       <p>Socióloga, desenvolveu pesquisa sobre a estética em Lukács. </p>
       <a href="https://lattes.cnpq.br/9342337446424494" target="_blank">Acessar Lattes</a>
-    </div>
-  </div>
-
-  <!--
-  
-      <div class="item">
-        <a href="https://lattes.cnpq.br/" target="_blank">
-          <img src="{{ '/assets/img/' | relative_url }}">
-          
-        </a>
-      </div>
     </div>
   </div>
   -->
