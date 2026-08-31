@@ -207,6 +207,9 @@
 <loc>http://localhost:4000/circulos-formativos/</loc>
 </url>
 <url>
+<loc>http://localhost:4000/colaboradores/</loc>
+</url>
+<url>
 <loc>http://localhost:4000/em-construcao/</loc>
 </url>
 <url>
