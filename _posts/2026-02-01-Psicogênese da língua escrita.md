@@ -2,7 +2,7 @@
 layout: post
 title: "Psicogênese da língua escrita"
 date: 2026-02-01
-image: https://www.tanalousa.com.br/wp-content/uploads/2023/10/post-thumbnail-365d48537e97230b81d1961bad8393ae.jpeg
+image: https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSKuQAu1Z0hhR5F7j8KjTH-BOeY9FS6Y5HylYll8WDQSgtTri9M4e7aK8vd&s=10
 excerpt: "Para a Psicogênese, os erros que as crianças cometem quando estão aprendendo a ler e escrever constituem-se como uma verdadeira mina de ouro pedagógica."
 featured: false
 sidebar: false
