@@ -2,7 +2,7 @@
 layout: post
 title: "A religião dominante é a religião da classe dominante"
 date: 2026-09-08
-image: hhttps://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQO4LMM5JLcoVuf-wAHBUYvYn-UPcuy5i2bYQcT7m-qxvyAy6vy4YhaoYwy&s=10
+image: hhttps://www.catolicismoromano.com.br/wp-content/uploads/2013/02/Igrejaouro-780x405.jpg
 excerpt: "Assim como Marx e Engels expuseram na Ideologia Alemã, que a ideologia dominante é a ideologia da classe dominante, a mesma regra vale para a religião. Por sinal, a religião é, como se pode deduzir"
 featured: false
 sidebar: false
