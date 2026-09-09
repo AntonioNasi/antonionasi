@@ -35,4 +35,5 @@ Bom, as classes dominantes ao longo da história, evidentemente, fazem o melhor 
 
 Por fim, o próprio jogo político como um todo da democracia burguesa está totalmente atravessado pela religião. Claro, a religião deles mesmos, da elite, da classe dominante.
 
-P.S: talvez um dia, quem sabe, escreverei artigo sobre isso.
+Obs1: talvez um dia, quem sabe, escreverei artigo sobre isso.
+Obs2: Quem quiser aprofundar o conteúdo do post leia a Ideologia alemã e a Ontologia, especialmente o volume 14, mas de preferência o volume 13 também.
