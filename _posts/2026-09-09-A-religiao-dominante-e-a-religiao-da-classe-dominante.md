@@ -15,7 +15,9 @@ Assim como Marx e Engels expuseram na Ideologia Alemã, que a ideologia dominant
 
 Essa função, todavia, não implica necessariamente em algo positivo ou negativo para a sociedade como um todo. Na realidade, enquanto cumpre função ideológica, a religião atua dirimindo conflitos em desfavor da classe trabalhadora, contribuindo desse modo para, nos limites das contradições inelimináveis da realidade, para a manutenção do domínio pela burguesia.
 
-Vejamos o exemplo brasileiro. O cristianismo predomina por aqui, é também o cristianismo a religião da elite econômica brasileira. Nós temos uma bancada evangélica no senado e camâmara federal e até a presente data, ainda se registra crimes de intensa violência contra templos e adeptos de outras religiões que não fazem parte do bloco cristão. E isto, claro, não é de hoje, desde o Brasil Império é facilmente constatável o que afirmamos acima: a religião dominante é a religião da classe dominante.
+Vejamos o exemplo brasileiro. Como sabemos, o cristianismo predomina por aqui, é ele também a religião da elite econômica brasileira. Nós temos uma bancada evangélica no Senado e Camâmara Federal e até a presente data, ainda se registra crimes de intensa violência contra templos e adeptos de outras religiões que não fazem parte do bloco cristão. E isto, claro, não é de hoje, desde o Brasil Império é facilmente constatável o que afirmamos acima: a religião dominante é a religião da classe dominante.
+
+Lógicamente, não precisa-se de uma lei que determine que a religião dominante deve ser a religião das elites. Não é assim que funciona. Até mesmo pelo fato de que, ter expresso nas leis uma vertente religiosa em específico como a que deve ser proclamada, contraria o tal princípio da laicidade do Estado brasileiro, falsa laicidade, para ser mais preciso. Mas isso é outra história.
 
 Nesses termos, a religião reflete, é produto de uma dada realidade social em determinado contexto histórico. As crenças, os deuses, os rituais etc, se dão, segundo cada época e momento na história. Não há nada de universal na religião, como algo extra-mundano, caído dos céus. A religião é, sem nenhuma dúvida, histórica.
 
