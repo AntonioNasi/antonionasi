@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Para que serve o ensino religioso?"
+title: "Para que serve o Ensino Religioso?"
 date: 2026-09-11
 image: https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSpx5p1fmiafboyQo5z3wqh4JhgCtFeZ7BPWTOYtFETjJxtePSlLymJPro&s=10
 excerpt: "Em primeiro lugar, imanência não é exatamente algo concreto e biológico, é o que a realidade (seja ela qual for) é no seu ser-em-si. Nesse sentido, por exemplo, podemos falar do que é imanente na subjetividade do indivíduo e, desse modo, não podemos meramente contrapor imanência com subjetividade."
