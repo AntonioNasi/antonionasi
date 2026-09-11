@@ -1,0 +1,38 @@
+---
+layout: post
+title: "Para que serve o ensino religioso?"
+date: 2026-09-11
+image: https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSpx5p1fmiafboyQo5z3wqh4JhgCtFeZ7BPWTOYtFETjJxtePSlLymJPro&s=10
+excerpt: "Em primeiro lugar, imanência não é exatamente algo concreto e biológico, é o que a realidade (seja ela qual for) é no seu ser-em-si. Nesse sentido, por exemplo, podemos falar do que é imanente na subjetividade do indivíduo e, desse modo, não podemos meramente contrapor imanência com subjetividade."
+featured: false
+sidebar: false
+categories: Ensino Religioso
+---
+
+Pense um pouco: qual a verdadeira serventia da componente curricular (disciplina) de Ensino Religioso? De imediato podemos ter váris respostas para esta questão. Desde respostas mais simples, mais coladas ao cotidiano e ao senso comum, até outras mais elaboradas. Todavia, nenhuma se sustenta.
+
+Vejamos. O documento que norteia o currículo comum da Educação Básica, em especial do Ensino Fundamental, é a Base Nacional Comum Curricular, a tal da BNCC. No Ceará, a versão adaptada para as peculiaridades regionais é o Documento Curricular Referencial do Ceará, DCRC. O que dizem então estes documentos? quais as justificativas apresentadas para a manutenção do Ensino Religioso?
+
+A primeira justificativa da BNCC é que o Ensino Religioso proporciona a apreensão de **"conhecimentos religiosos"** culturais e estéticos a partir das manifestações religiosas" presentes no cotidiano dos estudantes. Ora! se por conhecimentos religiosos a BNCC se refere aos ritos, credos, doutrinas, fé etc de determinadas manifestações religiosas, cada estudante, de acordo com as crenças suas e de sua família, poderia apreender tais conhecimentos em sua própria igreja, congregação etc.
+
+Mas se não é esse o caso, se por conhecimento religioso a BNCC quer dizer a apreensão dos elementos religiosos, da religião, como construção histórica, como produto da atividade social, então bastaria a velha e boa disciplina de História bem dada.
+
+A segunda justificativa atrela-se a **liberdade de consciência**, de crença e a promoção de **direitos humanos**. Sobre a liberdade de consciência nem precisa ser especialista para saber que qualquer componente curricular, aliás, a educação como um todo pode fomentar tal princípio, desde que assentada sobre uma postura crítica e uma leitura imanente do mundo. Além do quê, de forma específica, a Filosofia poderia servir melhor do que qualquer outra área para o atendimento dessa segunda justificativa.
+
+Importa destacar ainda que, quando a BNCC fala de crença, esquece da não crença. Essa exclusão aponta para um preconceito comum nesse documento, qual seja, de uma forma as vezes sorrateira, passr a ideia de que todo mundo tem, mesmo que não saiba disso ainda, uma crença religiosa. Isso implica numa taxativa aceitação da fé religiosa como algo inato aos ser humano.
+
+A terceira justificativa, por sua vez, dialoga com o **pluralismo de ideias** e o **diálogo** entre diferentes religiões ou perspectivas religiosas. Mais uma vez, a Filofia ou mesmo a Ética da conta disso muito melhor que o Ensino Religioso.
+
+A quarta justificativa apela para a **cidadania** e para o **sentido da vida**. Ou seja, o Ensino Religioso serviria, contribuiria para uma formação mais cidadã e para a construção do sentido da vida de cada estudante. Vejam que, atrelar o sentido da vida ao suposto conhecimento religioso, é, de forma nem tão indireta, dizer que o sentido da vida tem uma necessaria relação com o "conhecimento religioso" depreendido das manifestações religiosas. Do mesmo modo, no que diz respeito a cidadania, a BNCC força ao entendimento de uma relação necessária entre ser cidadão e ter dito em algum momento uma educação que possibilitasse a apreensão de conhecimentos religiosos. Traduzindo, o elemento religioso torna alguém mais cidadão do que outro alguém que não se apropriou desse elemento, desse conhecimento religioso. Obviamente, mais uma vez, não precisa ser especialista para concluir que este raciocínio não encontra eco na realidade.
+
+Seguindo nessa tentativa de justificar o injustificável, a BNCC faz uma confusão com as categorias **imanência** e **transcendência**. Em primeiro lugar, imanência não é exatamente algo concreto e biológico, é o que a realidade (seja ela qual for) é no seu ser-em-si. Nesse sentido, por exemplo, podemos falar do que é imanente na subjetividade do indivíduo e, desse modo, não podemos meramente contrapor imanência com subjetividade. Em segundo lugar, a transcendência não tem necessária relação com um suposto sobrenatural, como aponta a BNCC. E é por isso que podemos falar de uma transcendência na ciência, no sentido de que, no reflexo científico, há sempre uma porção da realidade que transborda além do domínio teórico-conceitual, podendo atuar nesse campo a imaginação, a fantasia, o materialismo espontâneo etc.
+
+Mas esse **mais além** é tão somente um "_por enquanto_", pois a ciência continua a conceber este mais além como algo objetivo que apenas, nos limites da produção de conhecimento até então alcançado, permanece fora do domínio teórico e conceitual. De fato, a transcendência só aponta para o suposto sobrenatural quando ela já é concebida religiosamente. É precisamente isto que a BNCC faz.
+
+Bom, para não me estender além do que cabe num post de blog, resta dizer que a existência do Ensino Religioso na BNCC é apenas um momento de um longo processo. O conservadorismo religioso, mesmo aquele mais acanhado e travestido de ecumênico (como se isso valesse alguma coisa), organizadamente e sistematicamente mobilizou seus pares políticos para manter na Lei de Diretrizes e Bases da Educação Nacional **(LDB 9.394/96)** a componente curricular de Ensino Religioso. Muitas vezes, este grupo utilizou argumento de que a manutenção do Ensino Religioso era uma vontade dos pais, o que era verdade. Faltou apenas dizer que essa era a vontade dos pais católicos e cristãos, não dos pais em geral.
+
+No final das contas, o Ensino Religioso sobrevive por força do cristianismo brasileiro. Nada mais que isso. E por mais que seus defensores tentem a todo custo alegar que hoje a componente trata de todas as religiões (o que de cara já é uma grande farsa, pois seria absolutamente impossível fazer isso), não é o que prevalece na práticas das instituições públicas de ensino fundamental. **A própria escola ainda se adorna com ornamentos cristãos**. O que é, em larga medida, reflexo de um Estado que nunca se emancipou politicamente por completo. Pois do contrário, teria relegado a religião ao estrito domínio do direito privado individual. Pelo contrário, hoje temos até decisão do STF em favor de escola pública ser confessional, cristã, claro. Ao mesmo tempo tempos parlamentares aprovando leis baseadas em suas crenças pessoais.
+
+Por fim, o Ensino Religioso não acrescenta nada que uma catequese não possa fazer, se considerado _religisamente_, como o faz a BNCC; ou, não anda perto do que uma componente de História, Filosofia ou Ética poderia fazer, se considerado o fenômeno religiso, a religião como obejto de estudo verdadeiramente científico. O que não é o caso da BNCC.
+
+Em resumo: Ensino Religioso não serve para nada. Se você é pai ou mãe cristã, **não matricule (é um direito seu) seu filho na disciplina de Ensino Religioso**, leve ele para a catequese ou o equivalente ofertado pelas igrejas protestantes. Ele terá mais proveito lá.
