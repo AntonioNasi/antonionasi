@@ -1410,19 +1410,19 @@ a:hover h3{
   margin-top: 8rem;
 }
 .ativ{
-  display: block;
+  display: flex;
   border: solid 1px #212529;
   margin-bottom: 6rem;
   padding: 1rem;
   width: 48%;
   height: auto;
   align-items: center;
+  justify-content: center;
 }
 .ativ-img{
   width: 140px;
   height: 140px;
-  margin: -80px auto 0;
-  box-shadow: 2px 2px 10px #212529;
+  margin: 0 auto;
 }
 .ativ-img img{
   width: 140px;
@@ -1458,6 +1458,7 @@ a:hover h3{
     display: block;
   }
   .ativ{
+    display: block;
     height: auto;
     width: 100%;
     margin-bottom: 7rem;
@@ -1470,7 +1471,6 @@ a:hover h3{
   .ativ-img img{
     height: 140px;
     width: 140px;
-    box-shadow: 3px 3px 10px #333333;
   }
   .ativ-desc{
     padding: .5rem;
@@ -1618,4 +1618,31 @@ a:hover h3{
 .eventos-grid .evento-card p{
   font-size: 14px;
   font-weight: normal;
+}
+
+
+/*------------------------- 
+  Pagina Biografia - Bio
+--------------------------*/
+.sec-bio{
+  margin: 60px auto;
+}
+.sec-bio .cx-bio{
+  max-width: 600px;
+  margin: 0 auto;
+}
+.sec-bio .cx-bio .bio{
+  columns: 2;
+  gap: 40px;
+}
+@media screen and (max-width:600px){
+  .sec-bio{
+    margin: 40px auto;
+  }
+  .sec-bio .cx-bio{
+    padding: 0px 16px;
+  }
+  .sec-bio .cx-bio .bio{
+    columns: 1;
+  }
 }

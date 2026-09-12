@@ -31,6 +31,14 @@ title: Início
         <p>Reflexões, opiniões, nada acadêmico. Sem periodicidade, escrevo quando posso.</p>
       </a>
     </div>
+    <div class="item-bv">
+      <a href="{{ '/bio/' | relative_url }}">
+        <span class="material-symbols-outlined">person</span>
+        <h4>Autor</h4>
+        <hr>
+        <p>Um pedacinho da minha história, muito mais cotidiano do que ciência.</p>
+      </a>
+    </div>
   </div>
 </section>
 
