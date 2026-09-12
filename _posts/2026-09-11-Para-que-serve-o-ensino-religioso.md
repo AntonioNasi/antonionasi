@@ -35,4 +35,4 @@ No final das contas, o Ensino Religioso sobrevive por força do cristianismo bra
 
 Por fim, o Ensino Religioso não acrescenta nada que uma catequese não possa fazer, se considerado _religisamente_, como o faz a BNCC; ou, não anda perto do que uma componente de História, Filosofia ou Ética poderia fazer, se considerado o fenômeno religiso, a religião como obejto de estudo verdadeiramente científico. O que não é o caso da BNCC.
 
-Em resumo: Ensino Religioso não serve para nada. Se você é pai ou mãe cristã, **não matricule (é um direito seu) seu filho na disciplina de Ensino Religioso**, leve ele para a catequese ou o equivalente ofertado pelas igrejas protestantes. Ele terá mais proveito lá.
+Em resumo: Ensino Religioso não serve para nada (aliás, serve, mas falarei em outra oportunidade). Se você é pai ou mãe cristã, **não matricule (é um direito seu) seu filho na disciplina de Ensino Religioso**, leve ele para a catequese ou o equivalente ofertado pelas igrejas protestantes. Ele terá mais proveito lá.
