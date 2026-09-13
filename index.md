@@ -18,7 +18,7 @@ title: Início
     <div class="item-bv" id="bordas">
       <a href="{{ '/publicados/' | relative_url }}">
         <span class="material-symbols-outlined">book_5</span>
-        <h4>Livros/Artigos</h4>
+        <h4>Livros</h4>
         <hr>
         <p>Algumas publicações, a maioria delas em parceria. Acesse e baixe grauitamente.</p>
       </a>

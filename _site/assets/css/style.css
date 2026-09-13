@@ -89,6 +89,13 @@ span, a, p{
   max-width: 1200px;
   display: flex;
   justify-content: end;
+  align-items: center;
+}
+.site-header .container-nav nav ul{
+  display: flex;
+}
+.site-header .container-nav nav ul li{
+  list-style: none;
 }
 .site-header .container-nav nav a{
   display: flex;
@@ -144,126 +151,60 @@ span, a, p{
 /*------------------------- 
   Menu mobile
 --------------------------*/
-/* Container apenas para demonstração */
-@media screen and (max-width:600px){
-  .container-nav{
-    height: auto;
+.cx-menu-mobile{
+  display: flex;
+  max-width: 600px;
+  margin: 5px auto 0px;
+  gap: 20px;
+  justify-content: center;
+}
+@media screen and (min-width:600px){
+  .cx-menu-mobile{
+    display: none;
   }
 }
-.titulo-site-mobile{
-  width: 60%;
-  height: auto;
+.cx-menu-mobile .titulo-site-mobile{
 }
-.titulo-site-mobile h1{
-  font-size: 16px;
-  font-weight: 600;
+.cx-menu-mobile .titulo-site-mobile h1{
+  font-size: 18px;
 }
-.titulo-site-mobile p{
+.cx-menu-mobile .titulo-site-mobile p{
   font-size: 12px;
 }
-
-/* Barra superior */
-.mobile-menu{
-  width: 320px;
-  margin: 0 auto;
-  padding: 10px 0px 0px;
+.cx-menu-mobile .mobile-nav{
+  width: 30%;
 }
-.topnav {
-    position: relative;
-    width: 320px;
-    height: 100%;
+.cx-menu-mobile .mobile-nav details summary{
+  cursor: pointer;
+  font-family: 'Merriweather', serif;
+  color: #f4f1ea;
+  text-transform: uppercase;
+  background-color: #9e472a;
+  padding: 10px 14px;
 }
-
-#cx-logo{
-  width: 240px;
+.cx-menu-mobile .mobile-nav details ul{
+  display: inline-block;
+  position:absolute;
+  left: 0px;
+  background-color: #f4f1ea;
+  width: 100%;
+  text-align: center;
+  margin-top: 14px;
 }
-
-/* Logo */
-.topnav .active {
-    display: block;
-    color: #212529;
-    text-decoration: none;
-    width: 320px;
-    text-align: center;
+.cx-menu-mobile .mobile-nav details ul li{
+  list-style: none;
+  padding: 10px 0px;
+  border-bottom: solid 1px rgba(33, 37, 41, .5);
 }
-
-/* Menu oculto inicialmente */
-#myLinks {
-    display: none;
-    background: #f4f1ea;
-    width: 320px;
-    margin-top: 16px;
+.cx-menu-mobile .mobile-nav details ul li:hover{
+  background-color: #9e472a;
+  color: #f4f1ea;
 }
-
-/* Exibido pelo JavaScript */
-#myLinks.active {
-    display: block;
-    width: 320px;
+.cx-menu-mobile .mobile-nav details ul li a{
+  display: inline-block;
 }
-
-/* Links do menu */
-#myLinks a {
-    display: flex;
-    justify-content:left;
-    align-items: center;
-    width: 320px;
-    padding: 14px;
-    color: #212529;
-    text-decoration: none;
-    font-weight: 400;
-    text-align: center;
-    font-size: 14px;
-    border-top: 1px solid #212529;
-    transition: background-color .2s ease;
-}
-
-#myLinks a span{
-  margin-right: 5px;
-}
-
-/* Hover */
-#myLinks a:hover {
-    color: #9e472a;
-}
-
-/* Botão hamburguer */
-.topnav .icon {
-    position: absolute;
-    right: 0;
-    top: 0;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    text-decoration: none;
-
-    width: auto !important;
-    height: auto;
-    padding: 0px 0px 2px;
-}
-
-/* Hover do botão */
-.topnav .icon:hover {
-    color: #9e472a;
-}
-#menu-icon{
-  font-size: 26px;
-  padding: 0px;
-  margin: 0px;
-}
-
-/* Pequena animação */
-#myLinks {
-    opacity: 0;
-    max-height: 0;
-    overflow: hidden;
-    transition:
-        opacity .25s ease,
-        max-height .25s ease;
-}
-
-#myLinks.active {
-    opacity: 1;
-    max-height: 100%;
+.cx-menu-mobile .mobile-nav details ul li a:hover{
+  color: #f4f1ea;
 }
 
 
@@ -487,7 +428,7 @@ header .capa-site .gradiente-capa .txt-capa a{
     gap: 1rem;
   }
   .item-bv{
-    flex-basis: 100px;
+    flex-basis: 80px;
   }
   .item-bv a img{
     width: 70%;

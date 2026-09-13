@@ -22,68 +22,43 @@
       </div>
 
       <nav class="large-menu">
-
-        <a href="{{ '/' | relative_url }}">
-          Início
-        </a>
-        <a href="{{ '/blog/' | relative_url }}">
-          Blog
-        </a>
-        <a href="{{ '/publicados/' | relative_url }}">
-          Publicações
-        </a>
-        <a href="{{ '/videos/' | relative_url }}">
-          Vídeos
-        </a>
-        <a href="{{ '/atividades/' | relative_url }}">
-          Grupos
-        </a>
-        <a href="{{ '/em-construcao/' | relative_url }}">
-          Downloads
-        </a>
-        <a href="{{ '/pesquisa/' | relative_url }}">
-          Pesquisa
-        </a>
-        <a id="a-serv" href="{{ '/eventos/' | relative_url }}">
-          Eventos
-        </a>
-
+        <ul>
+          <li><a href="{{ '/' | relative_url }}">Início</a></li>
+          <li><a href="{{ '/blog/' | relative_url }}">Blog</a></li>
+          <li><a href="{{ '/publicados/' | relative_url }}">Publicações</a></li>
+          <li><a href="{{ '/videos/' | relative_url }}">Vídeos</a></li>
+          <li><a href="{{ '/atividades/' | relative_url }}">Grupos</a></li>
+          <li><a href="{{ '/em-construcao/' | relative_url }}">Downloads</a></li>
+          <li><a href="{{ '/pesquisa/' | relative_url }}">Pesquisa</a></li>
+          <li><a id="a-serv" href="{{ '/eventos/' | relative_url }}">Eventos</a></li>
+        </ul>
       </nav>
 
-      <nav class="mobile-menu">
-        <div class="mobile-container">
+      <div class="cx-menu-mobile">
 
-          
-          <!-- Top Navigation Menu -->
-          <div class="topnav">
-
-            <div class="titulo-site-mobile">
-              <h1>Antonio Nasi</h1>
-              <p>A religião sob o materialismo histórico-dialético</p>
-            </div>
-
-            <!--
-            <a href="{{ '/' | relative_url }}" id="cx-logo">
-              <img src="{{ '/assets/img/icon-mobile.png' | relative_url }}">
-            </a>
-            -->
-            <div id="myLinks">
-              <a href="{{ '/' | relative_url }}">Início</a>
-              <a href="{{ '/blog/' | relative_url }}">Blog</a>
-              <a href="{{ '/publicados/' | relative_url }}">Publicações</a>
-              <a href="{{ '/videos/' | relative_url }}">Vídeos</a>
-              <a href="{{ '/atividades/' | relative_url }}">Grupos</a>
-              <a href="{{ '/em-construcao/' | relative_url }}">Downloads</a>
-              <a href="{{ '/pesquisa/' | relative_url }}">Pesquisa</a>
-              <a href="{{ '/eventos/' | relative_url }}">Eventos</a>
-            </div>
-            <a href="javascript:void(0);" class="icon" onclick="myFunction()">
-              <span id="menu-icon">☰</span>
-            </a>
-          </div>
+        <div class="titulo-site-mobile">
+          <h1>Antonio Nasi</h1>
+          <p>A religião sob o materialismo histórico-dialético</p>
         </div>
-      </nav>
-      <script src="../assets/js/menu-mobile.js"></script>
+
+        <nav class="mobile-nav">
+
+          <details>
+            <summary>Menu</summary>
+            <ul>
+              <li><a href="{{ '/' | relative_url }}">Início</a></li>
+              <li><a href="{{ '/blog/' | relative_url }}">Blog</a></li>
+              <li><a href="{{ '/publicados/' | relative_url }}">Publicações</a></li>
+              <li><a href="{{ '/videos/' | relative_url }}">Vídeos</a></li>
+              <li><a href="{{ '/atividades/' | relative_url }}">Grupos</a></li>
+              <li><a href="{{ '/em-construcao/' | relative_url }}">Downloads</a></li>
+              <li><a href="{{ '/pesquisa/' | relative_url }}">Pesquisa</a></li>
+              <li><a id="a-serv" href="{{ '/eventos/' | relative_url }}">Eventos</a></li>
+            </ul>
+          </details>
+  
+        </nav>
+      </div>
 
     </div>
 
