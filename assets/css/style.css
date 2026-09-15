@@ -1175,11 +1175,11 @@ hr{
   height: 2rem;
   text-decoration: none;
   color: #ffffff;
-  background-color: #e95420;
+  background-color: #9e472a;
   padding: .4rem 1rem;
 }
 .all-books .cx-books .book a:hover{
-  background-color: #772953;
+  background-color: #212529;
   transition: background-color .3s;
 }
 
@@ -1381,13 +1381,13 @@ a:hover h3{
 }
 .ativ-desc a{
   text-decoration: none;
-  background-color: #e95420;
+  background-color: #9e472a;
   color: #ffffff;
   padding: .5rem 1rem;
   font-size: .8rem;
 }
 .ativ-desc a:hover{
-  background-color: #772953;
+  background-color: #212529;
   transition: background-color .3s;
 }
 
