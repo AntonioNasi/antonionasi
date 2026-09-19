@@ -975,6 +975,9 @@ hr{
   object-position: center;
   margin: 2rem 0;
 }
+.post iframe{
+  margin: 30px 0px;
+}
 .container-post .r-side{
   width: 30%;
 }
