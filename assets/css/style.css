@@ -1,24 +1,42 @@
 
+:root{
+  --fontPrincipal:"Merriweather", serif;
+  --fontSecundaria:"Inter", serif;
+  --corFundoBase:#f4f1ea;
+  --corVarianteFundo1:#E8E3D5;
+  --corVarianteFundo2:#F3EFE6;
+  --corTextoEstrutura:#212529;
+  --corTextoSecundaria:#5C554E;
+  --corDestaque:#9e472a;
+  --transicao:all .3s ease;
+  --sombra:0 6px 14px rgba(0, 0, 0, .2);
+  --hover:#212529;
+}
 *{
   margin: 0px;
   padding: 0px;
   box-sizing: border-box;
 }
 body {
-  color: #212529;
-  background-color: #f4f1ea;
+  color: var(--corTextoEstrutura);
+  background-color: var(--corFundoBase);
 }
-h1, h2, h3 h4{
-  font-family: "Merriweather", serif;
+h1, h2, h3, h4{
+  font-family:var(--fontPrincipal);
   line-height: 1.3;
-  font-weight: 600;
-  color: #212529;
+  color: var(--corTextoEstrutura);
 }
+h1{font-size: 2rem;}
+h2{font-size: 1.5rem;}
+h3{font-size: 1.2rem;}
+h4{font-size: 1rem;}
+
 span, a, p{
-  font-family: "Inter", sans-serif;
+  font-family:var(--fontSecundaria);
   line-height: 1.3;
   font-weight: 400;
-  color: #212529;
+  color: var(--corTextoEstrutura);
+  font-size: 1rem;
 }
 
 
@@ -65,14 +83,13 @@ span, a, p{
 --------------------------*/
 .site-header .container-nav{
   margin: 0 auto;
-  padding: 5px 0px;
-  background-color: #f4f1ea;
+  padding: .4rem 0rem;
   max-width: 1200px;
   display: flex;
   justify-content: space-between;
 }
 .site-header .container-nav .titulo-site{
-  padding: 5px 0px;
+  padding: .4rem 0rem;
 }
 @media screen and (max-width:600px){
   .site-header .container-nav .titulo-site{
@@ -80,10 +97,10 @@ span, a, p{
   }
 }
 .site-header .container-nav .titulo-site h1{
-  font-size: 20px;
+  font-size: 1.5rem;
 }
 .site-header .container-nav .titulo-site p{
-  font-size: 12px;
+  font-size: .8rem;
 }
 .site-header .container-nav nav{
   max-width: 1200px;
@@ -99,19 +116,17 @@ span, a, p{
 }
 .site-header .container-nav nav a{
   display: flex;
-  margin-left: 16px;
+  margin-left: 1rem;
   width: 100%;
   align-items: center;
   text-decoration: none;
-  color: #212529;
-  font-family: 'Merriweather', serif;
-  font-size: 16px;
+  font-size: 1rem;
   font-weight: 400;
 }
 @media screen and (min-width:600px){
   .site-header .container-nav nav a:hover{
   color: #9e472a;
-  transition: background-color .3s;
+  transition: var(--transicao);
 }
 }
 .site-header .container-nav nav a img{
@@ -126,10 +141,10 @@ span, a, p{
 
 @media screen and (max-width:600px){
   .site-header .container-nav{
-    padding: 0px 14px 10px;
+    padding: 0rem 1rem .6rem;
   }
   .site-header .container-nav .titulo-site h1{
-    font-size: 18px;
+    font-size: 1rem;
   }
   .site-header .container-nav .large-menu{
     display: none;
@@ -155,7 +170,7 @@ span, a, p{
   display: flex;
   max-width: 600px;
   margin: 5px auto 0px;
-  gap: 20px;
+  gap: 1.1rem;
   justify-content: center;
 }
 @media screen and (min-width:600px){
@@ -166,10 +181,10 @@ span, a, p{
 .cx-menu-mobile .titulo-site-mobile{
 }
 .cx-menu-mobile .titulo-site-mobile h1{
-  font-size: 18px;
+  font-size: 1rem;
 }
 .cx-menu-mobile .titulo-site-mobile p{
-  font-size: 12px;
+  font-size: .6rem;
 }
 .cx-menu-mobile .mobile-nav{
   width: 30%;
@@ -244,8 +259,8 @@ header .capa-site .gradiente-capa .txt-capa a{
   padding: 10px;
   color: #212529;
   text-decoration: none;
-  margin-top: 30px;
-  box-shadow: 1px 1px 8px #212529;
+  margin-top: 2rem;
+  box-shadow: var(--sombra);
 }
 @media screen and (max-width:600px){
   header .capa-site{
@@ -366,7 +381,8 @@ header .capa-site .gradiente-capa .txt-capa a{
 -------------------------------------------*/
 .sec-bvindo{
   background-color: #f4f1ea;
-  padding: 60px 0px;
+  padding: 4rem 0rem;
+  transition: var(--transicao);
 }
 .cx-bvindo{
   display: flex;
@@ -450,6 +466,8 @@ header .capa-site .gradiente-capa .txt-capa a{
 -------------------------------------------*/
 .sec-preview{
   padding: 60px 0px;
+  transition: var(--transicao);
+  background-color: var(--corVarianteFundo1);
 }
 .container .sec-preview .cx-preview{
   max-width: 1200px;
@@ -500,10 +518,14 @@ header .capa-site .gradiente-capa .txt-capa a{
 -------------------------------------------*/
 .sec-pesqcolab{
   margin: 40px 0px;
+  transition: var(--transicao);
 }
 .sec-pesqcolab .intro-colab{
   max-width: 1200px;
   margin: 0 auto 30px;
+}
+.sec-pesqcolab .intro-colab p{
+  color: var(--corTextoSecundaria);
 }
 .sec-pesqcolab .cx-pesqcolabs{
   max-width: 1200px;
@@ -519,7 +541,8 @@ header .capa-site .gradiente-capa .txt-capa a{
   flex-wrap: nowrap;
   gap: 20px;
   width: 31.5%;
-  border: solid 1px #212529;
+  border: solid 1px;
+  border-color: var(--corTextoSecundaria);
 }
 .sec-pesqcolab .cx-pesqcolabs .pesqcolab .img-pesq{
   width: 30%;
@@ -568,10 +591,8 @@ header .capa-site .gradiente-capa .txt-capa a{
 .new-books{
   margin-top: 0rem;
   padding: 60px 0;
-
-  opacity: 0;
-  transform: translateY(40px);
-  transition: opacity 0.8s ease, transform 0.8s ease;
+  transition: var(--transicao);
+  background-color: var(--corVarianteFundo1);
 }
 .new-books .intro-sec-nb{
   display: flex;
@@ -582,12 +603,12 @@ header .capa-site .gradiente-capa .txt-capa a{
   padding: 0rem 2rem;
 }
 .new-books .intro-sec-nb h2{
-  color: #212529;
   text-align: center;
   font-size: 1.3rem;
 }
 .new-books .intro-sec-nb p{
   font-size: .8rem;
+  color: var(--corTextoSecundaria);
 }
 .new-books .cx-books{
   display: flex;
@@ -600,14 +621,15 @@ header .capa-site .gradiente-capa .txt-capa a{
 .new-books .cx-books .book{
   display: flex;
   flex-direction: column;
-  border: solid 1px #212529;
+  border: solid 1px;
+  border-color: var(--corTextoSecundaria);
   padding: 1rem;
   flex-basis: 220px;
   text-align: center;
 }
 .new-books .cx-books .book:hover{
-  box-shadow: 2px 2px 5px rgba(0, 0, 0, .2);
-  transition: box-shadow .3s;
+  box-shadow: var(--sombra);
+  transition: var(--transicao);
 }
 .new-books .cx-books .book .subcx{
   width: 100%;
@@ -623,6 +645,7 @@ header .capa-site .gradiente-capa .txt-capa a{
 .new-books .cx-books .book .subcx p{
   font-size: .8rem;
   margin-bottom: .5rem;
+  color: var(--corTextoSecundaria);
 }
 .new-books .cx-books .book a{
   display: block;
@@ -780,7 +803,9 @@ header .capa-site .gradiente-capa .txt-capa a{
 .site-footer {
   text-align: center;
   padding: 3rem 0rem;
-  border-top: solid 5px #212529;
+  background-color: var(--corVarianteFundo1);
+  border-top: solid 2px;
+  border-color: var(--corDestaque);
 }
 .cx-footer{
   display: flex;
@@ -956,6 +981,7 @@ hr{
 .post .post-meta{
   font-size: .8rem;
   margin: 1rem 0rem;
+  color: var(--corTextoSecundaria);
 }
 .post h3{
   font-size: 1.2rem;
