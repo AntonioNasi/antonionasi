@@ -479,7 +479,7 @@ header .capa-site .gradiente-capa .txt-capa a{
 }
 .container .sec-preview .cx-preview .post-preview{
   padding-bottom: .7rem;
-  background-color: #ffffff;
+  background-color: var(--corFundoBase);
   flex-basis: 220.5px;
   box-shadow: 1px 1px 5px rgba(0, 0, 0, .2);
 }
@@ -541,8 +541,8 @@ header .capa-site .gradiente-capa .txt-capa a{
   flex-wrap: nowrap;
   gap: 20px;
   width: 31.5%;
-  border: solid 1px;
-  border-color: var(--corTextoSecundaria);
+  background-color: var(--corVarianteFundo1);
+  box-shadow: var(--sombra);
 }
 .sec-pesqcolab .cx-pesqcolabs .pesqcolab .img-pesq{
   width: 30%;
@@ -621,11 +621,11 @@ header .capa-site .gradiente-capa .txt-capa a{
 .new-books .cx-books .book{
   display: flex;
   flex-direction: column;
-  border: solid 1px;
-  border-color: var(--corTextoSecundaria);
   padding: 1rem;
   flex-basis: 220px;
   text-align: center;
+  background-color: var(--corVarianteFundo2);
+  box-shadow: var(--sombra);
 }
 .new-books .cx-books .book:hover{
   box-shadow: var(--sombra);
@@ -905,7 +905,7 @@ hr{
 }
 .container .cx-posts .post-preview {
   padding-bottom: .7rem;
-  background-color: white;
+  background-color: var(--corVarianteFundo1);
   flex-basis: 220.5px;
   box-shadow: 1px 1px 5px rgba(0, 0, 0, .2);
 }
@@ -1165,23 +1165,22 @@ hr{
 }
 .all-books h2{
   text-align: center;
-  font-size: 1.6rem;
-  margin-bottom: 1rem;
 }
 .all-books .cx-books{
   display: flex;
+  margin-top: 2rem;
   justify-content: center;
   flex-wrap: wrap;
-  gap: 1.5rem;
+  gap: 3rem;
 }
 .all-books .cx-books .book{
   display: flex;
   flex-direction: column;
   padding: 1rem;
-  box-shadow: 1px 1px 6px rgba(0, 0, 0, .2);
-  background-color: rgba(255, 255, 255, .5);
   flex-basis: 220px;
   text-align: center;
+  background-color: var(--corVarianteFundo1);
+  box-shadow: var(--sombra);
 }
 .all-books .cx-books .book .subcx{
   width: 100%;
@@ -1381,7 +1380,8 @@ a:hover h3{
 }
 .ativ{
   display: flex;
-  border: solid 1px #212529;
+  background-color: var(--corVarianteFundo1);
+  box-shadow: var(--sombra);
   margin-bottom: 6rem;
   padding: 1rem;
   width: 48%;
@@ -1497,7 +1497,7 @@ a:hover h3{
 
 /* Conteúdo */
 .timeline-content {
-  background: #ffffff;
+  background-color: var(--corVarianteFundo1);
   padding: 16px 20px;
   border: 1px solid #f4f1ea;
 }
