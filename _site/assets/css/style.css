@@ -967,12 +967,10 @@ hr{
   display: flex;
   max-width: 1200px;
   margin: 3rem auto;
+  justify-content: space-between;
 }
 .container-post .l-side{
   width: 70%;
-}
-.post{
-  padding-right: 10%;
 }
 .post h1{
   font-size: 2rem;
@@ -1005,7 +1003,7 @@ hr{
   margin: 30px 0px;
 }
 .container-post .r-side{
-  width: 30%;
+  width: 20%;
 }
 .nota-rodape{
   font-size: .8rem;
@@ -1074,7 +1072,6 @@ hr{
   padding: 0rem;
 }
 .sidebar h3{
-  font-size: 1.2rem;
   text-align: center;
   background-color: #9e472a;
   padding: .5rem 1rem;
