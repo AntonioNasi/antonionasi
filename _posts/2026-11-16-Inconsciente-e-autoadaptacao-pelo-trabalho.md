@@ -7,7 +7,7 @@ excerpt: "Esse submeter dos instintintos e afetos ao domínio consciente, tem um
 featured: false
 sidebar: false
 categories: Ontologia Trabalho Consciência
---
+---
 
 Uma entre tantas outras reflexões interessantíssimas que Lukács faz sobre o processo de trabalho, é que por meio dele há um afastamento não só das barreiras naturais, mas também dos instintos e afetos. Vejamos.
 
